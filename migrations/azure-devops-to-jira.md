@@ -1,13 +1,10 @@
----
-layout: default
-title: Azure DevOps to Jira Migration
----
-
 # Azure DevOps to Jira Migration
 
 > Migrate from Azure DevOps (including VSTS and TFS) to Jira Cloud or Jira Data Center with zero downtime and zero data loss using OpsHub Migration Manager.
 
-[← Back to All Migration Paths](./) · [← OMM Overview](..) · [← Home](../..)
+[← Back to All Migrations](./) · [← Home](../)
+
+---
 
 ## Overview
 
@@ -27,8 +24,6 @@ OpsHub Migration Manager makes this transition seamless. Your teams keep working
 | One project at a time | **Parallel migration** of multiple projects simultaneously |
 
 ## What Gets Migrated
-
-OpsHub Migration Manager transfers your complete Azure DevOps data to Jira:
 
 **Work Items:**
 - Bugs, Requirements, Tasks, User Stories, Epics, Features
@@ -62,37 +57,19 @@ OpsHub Migration Manager transfers your complete Azure DevOps data to Jira:
 ## How It Works
 
 ### Phase 1 — Discovery & Planning
-OMM's **Data Discovery Utility** analyzes your Azure DevOps instance:
-- Scans project scope, data volume, and entity dependencies
-- Identifies custom fields, work item types, and relationship complexity
-- Produces a migration plan with estimated timelines
+OMM's **Data Discovery Utility** analyzes your Azure DevOps instance — scans project scope, data volume, and entity dependencies. Produces a migration plan with estimated timelines.
 
 ### Phase 2 — Configuration
-Using OMM's interface, configure the migration:
-- Map Azure DevOps work item types → Jira issue types
-- Map fields (standard and custom) between the two systems
-- Map states/statuses and workflow transitions
-- Define which projects migrate in which order
+Map Azure DevOps work item types → Jira issue types. Map fields, states/statuses, and workflow transitions. Define which projects migrate in which order.
 
 ### Phase 3 — Pilot Migration
-Run a pilot migration on a representative project:
-- Validate data accuracy in Jira
-- Verify field mappings, relationships, and history preservation
-- Adjust configuration based on results
+Run a pilot on a representative project. Validate data accuracy in Jira. Verify field mappings, relationships, and history preservation.
 
 ### Phase 4 — Production Migration
-Execute the full migration:
-- Multiple projects migrate in parallel
-- Azure DevOps remains live — teams keep working
-- **Delta sync** captures changes made in Azure DevOps during migration
-- Progress monitoring through OMM's dashboard
+Multiple projects migrate in parallel. Azure DevOps remains live. **Delta sync** captures changes made during migration. Progress monitoring through OMM's dashboard.
 
 ### Phase 5 — Validation & Cutover
-Before final cutover:
-- Reconciliation report verifies data completeness
-- Teams validate their data in Jira
-- Final delta sync captures last-minute changes
-- Cutover to Jira with full data confidence
+Reconciliation report verifies data completeness. Teams validate in Jira. Final delta sync captures last-minute changes. Cut over with full confidence.
 
 ## Supported Azure DevOps Versions
 
@@ -101,21 +78,17 @@ Before final cutover:
 - Team Foundation Server (TFS) 2010–2018
 - Visual Studio Team Services (VSTS)
 
-## Key Differentiators
-
-- **Zero downtime** — Live++ technology keeps both systems running in parallel
-- **Complete data fidelity** — History, comments, attachments, relationships all preserved
-- **Test asset migration** — Full test management data (Plans, Suites, Cases, Results) included
-- **Parallel execution** — Multiple projects migrate simultaneously, reducing total timeline
-- **Reverse sync** — Transfer data back to Azure DevOps if needed for compliance or rollback
-- **Failure recovery** — Restart from any failure point without starting over
-- **Enterprise-proven** — Used by Fortune 500 organizations including ABB, Airbus, and Lockheed Martin
-
 ---
 
 ## Get Started
 
-- [Request a Demo](https://www.opshub.com/request-a-demo/) — See ADO → Jira migration in action with your data
-- [Book a Free Migration Consultation](https://www.opshub.com/book-a-free-migration-consultation/) — Talk to a migration engineer about your specific scenario
-- [Start a 30-Day Free Trial](https://www.opshub.com/request-a-free-trial/) — Test the migration with your own Azure DevOps instance
-- [Learn more at opshub.com](https://www.opshub.com/migrations/migrate-to-jira/)
+| Action | Link |
+|---|---|
+| **Install from Atlassian Marketplace** | [OMM for Jira Migration →](https://marketplace.atlassian.com/apps/1224539/omm-for-jira-migration-from-any-tool-with-no-downtime) |
+| **Request a Demo** | [See ADO → Jira migration in action →](https://www.opshub.com/request-a-demo/) |
+| **Free Consultation** | [Talk to a migration engineer →](https://www.opshub.com/book-a-free-migration-consultation/) |
+| **Start Free Trial** | [30-day trial →](https://www.opshub.com/request-a-free-trial/) |
+
+---
+
+[← Back to All Migrations](./) · [← Home](../)

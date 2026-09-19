@@ -1,13 +1,10 @@
----
-layout: default
-title: Jira Service Management (JSM) ↔ Jira Integration
----
-
 # Jira Service Management (JSM) ↔ Jira Software Integration
 
 > Bi-directional, real-time synchronization between Jira Service Management and Jira Software using OpsHub Integration Manager (OIM).
 
-[← Back to All Integrations](./) · [← OIM Overview](..) · [← Home](../..)
+[← Back to All Integrations](./) · [← Home](../)
+
+---
 
 ## Overview
 
@@ -26,8 +23,6 @@ OpsHub Integration Manager bridges JSM and Jira Software with **real-time, bi-di
 | Resolution updates delayed to service desk | Bug fixes and releases reflect instantly in JSM |
 
 ## What Gets Synced
-
-OpsHub Integration Manager synchronizes the following between JSM and Jira Software:
 
 **Core Entities:**
 - Incidents, service requests, and change requests (JSM) ↔ Issues, bugs, stories, tasks (Jira Software)
@@ -51,22 +46,13 @@ OpsHub Integration Manager synchronizes the following between JSM and Jira Softw
 Pre-built connectors link JSM and Jira Software instances. No global admin access required. Supports cloud, Data Center, and hybrid environments.
 
 ### 2. Configure
-Map fields, statuses, and workflows between the two systems using OIM's low-code interface. Define sync rules — what gets synced, in which direction, and under what conditions.
+Map fields, statuses, and workflows between the two systems using OIM's no-code interface. Define sync rules — what gets synced, in which direction, and under what conditions.
 
 ### 3. Sync
 Once activated, OIM synchronizes data bi-directionally in real time. Changes in either system reflect in the other automatically. Historical data can also be synced for a complete baseline.
 
 ### 4. Monitor
 Built-in dashboards show sync status, throughput, and any errors. Teams have full visibility into data flow without checking logs manually.
-
-## Key Differentiators
-
-- **Bi-directional & real-time** — Not a one-way dump; both teams see live updates
-- **Field-level mapping** — Map JSM fields to Jira Software fields with full control over transformations
-- **Selective sync** — Choose exactly which projects, issue types, and fields to synchronize
-- **Low-code setup** — Configure integrations without writing custom scripts or plugins
-- **No performance impact** — Sync runs without slowing down JSM or Jira Software
-- **Enterprise security** — Deploy on-premise, in your cloud, or hybrid; your data stays under your control
 
 ## Use Cases
 
@@ -83,7 +69,13 @@ Product managers see both service trends (from JSM) and development progress (fr
 
 ## Get Started
 
-- [Request a Personalized Demo](https://www.opshub.com/request-a-demo/) — See JSM ↔ Jira integration in action
-- [Start a 30-Day Free Trial](https://www.opshub.com/request-a-free-trial/) — Test with your own data
-- [Talk to Integration Experts](https://www.opshub.com/contact-us/) — Get answers to your specific integration questions
-- [Learn more at opshub.com](https://www.opshub.com/integrations/jira-integration/)
+| Action | Link |
+|---|---|
+| **Install from Atlassian Marketplace** | [JSM ↔ Jira Integration →](https://marketplace.atlassian.com/apps/1624606962/oim-for-bidirectional-jsm-and-jira-integration) |
+| **Try Free** | [OIM Community Edition →](https://marketplace.atlassian.com/apps/1215532/opshub-integration-manager-oim-community-edition) |
+| **Request a Demo** | [See it in action with your data →](https://www.opshub.com/request-a-demo/) |
+| **Documentation** | [docs.opshub.com](https://docs.opshub.com) |
+
+---
+
+[← Back to All Integrations](./) · [← Home](../)

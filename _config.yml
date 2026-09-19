@@ -1,5 +1,0 @@
-remote_theme: pages-themes/minimal@v0.2.0
-title: OpsHub — Integration & Migration Solutions
-description: Enterprise-grade integration and migration solutions for ALM, DevOps, ITSM, and PLM toolchains. Zero downtime. Zero data loss.
-plugins:
-  - jekyll-remote-theme
