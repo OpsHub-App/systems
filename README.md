@@ -23,16 +23,31 @@ Bi-directional, real-time synchronization between Jira and your enterprise tools
 | Integration | Description | Marketplace |
 |---|---|---|
 | [Azure DevOps ↔ Jira](integrations/azure-devops-jira.md) | Sync work items, bugs, tasks bi-directionally | [Install →](https://marketplace.atlassian.com/apps/1234612/bidirectional-azure-devops-integration-for-jira) |
+| [Rally ↔ Jira](integrations/rally-jira.md) | Sync user stories, defects, portfolio items | [Install →](https://marketplace.atlassian.com/apps/1234735/bidirectional-rally-integration-for-jira) |
+| [Digital.ai Agility ↔ Jira](integrations/digital-ai-jira.md) | Sync backlog items, defects, epics, releases | [Install →](https://marketplace.atlassian.com/apps/1237865/digital-ai-agility-versionone-and-jira-bidirectional) |
+| [GitHub ↔ Jira](integrations/github-jira.md) | Sync issues, pull requests, commits | [Install →](https://marketplace.atlassian.com/apps/1237063/bidirectional-github-saas-and-jira-integration) |
+| [Subversion ↔ Jira](integrations/subversion-jira.md) | Commits, changesets, pre-commit validation | [Install →](https://marketplace.atlassian.com/apps/1556228798/subversion-alm-integration-for-jira) |
 | [ServiceNow ↔ Jira](integrations/servicenow-jira.md) | Bridge ITSM and development workflows | [Install →](https://marketplace.atlassian.com/apps/1236368/servicenow-integration-for-jira-bidirectional-sync) |
 | [JSM ↔ Jira Software](integrations/jsm-jira.md) | Connect service management to development | [Install →](https://marketplace.atlassian.com/apps/1624606962/oim-for-bidirectional-jsm-and-jira-integration) |
+| [Azure DevOps ↔ JSM](integrations/azure-devops-jsm.md) | Sync incidents, work items, test plans | [Install →](https://marketplace.atlassian.com/apps/3318012835/azure-devops-integration-for-jira-service-management-jsm) |
 | [IBM DOORS ↔ Jira](integrations/ibm-doors-jira.md) | Requirements traceability across systems | [Install →](https://marketplace.atlassian.com/apps/1234709/bidirectional-ibm-doors-and-jira-integration) |
-| [Salesforce ↔ Jira](integrations/salesforce-jira.md) | Sync cases, opportunities, and custom objects | [Install →](https://marketplace.atlassian.com/apps/1237866/salesforce-integration-for-jira-bidirectional-sync) |
-| [HubSpot ↔ Jira](integrations/hubspot-jira.md) | Connect CRM with issue tracking | [Install →](https://marketplace.atlassian.com/apps/1238418/hubspot-integration-for-jira-bidirectional-sync) |
-| [OpenText ALM ↔ Jira](integrations/hp-alm-jira.md) | Sync defects, requirements, and test assets | [Install →](https://marketplace.atlassian.com/apps/1236342/bidirectional-opentext-alm-hp-alm-and-jira-integration) |
-| [Tricentis Tosca ↔ Jira](integrations/tosca-jira.md) | Integrate test automation with development | [Install →](https://marketplace.atlassian.com/apps/1237180/tricentis-tosca-integration-for-jira-no-code-two-way-sync) |
+| [Jama Connect ↔ Jira](integrations/jama-jira.md) | Sync requirements, components, hierarchy | [Install →](https://marketplace.atlassian.com/apps/1234765/jama-integration-for-jira-bidirectional-sync) |
+| [Siemens Polarion ↔ Jira](integrations/polarion-jira.md) | Sync requirements, stories, test cases | [Install →](https://marketplace.atlassian.com/apps/2439406316/polarion-integration-for-jira-bidirectional-sync) |
+| [PTC Codebeamer ↔ Jira](integrations/codebeamer-jira.md) | Sync trackers, defects, test cases | [Install →](https://marketplace.atlassian.com/apps/1234937/ptc-codebeamer-alm-and-jira-bidirectional-integration) |
+| [PTC Windchill RV&S ↔ Jira](integrations/windchill-jira.md) | Sync requirements, change requests, documents | [Install →](https://marketplace.atlassian.com/apps/1236668/bidirectional-ptc-windchill-rv-s-integration-for-jira) |
 | [Sparx EA ↔ Jira](integrations/sparx-ea-jira.md) | Connect enterprise architecture to Jira | [Install →](https://marketplace.atlassian.com/apps/1234974/sparx-enterprise-architect-ea-jira-integration-two-way) |
 | [Aras PLM ↔ Jira](integrations/aras-jira.md) | Enable digital thread across PLM and ALM | [Install →](https://marketplace.atlassian.com/apps/1235048/bidirectional-aras-and-jira-integration) |
+| [MBSE Tools ↔ Jira](integrations/mbse-jira.md) | Sync model elements, blocks, dependencies | [Install →](https://marketplace.atlassian.com/apps/3248021866/bidirectional-mbse-integration-for-jira) |
+| [OpenText ALM ↔ Jira](integrations/hp-alm-jira.md) | Sync defects, requirements, and test assets | [Install →](https://marketplace.atlassian.com/apps/1236342/bidirectional-opentext-alm-hp-alm-and-jira-integration) |
+| [Tricentis Tosca ↔ Jira](integrations/tosca-jira.md) | Integrate test automation with development | [Install →](https://marketplace.atlassian.com/apps/1237180/tricentis-tosca-integration-for-jira-no-code-two-way-sync) |
+| [Tricentis qTest ↔ Jira](integrations/qtest-jira.md) | Sync test cases, test runs, defects | [Install →](https://marketplace.atlassian.com/apps/1237064/bidirectional-tricentis-qtest-and-jira-integration) |
+| [Zephyr ↔ TestRail](integrations/zephyr-testrail-jira.md) | Sync test cases, cycles, executions | [Install →](https://marketplace.atlassian.com/apps/1238385/bidirectional-zephyr-for-jira-and-testrail-integration) |
+| [vManager ↔ Jira](integrations/vmanager-jira.md) | Sync verification data, defects, coverage | [Install →](https://marketplace.atlassian.com/apps/1237997/vmanager-verisium-manager-now-integration-for-jira) |
+| [Salesforce ↔ Jira](integrations/salesforce-jira.md) | Sync cases, opportunities, and custom objects | [Install →](https://marketplace.atlassian.com/apps/1237866/salesforce-integration-for-jira-bidirectional-sync) |
+| [HubSpot ↔ Jira](integrations/hubspot-jira.md) | Connect CRM with issue tracking | [Install →](https://marketplace.atlassian.com/apps/1238418/hubspot-integration-for-jira-bidirectional-sync) |
 | [Clarity ↔ Jira](integrations/clarity-jira.md) | Sync projects, tasks, and investments | [Install →](https://marketplace.atlassian.com/apps/1573500938/bidirectional-clarity-and-jira-integration) |
+| [Jira ↔ Jira Sync](integrations/jira-to-jira-sync.md) | Two-way sync across Jira instances | [Install →](https://marketplace.atlassian.com/apps/2019250150/two-way-internal-and-external-sync-for-jira) |
+| [Smart Data Lake](integrations/smart-data-lake.md) | Unified AI-ready data from Jira + 70+ tools | [Install →](https://marketplace.atlassian.com/apps/1238384/opshub-smart-data-lake-for-jira) |
 
 [**Browse all integrations →**](integrations/)
 
