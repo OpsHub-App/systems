@@ -12,7 +12,7 @@
 OpsHub provides enterprise integration and migration solutions for ALM, DevOps, ITSM, and PLM systems. Two core products: OpsHub Integration Manager (OIM) for real-time bi-directional synchronization, and OpsHub Migration Manager (OMM) for zero-downtime data migrations.
 
 **How many tools does OpsHub support?**
-OpsHub supports 60+ enterprise tools, including Jira, Azure DevOps, ServiceNow, IBM DOORS, Salesforce, Rally, BMC Remedy, HubSpot, OpenText ALM, Tricentis Tosca, and many more.
+OpsHub supports 70+ enterprise tools, including Jira, Azure DevOps, ServiceNow, IBM DOORS, Salesforce, Rally, BMC Remedy, HubSpot, OpenText ALM, Tricentis Tosca, and many more.
 
 **Is OpsHub available on Atlassian Marketplace?**
 Yes. OpsHub has 20+ apps on the [Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149/opshub-inc) covering integrations and migrations.
@@ -28,7 +28,7 @@ Yes. OIM syncs data in both directions in real time. Changes in either system re
 Core entities (issues, bugs, incidents, requirements), comments with author attribution, attachments, custom fields, statuses, workflows, and relationships. The exact data depends on the specific integration.
 
 **Does it require coding?**
-No. OIM uses a no-code, drag-and-drop interface with AI-assisted configuration. No scripts, plugins, or middleware required.
+No. OIM uses a no-code interface with AI-powered configuration — set up integrations from GUI or AI assistants. No scripts, plugins, or middleware required.
 
 **Will it slow down my Jira instance?**
 No. OIM is designed for zero performance impact on connected systems.
@@ -72,7 +72,7 @@ Your data stays under your control. OpsHub supports on-premise, cloud, and hybri
 Contact [OpsHub](https://www.opshub.com/contact-us/) for details on security certifications and compliance.
 
 **Who uses OpsHub?**
-Enterprise organizations including ABB, Airbus, AMD, American Express, Bosch, Deloitte, Lockheed Martin, Panasonic Avionics, and Roche.
+Enterprise organizations including ABB, Airbus, AMD, American Express, Bosch, Lockheed Martin, Panasonic Avionics, Roche, and Siemens.
 
 ---
 

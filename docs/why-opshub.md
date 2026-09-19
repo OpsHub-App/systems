@@ -24,7 +24,7 @@ Enterprise organizations use an average of 10–15 different tools across develo
 |---|---|---|
 | **Manual updates** | Error-prone, time-consuming, doesn't scale | **Automated** — real-time, bi-directional sync |
 | **Custom scripts/APIs** | Expensive to build, fragile, no monitoring | **Pre-built connectors** — no code, no maintenance |
-| **iPaaS platforms** (Workato, MuleSoft) | General-purpose, not built for ALM/DevOps data models | **Purpose-built** for 60+ ALM, DevOps, ITSM, PLM tools |
+| **iPaaS platforms** (Workato, MuleSoft) | General-purpose, not built for ALM/DevOps data models | **Purpose-built** for 70+ ALM, DevOps, ITSM, PLM tools |
 | **Native integrations** (e.g., Jira ↔ ADO built-in) | Limited fields, one-way, no custom field support | **Full field mapping** — custom fields, rich data, history |
 
 ### For Migration (OMM)
@@ -42,11 +42,11 @@ Enterprise organizations use an average of 10–15 different tools across develo
 |---|---|
 | **Zero Downtime (Live++)** | Teams never stop working — both systems run in parallel during migration |
 | **Zero Data Loss** | 100% accurate transfers — history, comments, attachments, relationships all preserved |
-| **60+ Connectors** | Pre-built for ALM, DevOps, ITSM, PLM, CRM, and testing tools |
-| **No-Code Configuration** | AI-assisted, drag-and-drop setup — no scripting or middleware |
+| **70+ Connectors** | Pre-built for ALM, DevOps, ITSM, PLM, CRM, and testing tools |
+| **No-Code Configuration** | AI-powered, no-code setup from GUI or AI assistants — no scripting or middleware |
 | **Enterprise Security** | On-premise, cloud, or hybrid deployment — your data stays under your control |
 | **Failure Recovery** | Restart from any failure point without starting over |
-| **Trusted by Fortune 500** | ABB, Airbus, AMD, American Express, Bosch, Deloitte, Lockheed Martin, Panasonic Avionics, Roche |
+| **Trusted by Fortune 500** | ABB, Airbus, AMD, American Express, Bosch, Lockheed Martin, Panasonic Avionics, Roche, Siemens |
 
 ---
 

@@ -1,6 +1,6 @@
 # OpsHub — Enterprise Integration & Migration for Jira
 
-> **Zero downtime. Zero data loss. 60+ enterprise connectors.**
+> **Zero downtime. Zero data loss. 70+ enterprise connectors.**
 >
 > Bi-directional integrations and zero-downtime migrations for Jira, Azure DevOps, ServiceNow, IBM DOORS, Salesforce, and more.
 
@@ -10,7 +10,7 @@
 
 | Product | What It Does | Marketplace |
 |---|---|---|
-| **OpsHub Integration Manager (OIM)** | Real-time, bi-directional sync between Jira and 60+ enterprise tools | [Get OIM on Atlassian Marketplace →](https://marketplace.atlassian.com/apps/1224525/opshub-integration-manager-oim-for-jira-integrations) |
+| **OpsHub Integration Manager (OIM)** | Real-time, bi-directional sync between Jira and 70+ enterprise tools | [Get OIM on Atlassian Marketplace →](https://marketplace.atlassian.com/apps/1224525/opshub-integration-manager-oim-for-jira-integrations) |
 | **OpsHub Migration Manager (OMM)** | Zero-downtime migration to Jira from any ALM, DevOps, or ITSM tool | [Get OMM on Atlassian Marketplace →](https://marketplace.atlassian.com/apps/1224539/omm-for-jira-migration-from-any-tool-with-no-downtime) |
 | **OIM Community Edition** | Free integration manager for small teams | [Get Free Edition →](https://marketplace.atlassian.com/apps/1215532/opshub-integration-manager-oim-community-edition) |
 
@@ -61,9 +61,9 @@ Zero-downtime, zero-data-loss migrations to Jira. Teams keep working in the sour
 |---|---|
 | **Zero Downtime** | Live++ technology keeps both systems running during migration — teams never stop working |
 | **Zero Data Loss** | 100% accurate transfers with complete history, relationships, and context preserved |
-| **60+ Connectors** | Jira, Azure DevOps, ServiceNow, IBM DOORS, Salesforce, Rally, and many more |
+| **70+ Connectors** | Jira, Azure DevOps, ServiceNow, IBM DOORS, Salesforce, Rally, and many more |
 | **Bi-Directional Sync** | Real-time two-way synchronization — not a one-way dump |
-| **No-Code Setup** | AI-assisted, drag-and-drop configuration — no scripting required |
+| **No-Code Setup** | AI-powered, no-code configuration from GUI or AI assistants — no scripting required |
 | **Enterprise Security** | Deploy on-premise, in your cloud, or hybrid — your data stays under your control |
 | **Failure Recovery** | Restart from any failure point without starting over |
 
@@ -81,7 +81,7 @@ Zero-downtime, zero-data-loss migrations to Jira. Teams keep working in the sour
 
 ## Trusted By
 
-Enterprise organizations including **ABB, Airbus, AMD, American Express, Bosch, Deloitte, Lockheed Martin, Panasonic Avionics,** and **Roche** — spanning aerospace, defense, automotive, healthcare, financial services, and technology sectors.
+Enterprise organizations including **ABB, Airbus, AMD, American Express, Bosch, Lockheed Martin, Panasonic Avionics, Roche,** and **Siemens** — spanning aerospace, defense, automotive, healthcare, financial services, and technology sectors.
 
 ---
 
@@ -96,4 +96,4 @@ Enterprise organizations including **ABB, Airbus, AMD, American Express, Bosch, 
 
 ---
 
-© 2024 OpsHub, Inc. · [opshub.com](https://www.opshub.com/) · [Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149/opshub-inc)
+© 2025 OpsHub, Inc. · [opshub.com](https://www.opshub.com/) · [Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149/opshub-inc)

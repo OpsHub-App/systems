@@ -1,6 +1,6 @@
 # OpsHub Integration Manager (OIM) — Integration Directory
 
-> Bi-directional, real-time synchronization between Jira and 60+ enterprise tools using OpsHub Integration Manager.
+> Bi-directional, real-time synchronization between Jira and 70+ enterprise tools using OpsHub Integration Manager.
 
 [← Back to Home](../)
 
@@ -59,8 +59,8 @@ OpsHub Integration Manager (OIM) provides **real-time, bi-directional synchroniz
 | Capability | Description |
 |---|---|
 | **Bi-directional & real-time** | Changes flow both ways automatically — not a one-way dump |
-| **60+ connectors** | Pre-built connectors for ALM, DevOps, ITSM, PLM, CRM, and testing tools |
-| **No-code setup** | AI-assisted, drag-and-drop field mapping — no scripting required |
+| **70+ connectors** | Pre-built connectors for ALM, DevOps, ITSM, PLM, CRM, and testing tools |
+| **No-code setup** | AI-powered, no-code field mapping from GUI or AI assistants — no scripting required |
 | **Selective sync** | Choose exactly which projects, issue types, and fields to synchronize |
 | **Conflict resolution** | Built-in conflict detection and resolution with failure recovery |
 | **Enterprise security** | Deploy on-premise, in your cloud, or hybrid — your data stays under your control |
