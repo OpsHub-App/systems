@@ -1,39 +1,26 @@
-# OpsHub Marketplace
+# OpsHub — Integration & Migration Solutions
 
-Product documentation, integration guides, and migration resources for the OpsHub product family.
+Enterprise-grade solutions for seamless data integration and migration across ALM, DevOps, ITSM, and PLM toolchains.
 
 ## Products
 
 ### [OpsHub Integration Manager (OIM)](oim/)
-No-code, bidirectional integration platform connecting 70+ ALM, DevOps, ITSM, and CRM tools. Supports real-time sync with full data fidelity: comments, attachments, hierarchies, and custom fields.
+Bi-directional, real-time data synchronization across 60+ enterprise tools. Low-code, no global admin access required.
 
 ### [OpsHub Migration Manager (OMM)](omm/)
-Zero-disruption migration platform for moving between ALM and DevOps tools. Preserves full history, relationships, and traceability with no downtime.
+Zero-downtime, zero-data-loss migration platform supporting 70+ source and target systems.
 
-### [OpsHub Migrator for Azure DevOps (OM4ADO)](om4ado/)
-Purpose-built migration tool for teams moving to Microsoft Azure DevOps from legacy platforms.
+## Why OpsHub?
 
----
+- **Enterprise-grade** — Trusted by Fortune 500 companies including ABB, Airbus, AMD, Bosch, Deloitte, and Lockheed Martin
+- **Zero downtime** — Teams keep working while data migrates or syncs in the background
+- **Zero data loss** — Complete history, comments, attachments, and relationships preserved
+- **60+ connectors** — Pre-built integrations for Jira, Azure DevOps, ServiceNow, IBM DOORS, Rally, Salesforce, and more
+- **Flexible deployment** — On-premise, cloud, or hybrid
 
-## Why OpsHub
+## Resources
 
-- **Over two decades** in the integration and migration space
-- **70+ connectors** spanning ALM, DevOps, ITSM, CRM, and PLM tools
-- **No-code configuration** with a visual interface
-- **External API architecture** with zero performance impact on connected systems
-- **On-premise deployment** available for regulated industries
-- **Reconciliation engine** with built-in conflict detection and resolution
-
-## Quick Links
-
-| Product | What It Does | Start Here |
-|---------|-------------|------------|
-| [OIM](oim/) | Bidirectional sync between tools | [Connectors list](oim/connectors/) |
-| [OMM](omm/) | Zero-disruption migrations | [Migration paths](omm/migrations/) |
-| [OM4ADO](om4ado/) | Migrate to Azure DevOps | [Comparison pages](om4ado/comparisons/) |
-
----
-
-**Ready to see it in action?** [Book a slot.](https://www.opshub.com/contact-us/)
-
-*OpsHub, Inc. | [opshub.com](https://www.opshub.com) | Palo Alto, CA*
+- [Request a Demo](https://www.opshub.com/request-a-demo/)
+- [30-Day Free Trial](https://www.opshub.com/request-a-free-trial/)
+- [Contact Sales](https://www.opshub.com/contact-us/) | sales@opshub.com | +1.650.701.1800
+- [Visit opshub.com](https://www.opshub.com/)

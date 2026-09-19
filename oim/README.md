@@ -1,93 +1,54 @@
 ---
 layout: default
 title: OpsHub Integration Manager (OIM)
-description: No-code, bidirectional integration platform connecting 70+ ALM, DevOps, ITSM, and CRM tools with real-time sync, full data fidelity, and conflict resolution.
 ---
 
 # OpsHub Integration Manager (OIM)
 
-A no-code integration platform that keeps your engineering, IT, and business tools in sync. Bidirectional, real-time, with full data fidelity.
+Enterprise-grade, low-code data integration platform for bi-directional synchronization across 60+ ALM, DevOps, ITSM, and PLM tools.
 
 ---
 
-## What OIM Does
+## What Is OIM?
 
-OIM connects the tools your teams already use and keeps data flowing between them automatically. When a developer updates a Jira issue, the linked ServiceNow incident updates too. When a sales rep logs a case in Salesforce, the engineering team sees it in Azure DevOps. No manual handoffs. No copy-paste. No stale data.
+OpsHub Integration Manager connects your enterprise toolchain — Jira, Azure DevOps, ServiceNow, IBM DOORS, Salesforce, and 60+ other systems — with real-time, bi-directional data synchronization. No custom coding. No global admin access required.
 
-**How it works:**
-
-1. **Connect** your tools through OIM's no-code visual interface
-2. **Map** fields, values, statuses, and workflows between systems
-3. **Sync** runs continuously, pushing updates bidirectionally in real-time
-4. **Resolve** conflicts automatically when the same record changes on both sides
-
----
+Teams work in the tools they prefer while OIM keeps data consistent and traceable across every system.
 
 ## Key Capabilities
 
-| Capability | Details |
-|-----------|---------|
-| Bidirectional sync | Real-time, two-way data flow. Not webhook-based trigger-action |
-| Rich data support | Comments, attachments, links, hierarchies, and custom fields transfer intact |
-| No-code setup | Visual field mapping interface. No Groovy scripting, no API development |
-| External architecture | Runs outside your tools via native APIs. Zero performance impact on connected systems |
-| Conflict resolution | Built-in reconciliation engine detects and resolves conflicting updates |
-| Multi-instance support | Connect multiple Jira instances, multiple ServiceNow instances, in any combination |
-| On-premise deployment | Available for regulated industries that cannot use cloud-hosted sync tools |
-| Historical backfill | Sync existing data, not just new records. Bring historical records into alignment |
+- **Bi-directional sync** — Real-time data flow in both directions between any supported tools
+- **Rich data preservation** — Syncs workflows, traceability, attachments, comments, and historical data
+- **Pre-built connectors** — 60+ connectors eliminate complex custom coding
+- **Low-code configuration** — Set up integrations without writing code
+- **Flexible deployment** — On-premise, cloud, or hybrid to match your infrastructure
+- **Enterprise security** — Full data control across IT environments
+
+## Supported Integrations
+
+OIM connects Jira with:
+
+| Tool Category | Supported Tools |
+|---|---|
+| **DevOps & Agile** | Azure DevOps, GitHub, GitLab, Rally, Digital.ai Agility |
+| **ITSM** | ServiceNow, Jira Service Management (JSM), BMC Helix ITSM, Zendesk, PagerDuty |
+| **Requirements & PLM** | IBM DOORS / DOORS Next, PTC Windchill, PTC codebeamer, Jama Connect, Aras PLM, Polarion |
+| **Testing** | Tricentis Tosca, Tricentis qTest, TestRail, IBM ETM |
+| **CRM & Other** | Salesforce, HubSpot, Monday.com, Redmine, Bugzilla |
+
+[View all integrations →](integrations/)
+
+## Results
+
+- Recaptured **15–20% of developer productivity** with real-time status updates
+- Achieved **lower-risk, simplified release cycles** spanning months instead of years
+- Teams work independently in their preferred tools while data syncs automatically
 
 ---
 
-## Editions
+## Get Started
 
-| Edition | Best For |
-|---------|----------|
-| **Community** (Free) | Teams getting started with one integration pair |
-| **Professional** | Multiple integration pairs with advanced field mapping |
-| **Ultimate** | Large-scale deployments with multi-instance, priority support |
-
----
-
-## Connectors
-
-OIM supports 70+ connectors. Here are the most-used integration paths:
-
-### ITSM + Development
-- [Jira - ServiceNow](connectors/jira-servicenow) - Bridge IT operations and development
-- [Jira - BMC Remedy](connectors/) - Connect ITSM workflows to Jira projects
-
-### CRM + Development
-- [Jira - Salesforce](connectors/jira-salesforce) - Route customer issues to engineering
-- [Jira - HubSpot](connectors/) - Sync CRM tickets with development backlogs
-
-### DevOps + DevOps
-- [Jira - Azure DevOps](connectors/jira-azure-devops) - Cross-platform DevOps sync
-- [Jira - GitHub](connectors/) - Development workflow integration
-
-### ALM + Engineering
-- Jira - IBM DOORS - Requirements traceability across platforms
-- Jira - Sparx Enterprise Architect - Model-driven engineering sync
-- Jira - OpenText ALM / HP ALM - Legacy ALM connectivity
-- Jira - Jama Connect - Product development lifecycle sync
-
-### Planning + Execution
-- Jira - Jira Align - Portfolio-level alignment
-- Jira - Rally Software - Agile planning integration
-- Jira - Digital.ai Agility - Scaled agile framework sync
-
----
-
-## What Makes OIM Different From Other Integration Tools
-
-| | OpsHub OIM | Exalate | Unito | Native Connectors |
-|--|-----------|---------|-------|-------------------|
-| Configuration | No-code visual interface | Groovy scripting required | Limited field mapping | Varies by tool |
-| Sync model | Bidirectional with reconciliation | Bidirectional (script-based) | Webhook-based trigger-action | Mostly one-way |
-| Architecture | External API (zero performance impact) | Plugin-based | Cloud-only | Built into the tool |
-| Conflict handling | Reconciliation engine with detection and resolution | Manual scripting | No reconciliation | No conflict handling |
-| On-premise | Yes | No true on-prem primary offering | No | Depends on the tool |
-| Historical sync | Yes, backfill existing data | Limited | No | No |
-
----
-
-**Ready to see OIM in action?** [Book a slot.](https://www.opshub.com/contact-us/)
+- [Request a Personalized Demo](https://www.opshub.com/request-a-demo/)
+- [Start a 30-Day Free Trial](https://www.opshub.com/request-a-free-trial/)
+- [Talk to Integration Experts](https://www.opshub.com/contact-us/)
+- [OIM Product Page on opshub.com](https://www.opshub.com/integrations/jira-integration/)
