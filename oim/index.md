@@ -5,7 +5,9 @@ title: OpsHub Integration Manager (OIM)
 
 # OpsHub Integration Manager (OIM)
 
-Enterprise-grade, low-code data integration platform for bi-directional synchronization across 60+ ALM, DevOps, ITSM, and PLM tools.
+> Bi-directional, real-time data synchronization across 60+ enterprise tools — without custom coding or global admin access.
+
+[← Back to Home](..)
 
 ---
 
@@ -17,16 +19,16 @@ Teams work in the tools they prefer while OIM keeps data consistent and traceabl
 
 ## Key Capabilities
 
-- **Bi-directional sync** — Real-time data flow in both directions between any supported tools
-- **Rich data preservation** — Syncs workflows, traceability, attachments, comments, and historical data
-- **Pre-built connectors** — 60+ connectors eliminate complex custom coding
-- **Low-code configuration** — Set up integrations without writing code
-- **Flexible deployment** — On-premise, cloud, or hybrid to match your infrastructure
-- **Enterprise security** — Full data control across IT environments
+| Capability | Description |
+|---|---|
+| **Bi-directional sync** | Real-time data flow in both directions between any supported tools |
+| **Rich data preservation** | Syncs workflows, traceability, attachments, comments, and historical data |
+| **Pre-built connectors** | 60+ connectors eliminate complex custom coding |
+| **Low-code configuration** | Set up integrations without writing code |
+| **Flexible deployment** | On-premise, cloud, or hybrid to match your infrastructure |
+| **Enterprise security** | Full data control across IT environments |
 
 ## Supported Integrations
-
-OIM connects Jira with:
 
 | Tool Category | Supported Tools |
 |---|---|
@@ -36,7 +38,10 @@ OIM connects Jira with:
 | **Testing** | Tricentis Tosca, Tricentis qTest, TestRail, IBM ETM |
 | **CRM & Other** | Salesforce, HubSpot, Monday.com, Redmine, Bugzilla |
 
-[View all integrations →](integrations/)
+### Featured Integration Guides
+
+- **[JSM ↔ Jira Software Integration](integrations/jsm-jira.html)** — Sync incidents, requests, and changes between Jira Service Management and Jira Software in real time
+- [All Integrations →](integrations/)
 
 ## Results
 

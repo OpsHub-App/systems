@@ -5,7 +5,9 @@ title: OpsHub Migration Manager (OMM)
 
 # OpsHub Migration Manager (OMM)
 
-Zero-downtime, zero-data-loss migration platform for enterprise ALM, DevOps, ITSM, and PLM systems.
+> Zero-downtime, zero-data-loss migration platform for enterprise ALM, DevOps, ITSM, and PLM systems.
+
+[← Back to Home](..)
 
 ---
 
@@ -17,12 +19,14 @@ Unlike traditional lift-and-shift approaches that force teams to stop work durin
 
 ## Key Capabilities
 
-- **Zero downtime** — Live++ technology maintains continuous access to data in both systems throughout migration
-- **Zero data loss** — 100% accurate data transfers with complete preservation of history, relationships, and context
-- **Parallel project migration** — Move multiple projects simultaneously to accelerate timelines
-- **Data Discovery Utility** — Analyze project scope, data size, and dependencies upfront for risk assessment
-- **Reverse sync** — Transfer data back to source systems if needed for compliance or rollback
-- **Recovery & reconciliation** — Robust failure recovery allows restarting from any point
+| Capability | Description |
+|---|---|
+| **Zero downtime** | Live++ technology maintains continuous access to data in both systems throughout migration |
+| **Zero data loss** | 100% accurate data transfers with complete preservation of history, relationships, and context |
+| **Parallel migration** | Move multiple projects simultaneously to accelerate timelines |
+| **Data Discovery** | Analyze project scope, data size, and dependencies upfront for risk assessment |
+| **Reverse sync** | Transfer data back to source systems if needed for compliance or rollback |
+| **Failure recovery** | Robust recovery allows restarting from any failure point |
 
 ## What Gets Migrated
 
@@ -41,8 +45,6 @@ OMM preserves your complete data context:
 
 ## Supported Platforms
 
-OMM supports migrations between 70+ systems, including:
-
 | Category | Platforms |
 |---|---|
 | **Agile & DevOps** | Jira (Cloud & Data Center), Azure DevOps, Rally, Digital.ai Agility, GitHub |
@@ -51,7 +53,10 @@ OMM supports migrations between 70+ systems, including:
 | **Testing & QA** | Tricentis qTest, Tricentis Tosca, OpenText ALM (HP ALM), IBM ETM |
 | **Other** | Clarity, Micro Focus ALM, Codebeamer, and more |
 
-[Browse migration paths →](migrations/)
+### Featured Migration Guides
+
+- **[Azure DevOps → Jira Migration](migrations/ado-to-jira.html)** — Complete guide to migrating work items, test assets, and history from ADO/TFS to Jira
+- [All Migration Paths →](migrations/)
 
 ## Trusted By
 

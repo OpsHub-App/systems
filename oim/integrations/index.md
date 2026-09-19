@@ -5,9 +5,9 @@ title: OIM Integration Directory
 
 # OIM Integration Directory
 
-OpsHub Integration Manager supports bi-directional, real-time synchronization across 60+ enterprise tools. Browse integrations below.
+> OpsHub Integration Manager supports bi-directional, real-time synchronization across 60+ enterprise tools.
 
----
+[← Back to OIM Overview](..) · [← Home](../..)
 
 ## Featured Integrations
 

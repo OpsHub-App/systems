@@ -5,9 +5,9 @@ title: Azure DevOps to Jira Migration
 
 # Azure DevOps to Jira Migration
 
-Migrate from Azure DevOps (including VSTS and TFS) to Jira Cloud or Jira Data Center with zero downtime and zero data loss using OpsHub Migration Manager.
+> Migrate from Azure DevOps (including VSTS and TFS) to Jira Cloud or Jira Data Center with zero downtime and zero data loss using OpsHub Migration Manager.
 
----
+[← Back to All Migration Paths](./) · [← OMM Overview](..) · [← Home](../..)
 
 ## Overview
 

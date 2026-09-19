@@ -5,9 +5,9 @@ title: OMM Migration Directory
 
 # OMM Migration Directory
 
-OpsHub Migration Manager supports migrations between 70+ enterprise systems. Browse available migration paths below.
+> OpsHub Migration Manager supports migrations between 70+ enterprise systems. Browse available migration paths below.
 
----
+[← Back to OMM Overview](..) · [← Home](../..)
 
 ## Featured Migration Paths
 

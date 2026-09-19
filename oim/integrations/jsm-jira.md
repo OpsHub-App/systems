@@ -5,9 +5,9 @@ title: Jira Service Management (JSM) ↔ Jira Integration
 
 # Jira Service Management (JSM) ↔ Jira Software Integration
 
-Bi-directional, real-time synchronization between Jira Service Management and Jira Software using OpsHub Integration Manager (OIM).
+> Bi-directional, real-time synchronization between Jira Service Management and Jira Software using OpsHub Integration Manager (OIM).
 
----
+[← Back to All Integrations](./) · [← OIM Overview](..) · [← Home](../..)
 
 ## Overview
 
