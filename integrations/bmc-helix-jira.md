@@ -4,11 +4,7 @@
 
 [![Get It Now](https://img.shields.io/badge/Get_It_Now-0052CC?style=for-the-badge&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/2812486966)
 
----
-
 Connect BMC Helix ITSM (formerly BMC Remedy) with Jira for bidirectional sync of incidents, changes, and problems. Bridge IT service management with development workflows.
-
----
 
 ## Why Integrate BMC Helix ITSM / BMC Remedy with Jira?
 
@@ -19,15 +15,11 @@ Connect BMC Helix ITSM (formerly BMC Remedy) with Jira for bidirectional sync of
 | **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
 | **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
----
-
 ## What Gets Synced
 
 Incidents, change requests, problems, tasks, work orders, comments, attachments, and custom fields
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
-
----
 
 ## Common Use Cases
 
@@ -35,12 +27,8 @@ All data flows bidirectionally in real time. Custom field mappings, conditional 
 - Automating incident-to-engineering-task escalation
 - Unified ITSM and development tracking across BMC Helix and Jira
 
----
-
 ## Get Started
 
 [![See All Connectors](https://img.shields.io/badge/See_All_Connectors-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
----
-
-**Built on [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** &mdash; Trusted by leading enterprises
+[![Built on OIM](https://img.shields.io/badge/Built_on-OpsHub_Integration_Manager-00A36C?style=flat-square)](https://www.opshub.com/products/opshub-integration-manager/) &nbsp; Trusted by leading enterprises

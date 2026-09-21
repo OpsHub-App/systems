@@ -4,11 +4,7 @@
 
 [![Get It Now](https://img.shields.io/badge/Get_It_Now-0052CC?style=for-the-badge&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/3993596569)
 
----
-
 No-code, bidirectional sync between Salesforce and Jira Service Management. Connect CRM data with IT service management to bridge customer-facing and service operations teams.
-
----
 
 ## Why Integrate Salesforce with Jira?
 
@@ -19,15 +15,11 @@ No-code, bidirectional sync between Salesforce and Jira Service Management. Conn
 | **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
 | **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
----
-
 ## What Gets Synced
 
 Cases, accounts, contacts, service requests, incidents, comments, attachments, and custom objects
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
-
----
 
 ## Common Use Cases
 
@@ -35,12 +27,8 @@ All data flows bidirectionally in real time. Custom field mappings, conditional 
 - Escalating Salesforce cases to JSM service requests automatically
 - Unified CRM and ITSM visibility across Salesforce and JSM
 
----
-
 ## Get Started
 
 [![See All Connectors](https://img.shields.io/badge/See_All_Connectors-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
----
-
-**Built on [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** &mdash; Trusted by leading enterprises
+[![Built on OIM](https://img.shields.io/badge/Built_on-OpsHub_Integration_Manager-00A36C?style=flat-square)](https://www.opshub.com/products/opshub-integration-manager/) &nbsp; Trusted by leading enterprises

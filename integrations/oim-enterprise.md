@@ -4,11 +4,7 @@
 
 [![Get It Now](https://img.shields.io/badge/Get_It_Now-0052CC?style=for-the-badge&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/1224525)
 
----
-
 Enterprise integration platform connecting Jira with 70+ ALM, DevOps, ITSM, and CRM tools. Bidirectional, real-time sync with no-code configuration and AI-assisted setup.
-
----
 
 ## Why OpsHub?
 
@@ -19,13 +15,9 @@ Enterprise integration platform connecting Jira with 70+ ALM, DevOps, ITSM, and 
 | **Enterprise Scale** | Handles millions of records, complex field mappings, and conditional sync rules with built-in conflict resolution. |
 | **Proven Reliability** | Trusted by leading enterprises for mission-critical integration and migration workloads. |
 
----
-
 ## What Gets Synced
 
 Work items, issues, requirements, test cases, defects, comments, attachments, custom fields, and relationships across 70+ tools
-
----
 
 ## Common Use Cases
 
@@ -33,12 +25,8 @@ Work items, issues, requirements, test cases, defects, comments, attachments, cu
 - Multi-tool environments requiring centralized data synchronization
 - Enterprise-wide integration strategy with a single platform
 
----
-
 ## Get Started
 
 [![See All Solutions](https://img.shields.io/badge/See_All_Solutions-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
----
-
-**[OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** &mdash; Enterprise Integration and Migration for Jira
+[![OpsHub Inc](https://img.shields.io/badge/OpsHub,_Inc.-Enterprise_Integration_&_Migration-00A36C?style=flat-square)](https://www.opshub.com)
