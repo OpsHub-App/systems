@@ -6,7 +6,7 @@
 
 Bridge Jira and Azure DevOps with two-way synchronization of work items, custom fields, comments, attachments, links, and mentions. Keep both platforms current without manual effort.
 
-## Why Integrate Azure DevOps with Jira?
+### Why Integrate Azure DevOps with Jira?
 
 | Benefit | Details |
 |---------|---------|
@@ -15,20 +15,20 @@ Bridge Jira and Azure DevOps with two-way synchronization of work items, custom 
 | **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
 | **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
-## What Gets Synced
+### What Gets Synced
 
 Work items, bugs, tasks, epics, user stories, custom fields, comments, attachments, inline images, and links
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
 
-## Common Use Cases
+### Common Use Cases
 
 - Organizations using Jira for project management and Azure DevOps for development
 - Cross-team collaboration where some teams prefer Azure DevOps and others Jira
 - Consolidating reporting across both platforms without duplicate data entry
 
-## Get Started
+### Get Started
 
 [![See All Connectors](https://img.shields.io/badge/See_All_Connectors-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
-[![Built on OIM](https://img.shields.io/badge/Built_on-OpsHub_Integration_Manager-00A36C?style=flat-square)](https://www.opshub.com/products/opshub-integration-manager/) &nbsp; Trusted by leading enterprises
+[![Built on OIM](https://img.shields.io/badge/Built_on-OpsHub_Integration_Manager-555555?style=flat-square)](https://www.opshub.com/products/opshub-integration-manager/) &nbsp; Trusted by leading enterprises

@@ -6,7 +6,7 @@
 
 Real-time integration between Subversion and Jira. Connect SVN commits, branches, and tags with Jira issues for development traceability without switching to Git.
 
-## Why Integrate Apache Subversion with Jira?
+### Why Integrate Apache Subversion with Jira?
 
 | Benefit | Details |
 |---------|---------|
@@ -15,20 +15,20 @@ Real-time integration between Subversion and Jira. Connect SVN commits, branches
 | **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
 | **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
-## What Gets Synced
+### What Gets Synced
 
 Commits, branches, tags, changesets, file changes, and Jira issue links
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
 
-## Common Use Cases
+### Common Use Cases
 
 - Teams using SVN for version control while managing projects in Jira
 - Linking code commits in Subversion to Jira issues automatically
 - Organizations maintaining SVN repositories that need Jira integration
 
-## Get Started
+### Get Started
 
 [![See All Connectors](https://img.shields.io/badge/See_All_Connectors-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
-[![Built on OIM](https://img.shields.io/badge/Built_on-OpsHub_Integration_Manager-00A36C?style=flat-square)](https://www.opshub.com/products/opshub-integration-manager/) &nbsp; Trusted by leading enterprises
+[![Built on OIM](https://img.shields.io/badge/Built_on-OpsHub_Integration_Manager-555555?style=flat-square)](https://www.opshub.com/products/opshub-integration-manager/) &nbsp; Trusted by leading enterprises

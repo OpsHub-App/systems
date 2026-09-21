@@ -6,7 +6,7 @@
 
 Make Jira data AI-ready with a unified, context-rich data lake and real-time integration across DevOps, test, and requirements tools. Power copilots, analytics, and engineering insights.
 
-## Why Integrate Data Analytics with Jira?
+### Why Integrate Data Analytics with Jira?
 
 | Benefit | Details |
 |---------|---------|
@@ -15,20 +15,20 @@ Make Jira data AI-ready with a unified, context-rich data lake and real-time int
 | **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
 | **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
-## What Gets Synced
+### What Gets Synced
 
 Issues, workflows, updates, test cases, requirements, incidents, custom fields, status transitions, and plugin data across connected tools
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
 
-## Common Use Cases
+### Common Use Cases
 
 - Building an AI-ready data lake by connecting Jira with Azure DevOps, ServiceNow, and 70+ tools
 - Powering copilots and AI systems with context-aware, linked data from requirements to incidents
 - Engineering analytics across the full DevOps lifecycle with unified Jira data
 
-## Get Started
+### Get Started
 
 [![See All Connectors](https://img.shields.io/badge/See_All_Connectors-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
-[![Built on OIM](https://img.shields.io/badge/Built_on-OpsHub_Integration_Manager-00A36C?style=flat-square)](https://www.opshub.com/products/opshub-integration-manager/) &nbsp; Trusted by leading enterprises
+[![Built on OIM](https://img.shields.io/badge/Built_on-OpsHub_Integration_Manager-555555?style=flat-square)](https://www.opshub.com/products/opshub-integration-manager/) &nbsp; Trusted by leading enterprises

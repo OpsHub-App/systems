@@ -6,7 +6,7 @@
 
 Migrate from FogBugz to Jira without downtime. Preserve cases, discussions, attachments, and complete project history throughout the transition.
 
-## Why Choose OpsHub for This Migration?
+### Why Choose OpsHub for This Migration?
 
 | Benefit | Details |
 |---------|---------|
@@ -15,20 +15,20 @@ Migrate from FogBugz to Jira without downtime. Preserve cases, discussions, atta
 | **Incremental Sync** | Migrate in phases. Run delta syncs to capture changes made after the initial migration until you are ready to cut over. |
 | **Rollback Ready** | Built-in validation and rollback capabilities ensure you can verify everything before making the switch permanent. |
 
-## What Gets Migrated
+### What Gets Migrated
 
 Cases, comments, attachments, relationships, and history
 
 All data is validated before, during, and after migration to ensure complete accuracy.
 
-## Common Use Cases
+### Common Use Cases
 
 - Teams moving from FogBugz to Jira for modern project management
 - Preserving complete FogBugz case history in Jira
 - Zero-disruption migration from FogBugz with incremental sync support
 
-## Get Started
+### Get Started
 
 [![See All Migrations](https://img.shields.io/badge/See_All_Migrations-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
-[![Built on OMM](https://img.shields.io/badge/Built_on-OpsHub_Migration_Manager-00A36C?style=flat-square)](https://www.opshub.com/products/opshub-migration-manager/) &nbsp; Trusted by leading enterprises
+[![Built on OMM](https://img.shields.io/badge/Built_on-OpsHub_Migration_Manager-555555?style=flat-square)](https://www.opshub.com/products/opshub-migration-manager/) &nbsp; Trusted by leading enterprises

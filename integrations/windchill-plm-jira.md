@@ -6,7 +6,7 @@
 
 Bidirectional sync between PTC Windchill PLM/PDM and Jira. Keep product data management and software development connected with real-time data exchange.
 
-## Why Integrate PTC Windchill PLM/PDM with Jira?
+### Why Integrate PTC Windchill PLM/PDM with Jira?
 
 | Benefit | Details |
 |---------|---------|
@@ -15,20 +15,20 @@ Bidirectional sync between PTC Windchill PLM/PDM and Jira. Keep product data man
 | **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
 | **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
-## What Gets Synced
+### What Gets Synced
 
 Parts, CAD documents, change requests, change notices, product structures, Jira issues, and comments
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
 
-## Common Use Cases
+### Common Use Cases
 
 - Product engineering teams on Windchill PDM coordinating with Jira software teams
 - Linking hardware design changes to software development tasks
 - Unified change management across mechanical and software engineering
 
-## Get Started
+### Get Started
 
 [![See All Connectors](https://img.shields.io/badge/See_All_Connectors-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
-[![Built on OIM](https://img.shields.io/badge/Built_on-OpsHub_Integration_Manager-00A36C?style=flat-square)](https://www.opshub.com/products/opshub-integration-manager/) &nbsp; Trusted by leading enterprises
+[![Built on OIM](https://img.shields.io/badge/Built_on-OpsHub_Integration_Manager-555555?style=flat-square)](https://www.opshub.com/products/opshub-integration-manager/) &nbsp; Trusted by leading enterprises

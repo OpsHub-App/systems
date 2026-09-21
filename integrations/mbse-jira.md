@@ -6,7 +6,7 @@
 
 Bidirectional integration connecting Model-Based Systems Engineering tools with Jira. Synchronize SysML models, requirements, and design elements with Jira development workflows.
 
-## Why Integrate MBSE Tools (Cameo, MagicDraw) with Jira?
+### Why Integrate MBSE Tools (Cameo, MagicDraw) with Jira?
 
 | Benefit | Details |
 |---------|---------|
@@ -15,20 +15,20 @@ Bidirectional integration connecting Model-Based Systems Engineering tools with 
 | **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
 | **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
-## What Gets Synced
+### What Gets Synced
 
 SysML elements, blocks, requirements, parametric models, activities, Jira issues, and traceability links
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
 
-## Common Use Cases
+### Common Use Cases
 
 - Systems engineers modeling in Cameo/MagicDraw while developers track in Jira
 - Linking system architecture models to software implementation tasks
 - Defense and aerospace programs needing MBSE-to-Jira traceability
 
-## Get Started
+### Get Started
 
 [![See All Connectors](https://img.shields.io/badge/See_All_Connectors-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
-[![Built on OIM](https://img.shields.io/badge/Built_on-OpsHub_Integration_Manager-00A36C?style=flat-square)](https://www.opshub.com/products/opshub-integration-manager/) &nbsp; Trusted by leading enterprises
+[![Built on OIM](https://img.shields.io/badge/Built_on-OpsHub_Integration_Manager-555555?style=flat-square)](https://www.opshub.com/products/opshub-integration-manager/) &nbsp; Trusted by leading enterprises
