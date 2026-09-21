@@ -735,7 +735,7 @@ def generate_integration_page(product):
 
 **Seamlessly connect {product['tool']} and Jira with real-time, bidirectional sync.**
 
-[**Install from the Atlassian Marketplace &rarr;**]({product['url']})
+[**Get It Now &rarr;**]({product['url']})
 
 ---
 
@@ -770,13 +770,11 @@ def generate_integration_page(product):
 
 ## Get Started
 
-[**Install from the Atlassian Marketplace &rarr;**]({product['url']}) — Try it free or purchase a license.
-
-[Browse all OpsHub connectors](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+[**Try It Free &rarr;**]({product['url']}) · [See All Connectors](https://marketplace.atlassian.com/vendors/798149) · [Learn More](https://www.opshub.com)
 
 ---
 
-*Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) · [OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)*
+**Built on [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** &mdash; Trusted by Fortune 500 teams
 """
     return content
 
@@ -789,7 +787,7 @@ def generate_migration_page(product):
 
 **Migrate to Jira from {product['tool']} with zero downtime and complete data fidelity.**
 
-[**Start Your Migration &rarr;**]({product['url']})
+[**Start Now &rarr;**]({product['url']})
 
 ---
 
@@ -824,13 +822,11 @@ All data is validated before, during, and after migration to ensure complete acc
 
 ## Get Started
 
-[**Start Your Migration &rarr;**]({product['url']}) — Try it free or purchase a license.
-
-[Browse all OpsHub migrations](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+[**Try It Free &rarr;**]({product['url']}) · [See All Migrations](https://marketplace.atlassian.com/vendors/798149) · [Learn More](https://www.opshub.com)
 
 ---
 
-*Powered by [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539) · [OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)*
+**Built on [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** &mdash; Trusted by Fortune 500 teams
 """
     return content
 
@@ -843,7 +839,7 @@ def generate_platform_page(product):
 
 **Enterprise-grade integration and migration for Jira — connect 70+ tools with no-code setup.**
 
-[**Install from the Atlassian Marketplace &rarr;**]({product['url']})
+[**Get It Now &rarr;**]({product['url']})
 
 ---
 
@@ -876,13 +872,11 @@ def generate_platform_page(product):
 
 ## Get Started
 
-[**Install from the Atlassian Marketplace &rarr;**]({product['url']}) — Try it free or purchase a license.
-
-[Browse all OpsHub solutions](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+[**Try It Free &rarr;**]({product['url']}) · [See All Solutions](https://marketplace.atlassian.com/vendors/798149) · [Learn More](https://www.opshub.com)
 
 ---
 
-*[OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149) — Enterprise Integration and Migration for Jira*
+**[OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** &mdash; Enterprise Integration and Migration for Jira
 """
     return content
 

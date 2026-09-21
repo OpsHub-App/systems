@@ -2,7 +2,7 @@
 
 **Enterprise-grade integration and migration for Jira — connect 70+ tools with no-code setup.**
 
-[**Install from the Atlassian Marketplace &rarr;**](https://marketplace.atlassian.com/apps/1215532)
+[**Get It Now &rarr;**](https://marketplace.atlassian.com/apps/1215532)
 
 ---
 
@@ -37,10 +37,8 @@ Projects, entities, comments, attachments, inline content, and traceability data
 
 ## Get Started
 
-[**Install from the Atlassian Marketplace &rarr;**](https://marketplace.atlassian.com/apps/1215532) — Try it free or purchase a license.
-
-[Browse all OpsHub solutions](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+[**Try It Free &rarr;**](https://marketplace.atlassian.com/apps/1215532) · [See All Solutions](https://marketplace.atlassian.com/vendors/798149) · [Learn More](https://www.opshub.com)
 
 ---
 
-*[OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149) — Enterprise Integration and Migration for Jira*
+**[OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** &mdash; Enterprise Integration and Migration for Jira

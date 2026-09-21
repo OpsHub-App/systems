@@ -2,7 +2,7 @@
 
 **Seamlessly connect Salesforce and Jira with real-time, bidirectional sync.**
 
-[**Install from the Atlassian Marketplace &rarr;**](https://marketplace.atlassian.com/apps/3993596569)
+[**Get It Now &rarr;**](https://marketplace.atlassian.com/apps/3993596569)
 
 ---
 
@@ -39,10 +39,8 @@ All data flows bidirectionally in real time. Custom field mappings, conditional 
 
 ## Get Started
 
-[**Install from the Atlassian Marketplace &rarr;**](https://marketplace.atlassian.com/apps/3993596569) — Try it free or purchase a license.
-
-[Browse all OpsHub connectors](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+[**Try It Free &rarr;**](https://marketplace.atlassian.com/apps/3993596569) · [See All Connectors](https://marketplace.atlassian.com/vendors/798149) · [Learn More](https://www.opshub.com)
 
 ---
 
-*Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) · [OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)*
+**Built on [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** &mdash; Trusted by Fortune 500 teams

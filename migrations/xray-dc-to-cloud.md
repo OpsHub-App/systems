@@ -2,7 +2,7 @@
 
 **Migrate to Jira from Xray (Data Center) with zero downtime and complete data fidelity.**
 
-[**Start Your Migration &rarr;**](https://marketplace.atlassian.com/apps/1535785919)
+[**Start Now &rarr;**](https://marketplace.atlassian.com/apps/1535785919)
 
 ---
 
@@ -39,10 +39,8 @@ All data is validated before, during, and after migration to ensure complete acc
 
 ## Get Started
 
-[**Start Your Migration &rarr;**](https://marketplace.atlassian.com/apps/1535785919) — Try it free or purchase a license.
-
-[Browse all OpsHub migrations](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+[**Try It Free &rarr;**](https://marketplace.atlassian.com/apps/1535785919) · [See All Migrations](https://marketplace.atlassian.com/vendors/798149) · [Learn More](https://www.opshub.com)
 
 ---
 
-*Powered by [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539) · [OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)*
+**Built on [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** &mdash; Trusted by Fortune 500 teams
