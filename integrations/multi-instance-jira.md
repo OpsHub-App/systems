@@ -2,7 +2,7 @@
 
 > Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/2588044797) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-Synchronize data across multiple Jira instances in real time. Keep projects, issues, and workflows aligned across separate Jira deployments for enterprise-wide collaboration.
+Keep multiple Jira instances in sync with full context, reliable updates, and no scripts, eliminating manual work across teams.
 
 ---
 
@@ -19,7 +19,7 @@ Synchronize data across multiple Jira instances in real time. Keep projects, iss
 
 ## What Gets Synced
 
-Issues, projects, workflows, comments, attachments, custom fields, sprints, and boards across Jira instances
+Issues, comments, attachments, relationships, custom fields, work logs, and hierarchy across Jira instances
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/2588044797).
 

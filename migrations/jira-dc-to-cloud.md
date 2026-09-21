@@ -19,7 +19,7 @@ Migrate Jira Data Center to Jira Cloud (including add-ons) from one or multiple 
 
 ## What Gets Migrated
 
-Projects, issues, workflows, custom fields, boards, sprints, dashboards, filters, users, permissions, and add-on data
+Projects, issues, workflows, custom fields, users, comments, attachments, links, labels, versions, sprint data, history, and add-on data (Xray, Zephyr, JSM)
 
 All data is validated before, during, and after migration to ensure complete accuracy. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1235636).
 

@@ -23,7 +23,7 @@ Connect Jira with any of these tools for real-time, bidirectional sync:
 | [Blueprint Requirements Center](integrations/blueprint-jira.md) | Blueprint Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1589521068) |
 | [Bugzilla](integrations/bugzilla-jira.md) | Bugzilla and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/4186937217) |
 | [CA Service Desk Manager](integrations/ca-sdm-jira.md) | CA Service Desk Manager (SDM) Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1059270378) |
-| [Cadence Midas](integrations/cadence-midas-jira.md) | Cadence Midas Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/107948785) |
+| [Cadence Midas](integrations/cadence-midas-jira.md) | Bidirectional Cadence Midas and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/107948785) |
 | [Cadence vManager / Verisium Manager](integrations/vmanager-jira.md) | vManager (Verisium Manager) Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1237997) |
 | [Data Analytics](integrations/smart-data-lake-jira.md) | OpsHub Smart Data Lake for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1238384) |
 | [Data Archiving](integrations/secure-archiving-jira.md) | Secure Archiving of Jira Data for Compliance and Scalability | [Marketplace](https://marketplace.atlassian.com/apps/650669298) |
@@ -32,7 +32,7 @@ Connect Jira with any of these tools for real-time, bidirectional sync:
 | [GitHub (Cloud)](integrations/github-saas-jira.md) | GitHub (SaaS) and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1237063) |
 | [GitHub (Enterprise/On-Prem)](integrations/github-jira.md) | GitHub Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1234617) |
 | [GitLab](integrations/gitlab-jira.md) | GitLab and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1236602) |
-| [HubSpot CRM](integrations/hubspot-jira.md) | HubSpot Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1238418) |
+| [HubSpot](integrations/hubspot-jira.md) | HubSpot Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1238418) |
 | [IBM ClearQuest](integrations/clearquest-jira.md) | IBM ClearQuest Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/2378820378) |
 | [IBM DOORS NG](integrations/ibm-doors-ng-jira.md) | IBM DOORS Next Generation Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1237857) |
 | [IBM ETM](integrations/ibm-etm-jira.md) | IBM Engineering Test Management (ETM) Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1237868) |
@@ -52,8 +52,8 @@ Connect Jira with any of these tools for real-time, bidirectional sync:
 | [OpenText ALM / HP ALM / Micro Focus ALM](integrations/opentext-alm-jira.md) | OpenText ALM (HP ALM) and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1236342) |
 | [OpenText PPM / Caliber RM](integrations/caliber-jira.md) | OpenText PPM (Caliber RM) Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/3804751386) |
 | [PTC Codebeamer](integrations/codebeamer-jira.md) | PTC Codebeamer ALM and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1234937) |
-| [PTC Windchill](integrations/windchill-jira.md) | PTC Windchill Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1236668) |
 | [PTC Windchill PLM/PDM](integrations/windchill-plm-jira.md) | PTC Windchill PLM/PDM Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1572722965) |
+| [PTC Windchill RV&S](integrations/windchill-jira.md) | Bidirectional PTC Windchill RV&S Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1236668) |
 | [PagerDuty](integrations/pagerduty-jira.md) | PagerDuty and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1237335) |
 | [Perforce Helix ALM](integrations/helix-alm-jira.md) | Perforce Helix ALM Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1238235) |
 | [Rally (Broadcom)](integrations/rally-jira.md) | Rally Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1234735) |

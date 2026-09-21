@@ -2,7 +2,7 @@
 
 > Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1238393) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-Connect Snowflake data warehouse with Jira for bidirectional data sync. Enable data teams to link analytics workflows with project management and issue tracking.
+Create a Jira-to-Snowflake data lake with full history and normalized data, AI-ready for copilots, analytics, and engineering insights. One-way incremental sync keeps your Snowflake warehouse current.
 
 ---
 
@@ -19,17 +19,17 @@ Connect Snowflake data warehouse with Jira for bidirectional data sync. Enable d
 
 ## What Gets Synced
 
-Data records, queries, tasks, comments, and custom fields between Snowflake and Jira
+Issues, issue links, full history, sprint transitions, status transitions, comments, custom fields, workflows, and plugin data (Zephyr, Xray, R4J, and more)
 
-All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1238393).
+Data flows from Jira to Snowflake with incremental sync. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1238393).
 
 ---
 
 ## Common Use Cases
 
-- Data engineering teams syncing Snowflake pipeline issues to Jira
-- Connecting data quality incidents in Snowflake to Jira issue tracking
-- Analytics teams tracking data projects across Snowflake and Jira
+- Building an AI-ready engineering data lake from Jira data in Snowflake
+- Powering copilots and analytics dashboards with rich, normalized Jira history
+- Measuring cycle time, identifying bottlenecks, and supporting root-cause analysis with Jira data in Snowflake
 
 Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 

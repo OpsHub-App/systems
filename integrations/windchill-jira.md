@@ -1,17 +1,17 @@
-# PTC Windchill Integration for Jira
+# Bidirectional PTC Windchill RV&S Integration for Jira
 
 > Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1236668) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-No-code, two-way sync between PTC Windchill and Jira. Connect PLM processes with agile development to create a seamless digital thread from product design to software delivery.
+Easy-to-setup, data-rich, two-way sync for requirements, change requests, work items, documents, and custom entities between PTC Windchill RV&S (formerly Windchill ALM / MKS) and Jira.
 
 ---
 
-## Why Integrate PTC Windchill with Jira?
+## Why Integrate PTC Windchill RV&S with Jira?
 
 | Benefit | Details |
 |---------|---------|
 | **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
-| **Always Accurate** | Real-time synchronization ensures PTC Windchill and Jira always show the same information. No stale data, no conflicts. |
+| **Always Accurate** | Real-time synchronization ensures PTC Windchill RV&S and Jira always show the same information. No stale data, no conflicts. |
 | **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
 | **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
@@ -19,7 +19,7 @@ No-code, two-way sync between PTC Windchill and Jira. Connect PLM processes with
 
 ## What Gets Synced
 
-Parts, documents, change requests, change notices, BOMs, Jira issues, comments, and custom attributes
+Change Orders, Change Requests, Defects, Documents, Requirements, Tests, MKS Solutions, Model Element Specifications, custom entities, comments, attachments, and links
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1236668).
 
@@ -27,9 +27,9 @@ All data flows bidirectionally in real time. Custom field mappings, conditional 
 
 ## Common Use Cases
 
-- Manufacturing engineering on Windchill working with software teams on Jira
-- Connecting PLM change processes to Jira development workflows
-- Building a digital thread across product lifecycle and software development
+- Requirements teams managing work in Windchill RV&S while developers track delivery in Jira
+- Syncing change orders and defects between Windchill ALM and Jira for end-to-end traceability
+- Preserving hierarchies and linked records across PTC Windchill RV&S and Jira projects
 
 Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 

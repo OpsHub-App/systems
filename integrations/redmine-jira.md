@@ -19,7 +19,7 @@ Bidirectional, no-code sync between Redmine and Jira. Keep issues, comments, att
 
 ## What Gets Synced
 
-Issues, tests, sprints, custom issue types, comments, attachments, inline formatting, and revision history
+Issues, custom issue types, comments, attachments, relationships, inline formatting, custom fields, and history
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1238263).
 

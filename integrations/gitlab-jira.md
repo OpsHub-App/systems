@@ -19,7 +19,7 @@ Bidirectional integration between GitLab and Jira. Sync issues, merge requests, 
 
 ## What Gets Synced
 
-Issues, merge requests, pipelines, commits, comments, labels, and milestones
+Commits, epics, issues, comments, attachments, links, and mentions
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1236602).
 

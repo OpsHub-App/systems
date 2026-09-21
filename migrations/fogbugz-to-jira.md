@@ -19,7 +19,7 @@ Migrate from FogBugz to Jira without downtime. Preserve cases, discussions, atta
 
 ## What Gets Migrated
 
-Cases, discussions, attachments, milestones, tags, categories, custom fields, and history
+Cases, comments, attachments, relationships, and history
 
 All data is validated before, during, and after migration to ensure complete accuracy. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/257470442).
 

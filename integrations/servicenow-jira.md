@@ -2,7 +2,7 @@
 
 > Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1236368) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-Connect Jira and ServiceNow with a reliable two-way sync that keeps tables, tasks, tests, steps, comments, attachments, and links aligned across both platforms in real time.
+Rich and reliable bidirectional data sync between Jira and ServiceNow for tables, tasks, tests, steps, comments, attachments, links, and more.
 
 ---
 
@@ -19,7 +19,7 @@ Connect Jira and ServiceNow with a reliable two-way sync that keeps tables, task
 
 ## What Gets Synced
 
-Incidents, problems, change requests, tasks, comments, attachments, work notes, and custom fields
+Tables, tasks, tests, steps, comments, attachments, links, mentions, rich text, and history
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1236368).
 

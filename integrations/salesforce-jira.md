@@ -19,7 +19,7 @@ No-code, bidirectional, data-rich sync between Salesforce and Jira for Cases, Op
 
 ## What Gets Synced
 
-Cases, opportunities, accounts, contacts, feeds, tasks, notes, and custom objects
+Cases, opportunities, accounts, contacts, leads, feeds, custom objects, comments, attachments, @mentions, and relationships
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1237866).
 

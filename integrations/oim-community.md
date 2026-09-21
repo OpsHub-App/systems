@@ -2,7 +2,7 @@
 
 > [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1215532) | [All OpsHub Solutions](https://marketplace.atlassian.com/vendors/798149)
 
-Free, no-code data integration tool for Jira. Connect Jira with popular tools for basic bidirectional sync to get started with enterprise integration at no cost.
+Enterprise-grade integration for Jira with leading ALM tools at no cost. Connect Jira with ServiceNow, Azure DevOps, OpenText ALM, Digital.ai Agility, Jira Align, Rally, and Salesforce using a no-code interface.
 
 ---
 
@@ -19,14 +19,14 @@ Free, no-code data integration tool for Jira. Connect Jira with popular tools fo
 
 ## What Gets Synced
 
-Issues, comments, attachments, and basic custom fields across supported tools
+Projects, entities, comments, attachments, inline content, and traceability data across supported tools
 
 ---
 
 ## Common Use Cases
 
-- Small teams wanting to try OpsHub integration before upgrading
-- Basic Jira integration needs without enterprise-level features
+- Teams wanting enterprise-grade Jira integration at no cost
+- Connecting Jira with ServiceNow, Azure DevOps, Rally, Salesforce, and other supported tools
 - Evaluation and proof-of-concept for enterprise integration projects
 
 Explore all [OpsHub solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).

@@ -19,7 +19,7 @@ Bidirectionally integrate Sparx EA elements, diagrams, and packages with Jira is
 
 ## What Gets Synced
 
-EA elements, packages, diagrams, requirements, use cases, Jira issues, comments, and custom properties
+EA elements, diagrams, packages, operations, attributes, Jira issues, sub-tasks, versions, worklogs, attachments, history, and relationships
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1234974).
 

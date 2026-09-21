@@ -19,7 +19,7 @@ Bidirectional, real-time sync between PagerDuty and Jira. Automatically create a
 
 ## What Gets Synced
 
-Incidents, alerts, services, escalation policies, notes, status updates, and custom fields
+Incidents, issues, comments, attachments, links, mentions, rich text, status transitions, and history
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1237335).
 

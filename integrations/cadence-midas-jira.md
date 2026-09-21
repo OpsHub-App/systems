@@ -1,8 +1,8 @@
-# Cadence Midas Integration for Jira
+# Bidirectional Cadence Midas and Jira Integration
 
 > Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/107948785) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-Bidirectional integration between Cadence Midas and Jira. Connect semiconductor design management with Jira project tracking for end-to-end chip design traceability.
+Connect functional safety analysis with engineering execution for end-to-end traceability and compliance. Two-way sync of safety mechanisms, test results, issues, and requirements between Cadence Midas and Jira.
 
 ---
 
@@ -19,7 +19,7 @@ Bidirectional integration between Cadence Midas and Jira. Connect semiconductor 
 
 ## What Gets Synced
 
-Design tasks, verification items, defects, requirements, comments, attachments, and custom fields
+Safety mechanisms, test results, issues, requirements, safety requirements, verification records, comments, attachments, and custom fields
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/107948785).
 
@@ -27,9 +27,9 @@ All data flows bidirectionally in real time. Custom field mappings, conditional 
 
 ## Common Use Cases
 
-- Semiconductor teams managing chip design in Midas while tracking in Jira
-- Linking hardware design data to Jira development workflows
-- IC design teams needing traceability between Cadence Midas and Jira
+- Functional safety teams using Cadence Midas while engineering tracks work in Jira
+- Maintaining traceability and visibility into data flow to support ISO 26262 compliance
+- Syncing safety requirements and verification records between Cadence Midas and Jira at scale
 
 Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 

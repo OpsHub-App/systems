@@ -19,7 +19,7 @@ Bidirectional sync between Trac and Jira. Keep tickets, milestones, and wiki con
 
 ## What Gets Synced
 
-Tickets, milestones, components, versions, comments, attachments, and custom fields
+Trac tickets, Jira issues, sub-tasks, versions, work logs, comments, attachments, and history
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1949729264).
 

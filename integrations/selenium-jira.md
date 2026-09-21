@@ -2,7 +2,7 @@
 
 > Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/954531136) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-Bidirectional integration between Selenium test automation and Jira. Synchronize automated test results, defects, and execution data to connect browser testing with project tracking.
+Bidirectional integration between Selenium test automation and Jira. Synchronize test scripts with Jira issues using AI-assisted, no-code entity mapping while preserving rich data.
 
 ---
 
@@ -19,7 +19,7 @@ Bidirectional integration between Selenium test automation and Jira. Synchronize
 
 ## What Gets Synced
 
-Test results, defects, execution logs, browser test data, comments, attachments, and custom fields
+Test scripts, Jira issues, comments, attachments, images, @mentions, relationships, history, and custom fields
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/954531136).
 
@@ -27,9 +27,9 @@ All data flows bidirectionally in real time. Custom field mappings, conditional 
 
 ## Common Use Cases
 
-- QA automation teams running Selenium tests while tracking defects in Jira
-- Automatic Jira issue creation from failed Selenium test runs
-- End-to-end visibility from automated browser tests to Jira development tasks
+- QA automation teams syncing Selenium test scripts with Jira issues for traceability
+- Keeping test automation artifacts connected with Jira development workflows
+- End-to-end visibility from Selenium test scripts to Jira development tasks
 
 Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 

@@ -19,7 +19,7 @@ Bidirectional, real-time sync between Rally and Jira. Synchronize user stories, 
 
 ## What Gets Synced
 
-User stories, defects, tasks, test cases, iterations, releases, comments, and attachments
+Portfolio items, user stories, defects, tasks, test cases, change sets, risks, comments, attachments, links, and inline images
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1234735).
 

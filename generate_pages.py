@@ -13,8 +13,8 @@ INTEGRATIONS = [
         "name": "ServiceNow Integration for Jira",
         "url": "https://marketplace.atlassian.com/apps/1236368",
         "tool": "ServiceNow",
-        "desc": "Connect Jira and ServiceNow with a reliable two-way sync that keeps tables, tasks, tests, steps, comments, attachments, and links aligned across both platforms in real time.",
-        "syncs": "Incidents, problems, change requests, tasks, comments, attachments, work notes, and custom fields",
+        "desc": "Rich and reliable bidirectional data sync between Jira and ServiceNow for tables, tasks, tests, steps, comments, attachments, links, and more.",
+        "syncs": "Tables, tasks, tests, steps, comments, attachments, links, mentions, rich text, and history",
         "use_cases": ["IT teams managing incidents in ServiceNow while developers track work in Jira", "Syncing change requests between ITSM and development workflows", "Keeping service desk tickets and engineering issues connected end-to-end"],
     },
     {
@@ -95,16 +95,16 @@ INTEGRATIONS = [
         "tool": "Salesforce",
         "url": "https://marketplace.atlassian.com/apps/1237866",
         "desc": "No-code, bidirectional, data-rich sync between Salesforce and Jira for Cases, Opportunities, Feeds, Accounts, and Custom Objects. Bridge the gap between sales and engineering teams.",
-        "syncs": "Cases, opportunities, accounts, contacts, feeds, tasks, notes, and custom objects",
+        "syncs": "Cases, opportunities, accounts, contacts, leads, feeds, custom objects, comments, attachments, @mentions, and relationships",
         "use_cases": ["Sales teams reporting customer issues in Salesforce while engineering fixes them in Jira", "Syncing product feedback from CRM to development backlogs", "Keeping customer-facing teams informed about bug fix progress"],
     },
     {
         "slug": "hubspot-jira",
         "name": "HubSpot Integration for Jira",
-        "tool": "HubSpot CRM",
+        "tool": "HubSpot",
         "url": "https://marketplace.atlassian.com/apps/1238418",
-        "desc": "Two-way, data-rich integration between HubSpot CRM and Jira. Synchronize deals, tickets, contacts, notes, tasks, and more to keep marketing, sales, and engineering aligned.",
-        "syncs": "Deals, tickets, contacts, companies, notes, tasks, engagements, and custom properties",
+        "desc": "Real-time, two-way sync between HubSpot and Jira so go-to-market and engineering teams stay aligned, reduce handoff gaps, and resolve issues faster.",
+        "syncs": "Deals, tickets, contacts, notes, tasks, comments, ownership changes, stages, attachments, and status updates",
         "use_cases": ["Marketing and sales teams on HubSpot while product teams use Jira", "Automatically creating Jira issues from HubSpot support tickets", "Tracking customer requests from CRM through to development completion"],
     },
     {
@@ -122,7 +122,7 @@ INTEGRATIONS = [
         "tool": "Rally (Broadcom)",
         "url": "https://marketplace.atlassian.com/apps/1234735",
         "desc": "Bidirectional, real-time sync between Rally and Jira. Synchronize user stories, defects, tasks, and test cases across both agile management platforms without manual duplication.",
-        "syncs": "User stories, defects, tasks, test cases, iterations, releases, comments, and attachments",
+        "syncs": "Portfolio items, user stories, defects, tasks, test cases, change sets, risks, comments, attachments, links, and inline images",
         "use_cases": ["Organizations with teams split between Rally and Jira for agile planning", "Consolidating portfolio-level visibility across both platforms", "Transitioning from Rally to Jira while keeping both systems functional"],
     },
     {
@@ -131,7 +131,7 @@ INTEGRATIONS = [
         "tool": "Sparx Enterprise Architect",
         "url": "https://marketplace.atlassian.com/apps/1234974",
         "desc": "Bidirectionally integrate Sparx EA elements, diagrams, and packages with Jira issues using a simple drag-and-drop interface. Bridge model-based systems engineering with agile development.",
-        "syncs": "EA elements, packages, diagrams, requirements, use cases, Jira issues, comments, and custom properties",
+        "syncs": "EA elements, diagrams, packages, operations, attributes, Jira issues, sub-tasks, versions, worklogs, attachments, history, and relationships",
         "use_cases": ["Systems engineers modeling in EA while developers track work in Jira", "Linking architecture models to development tasks for traceability", "MBSE teams needing visibility between design models and Jira backlogs"],
     },
     {
@@ -149,7 +149,7 @@ INTEGRATIONS = [
         "tool": "PagerDuty",
         "url": "https://marketplace.atlassian.com/apps/1237335",
         "desc": "Bidirectional, real-time sync between PagerDuty and Jira. Automatically create and update Jira issues from PagerDuty incidents and keep incident response teams connected with development.",
-        "syncs": "Incidents, alerts, services, escalation policies, notes, status updates, and custom fields",
+        "syncs": "Incidents, issues, comments, attachments, links, mentions, rich text, status transitions, and history",
         "use_cases": ["DevOps teams using PagerDuty for on-call while tracking fixes in Jira", "Automatic Jira issue creation from PagerDuty alerts", "Post-incident workflows that link PagerDuty incidents to Jira follow-up tasks"],
     },
     {
@@ -190,12 +190,12 @@ INTEGRATIONS = [
     },
     {
         "slug": "windchill-jira",
-        "name": "PTC Windchill Integration for Jira",
-        "tool": "PTC Windchill",
+        "name": "Bidirectional PTC Windchill RV&S Integration for Jira",
+        "tool": "PTC Windchill RV&S",
         "url": "https://marketplace.atlassian.com/apps/1236668",
-        "desc": "No-code, two-way sync between PTC Windchill and Jira. Connect PLM processes with agile development to create a seamless digital thread from product design to software delivery.",
-        "syncs": "Parts, documents, change requests, change notices, BOMs, Jira issues, comments, and custom attributes",
-        "use_cases": ["Manufacturing engineering on Windchill working with software teams on Jira", "Connecting PLM change processes to Jira development workflows", "Building a digital thread across product lifecycle and software development"],
+        "desc": "Easy-to-setup, data-rich, two-way sync for requirements, change requests, work items, documents, and custom entities between PTC Windchill RV&S (formerly Windchill ALM / MKS) and Jira.",
+        "syncs": "Change Orders, Change Requests, Defects, Documents, Requirements, Tests, MKS Solutions, Model Element Specifications, custom entities, comments, attachments, and links",
+        "use_cases": ["Requirements teams managing work in Windchill RV&S while developers track delivery in Jira", "Syncing change orders and defects between Windchill ALM and Jira for end-to-end traceability", "Preserving hierarchies and linked records across PTC Windchill RV&S and Jira projects"],
     },
     {
         "slug": "windchill-plm-jira",
@@ -230,7 +230,7 @@ INTEGRATIONS = [
         "tool": "GitHub (Cloud)",
         "url": "https://marketplace.atlassian.com/apps/1237063",
         "desc": "Bidirectional sync between GitHub (SaaS) and Jira. Connect issues, pull requests, and repositories with Jira projects for seamless developer-to-project-manager collaboration.",
-        "syncs": "Issues, pull requests, commits, branches, comments, labels, milestones, and custom fields",
+        "syncs": "Issues, pull requests, commits, epics, comments, labels, attachments, and mentions",
         "use_cases": ["Development teams on GitHub while project managers track progress in Jira", "Automatic Jira issue updates when GitHub PRs are merged", "Linking code changes in GitHub to Jira user stories and epics"],
     },
     {
@@ -248,7 +248,7 @@ INTEGRATIONS = [
         "tool": "GitLab",
         "url": "https://marketplace.atlassian.com/apps/1236602",
         "desc": "Bidirectional integration between GitLab and Jira. Sync issues, merge requests, and pipelines with Jira projects for connected DevOps and project management workflows.",
-        "syncs": "Issues, merge requests, pipelines, commits, comments, labels, and milestones",
+        "syncs": "Commits, epics, issues, comments, attachments, links, and mentions",
         "use_cases": ["DevOps teams on GitLab while project managers use Jira for planning", "Linking GitLab CI/CD pipeline results to Jira development tasks", "Cross-platform visibility for organizations using both GitLab and Jira"],
     },
     {
@@ -320,7 +320,7 @@ INTEGRATIONS = [
         "tool": "Monday.com",
         "url": "https://marketplace.atlassian.com/apps/336223777",
         "desc": "Bidirectional integration between Monday.com and Jira. Synchronize items, tasks, and updates across both work management platforms for cross-team collaboration.",
-        "syncs": "Items, subitems, updates, files, status columns, people columns, and custom columns",
+        "syncs": "Items, subitems, tickets, contacts, deals, leads, workspaces, boards, groups, sprints, comments, attachments, mentions, and dependencies",
         "use_cases": ["Non-technical teams on Monday.com collaborating with Jira development teams", "Syncing project timelines and tasks across Monday.com and Jira", "Organizations using both platforms for different departments"],
     },
     {
@@ -373,9 +373,10 @@ INTEGRATIONS = [
         "name": "Snowflake and Jira Integration",
         "tool": "Snowflake",
         "url": "https://marketplace.atlassian.com/apps/1238393",
-        "desc": "Connect Snowflake data warehouse with Jira for bidirectional data sync. Enable data teams to link analytics workflows with project management and issue tracking.",
-        "syncs": "Data records, queries, tasks, comments, and custom fields between Snowflake and Jira",
-        "use_cases": ["Data engineering teams syncing Snowflake pipeline issues to Jira", "Connecting data quality incidents in Snowflake to Jira issue tracking", "Analytics teams tracking data projects across Snowflake and Jira"],
+        "desc": "Create a Jira-to-Snowflake data lake with full history and normalized data, AI-ready for copilots, analytics, and engineering insights. One-way incremental sync keeps your Snowflake warehouse current.",
+        "syncs": "Issues, issue links, full history, sprint transitions, status transitions, comments, custom fields, workflows, and plugin data (Zephyr, Xray, R4J, and more)",
+        "use_cases": ["Building an AI-ready engineering data lake from Jira data in Snowflake", "Powering copilots and analytics dashboards with rich, normalized Jira history", "Measuring cycle time, identifying bottlenecks, and supporting root-cause analysis with Jira data in Snowflake"],
+        "one_way": True,
     },
     {
         "slug": "subversion-jira",
@@ -436,9 +437,9 @@ INTEGRATIONS = [
         "name": "OpsHub Smart Data Lake for Jira",
         "tool": "Data Analytics",
         "url": "https://marketplace.atlassian.com/apps/1238384",
-        "desc": "Export Jira data to your data lake or warehouse for advanced analytics and reporting. Build custom dashboards and reports using your preferred BI tools with always-current Jira data.",
-        "syncs": "Issues, projects, sprints, boards, workflows, custom fields, changelogs, and user data",
-        "use_cases": ["Analytics teams building custom Jira reports in BI tools like Tableau or Power BI", "Exporting Jira data to Snowflake, BigQuery, or Redshift for enterprise reporting", "Data-driven organizations needing Jira data in their central data platform"],
+        "desc": "Make Jira data AI-ready with a unified, context-rich data lake and real-time integration across DevOps, test, and requirements tools. Power copilots, analytics, and engineering insights.",
+        "syncs": "Issues, workflows, updates, test cases, requirements, incidents, custom fields, status transitions, and plugin data across connected tools",
+        "use_cases": ["Building an AI-ready data lake by connecting Jira with Azure DevOps, ServiceNow, and 70+ tools", "Powering copilots and AI systems with context-aware, linked data from requirements to incidents", "Engineering analytics across the full DevOps lifecycle with unified Jira data"],
     },
     {
         "slug": "redmine-jira",
@@ -446,7 +447,7 @@ INTEGRATIONS = [
         "tool": "Redmine",
         "url": "https://marketplace.atlassian.com/apps/1238263",
         "desc": "Bidirectional, no-code sync between Redmine and Jira. Keep issues, comments, attachments, and status changes synchronized across both platforms in real time.",
-        "syncs": "Issues, tests, sprints, custom issue types, comments, attachments, inline formatting, and revision history",
+        "syncs": "Issues, custom issue types, comments, attachments, relationships, inline formatting, custom fields, and history",
         "use_cases": ["Teams running Redmine alongside Jira without duplicating data entry", "Gradual transition from Redmine to Jira while keeping both systems active", "Cross-team collaboration between Redmine and Jira projects"],
     },
     {
@@ -505,21 +506,21 @@ INTEGRATIONS = [
     },
     {
         "slug": "cadence-midas-jira",
-        "name": "Cadence Midas Integration for Jira",
+        "name": "Bidirectional Cadence Midas and Jira Integration",
         "tool": "Cadence Midas",
         "url": "https://marketplace.atlassian.com/apps/107948785",
-        "desc": "Bidirectional integration between Cadence Midas and Jira. Connect semiconductor design management with Jira project tracking for end-to-end chip design traceability.",
-        "syncs": "Design tasks, verification items, defects, requirements, comments, attachments, and custom fields",
-        "use_cases": ["Semiconductor teams managing chip design in Midas while tracking in Jira", "Linking hardware design data to Jira development workflows", "IC design teams needing traceability between Cadence Midas and Jira"],
+        "desc": "Connect functional safety analysis with engineering execution for end-to-end traceability and compliance. Two-way sync of safety mechanisms, test results, issues, and requirements between Cadence Midas and Jira.",
+        "syncs": "Safety mechanisms, test results, issues, requirements, safety requirements, verification records, comments, attachments, and custom fields",
+        "use_cases": ["Functional safety teams using Cadence Midas while engineering tracks work in Jira", "Maintaining traceability and visibility into data flow to support ISO 26262 compliance", "Syncing safety requirements and verification records between Cadence Midas and Jira at scale"],
     },
     {
         "slug": "selenium-jira",
         "name": "Selenium and Jira Bidirectional Integration",
         "tool": "Selenium",
         "url": "https://marketplace.atlassian.com/apps/954531136",
-        "desc": "Bidirectional integration between Selenium test automation and Jira. Synchronize automated test results, defects, and execution data to connect browser testing with project tracking.",
-        "syncs": "Test results, defects, execution logs, browser test data, comments, attachments, and custom fields",
-        "use_cases": ["QA automation teams running Selenium tests while tracking defects in Jira", "Automatic Jira issue creation from failed Selenium test runs", "End-to-end visibility from automated browser tests to Jira development tasks"],
+        "desc": "Bidirectional integration between Selenium test automation and Jira. Synchronize test scripts with Jira issues using AI-assisted, no-code entity mapping while preserving rich data.",
+        "syncs": "Test scripts, Jira issues, comments, attachments, images, @mentions, relationships, history, and custom fields",
+        "use_cases": ["QA automation teams syncing Selenium test scripts with Jira issues for traceability", "Keeping test automation artifacts connected with Jira development workflows", "End-to-end visibility from Selenium test scripts to Jira development tasks"],
     },
     {
         "slug": "bmc-helix-jsm",
@@ -563,7 +564,7 @@ INTEGRATIONS = [
         "tool": "Trac",
         "url": "https://marketplace.atlassian.com/apps/1949729264",
         "desc": "Bidirectional sync between Trac and Jira. Keep tickets, milestones, and wiki content synchronized across both project management platforms without manual duplication.",
-        "syncs": "Tickets, milestones, components, versions, comments, attachments, and custom fields",
+        "syncs": "Trac tickets, Jira issues, sub-tasks, versions, work logs, comments, attachments, and history",
         "use_cases": ["Teams running Trac alongside Jira without duplicating data entry", "Gradual transition from Trac to Jira while keeping both systems active", "Open source projects on Trac collaborating with enterprise Jira teams"],
     },
     {
@@ -571,8 +572,8 @@ INTEGRATIONS = [
         "name": "Multi-Instance Sync for Jira",
         "tool": "Jira (Multi-Instance)",
         "url": "https://marketplace.atlassian.com/apps/2588044797",
-        "desc": "Synchronize data across multiple Jira instances in real time. Keep projects, issues, and workflows aligned across separate Jira deployments for enterprise-wide collaboration.",
-        "syncs": "Issues, projects, workflows, comments, attachments, custom fields, sprints, and boards across Jira instances",
+        "desc": "Keep multiple Jira instances in sync with full context, reliable updates, and no scripts, eliminating manual work across teams.",
+        "syncs": "Issues, comments, attachments, relationships, custom fields, work logs, and hierarchy across Jira instances",
         "use_cases": ["Enterprises with multiple Jira instances needing cross-instance visibility", "Post-acquisition Jira synchronization during consolidation", "Vendor-client Jira collaboration without sharing full instance access"],
     },
     {
@@ -602,7 +603,7 @@ MIGRATIONS = [
         "url": "https://marketplace.atlassian.com/apps/1235636",
         "tool": "Jira Data Center",
         "desc": "Migrate Jira Data Center to Jira Cloud (including add-ons) from one or multiple instances with zero downtime and zero disruption to your teams.",
-        "syncs": "Projects, issues, workflows, custom fields, boards, sprints, dashboards, filters, users, permissions, and add-on data",
+        "syncs": "Projects, issues, workflows, custom fields, users, comments, attachments, links, labels, versions, sprint data, history, and add-on data (Xray, Zephyr, JSM)",
         "use_cases": ["Organizations moving from Jira Data Center to Jira Cloud", "Consolidating multiple Jira DC instances into a single Cloud instance", "Phased migration with zero downtime and full data integrity"],
     },
     {
@@ -683,7 +684,7 @@ MIGRATIONS = [
         "url": "https://marketplace.atlassian.com/apps/257470442",
         "tool": "FogBugz",
         "desc": "Migrate from FogBugz to Jira without downtime. Preserve cases, discussions, attachments, and complete project history throughout the transition.",
-        "syncs": "Cases, discussions, attachments, milestones, tags, categories, custom fields, and history",
+        "syncs": "Cases, comments, attachments, relationships, and history",
         "use_cases": ["Teams moving from FogBugz to Jira for modern project management", "Preserving complete FogBugz case history in Jira", "Zero-disruption migration from FogBugz with incremental sync support"],
     },
     {
@@ -712,9 +713,9 @@ PLATFORM = [
         "name": "OpsHub Integration Manager (OIM) Community Edition",
         "url": "https://marketplace.atlassian.com/apps/1215532",
         "tool": "Multiple Systems",
-        "desc": "Free, no-code data integration tool for Jira. Connect Jira with popular tools for basic bidirectional sync to get started with enterprise integration at no cost.",
-        "syncs": "Issues, comments, attachments, and basic custom fields across supported tools",
-        "use_cases": ["Small teams wanting to try OpsHub integration before upgrading", "Basic Jira integration needs without enterprise-level features", "Evaluation and proof-of-concept for enterprise integration projects"],
+        "desc": "Enterprise-grade integration for Jira with leading ALM tools at no cost. Connect Jira with ServiceNow, Azure DevOps, OpenText ALM, Digital.ai Agility, Jira Align, Rally, and Salesforce using a no-code interface.",
+        "syncs": "Projects, entities, comments, attachments, inline content, and traceability data across supported tools",
+        "use_cases": ["Teams wanting enterprise-grade Jira integration at no cost", "Connecting Jira with ServiceNow, Azure DevOps, Rally, Salesforce, and other supported tools", "Evaluation and proof-of-concept for enterprise integration projects"],
     },
 ]
 
@@ -753,7 +754,7 @@ def generate_integration_page(product):
 
 {product['syncs']}
 
-All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace]({product['url']}).
+{"Data flows from Jira to " + product["tool"] + " with incremental sync." if product.get("one_way") else "All data flows bidirectionally in real time."} Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace]({product['url']}).
 
 ---
 

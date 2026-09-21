@@ -19,7 +19,7 @@ Bidirectional sync between GitHub (SaaS) and Jira. Connect issues, pull requests
 
 ## What Gets Synced
 
-Issues, pull requests, commits, branches, comments, labels, milestones, and custom fields
+Issues, pull requests, commits, epics, comments, labels, attachments, and mentions
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1237063).
 

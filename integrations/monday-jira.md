@@ -19,7 +19,7 @@ Bidirectional integration between Monday.com and Jira. Synchronize items, tasks,
 
 ## What Gets Synced
 
-Items, subitems, updates, files, status columns, people columns, and custom columns
+Items, subitems, tickets, contacts, deals, leads, workspaces, boards, groups, sprints, comments, attachments, mentions, and dependencies
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/336223777).
 
