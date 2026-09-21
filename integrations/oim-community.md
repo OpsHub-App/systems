@@ -2,7 +2,7 @@
 
 **Enterprise-grade integration and migration for Jira — connect 70+ tools with no-code setup.**
 
-[**Get It Now &rarr;**](https://marketplace.atlassian.com/apps/1215532)
+[![Get It Now](https://img.shields.io/badge/Get_It_Now-0052CC?style=for-the-badge&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/1215532)
 
 ---
 
@@ -17,7 +17,7 @@ Enterprise-grade integration for Jira with leading ALM tools at no cost. Connect
 | **Broadest Connectivity** | Connects with 70+ ALM, DevOps, ITSM, CRM, and PLM tools out of the box. |
 | **No-Code Configuration** | Visual, AI-assisted setup means anyone can configure integrations without writing code. |
 | **Enterprise Scale** | Handles millions of records, complex field mappings, and conditional sync rules with built-in conflict resolution. |
-| **Proven Reliability** | Trusted by Fortune 500 companies for mission-critical integration and migration workloads. |
+| **Proven Reliability** | Trusted by leading enterprises for mission-critical integration and migration workloads. |
 
 ---
 
@@ -37,7 +37,7 @@ Projects, entities, comments, attachments, inline content, and traceability data
 
 ## Get Started
 
-[**Try It Free &rarr;**](https://marketplace.atlassian.com/apps/1215532) · [See All Solutions](https://marketplace.atlassian.com/vendors/798149) · [Learn More](https://www.opshub.com)
+[![See All Solutions](https://img.shields.io/badge/See_All_Solutions-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
 ---
 

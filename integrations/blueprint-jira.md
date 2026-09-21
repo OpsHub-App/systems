@@ -2,7 +2,7 @@
 
 **Seamlessly connect Blueprint Requirements Center and Jira with real-time, bidirectional sync.**
 
-[**Get It Now &rarr;**](https://marketplace.atlassian.com/apps/1589521068)
+[![Get It Now](https://img.shields.io/badge/Get_It_Now-0052CC?style=for-the-badge&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/1589521068)
 
 ---
 
@@ -39,8 +39,8 @@ All data flows bidirectionally in real time. Custom field mappings, conditional 
 
 ## Get Started
 
-[**Try It Free &rarr;**](https://marketplace.atlassian.com/apps/1589521068) · [See All Connectors](https://marketplace.atlassian.com/vendors/798149) · [Learn More](https://www.opshub.com)
+[![See All Connectors](https://img.shields.io/badge/See_All_Connectors-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
 ---
 
-**Built on [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** &mdash; Trusted by Fortune 500 teams
+**Built on [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** &mdash; Trusted by leading enterprises

@@ -2,7 +2,7 @@
 
 **Migrate to Jira from Azure DevOps / TFS / VSTS with zero downtime and complete data fidelity.**
 
-[**Start Now &rarr;**](https://marketplace.atlassian.com/apps/1464584616)
+[![Start Now](https://img.shields.io/badge/Start_Now-0052CC?style=for-the-badge&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/1464584616)
 
 ---
 
@@ -39,8 +39,8 @@ All data is validated before, during, and after migration to ensure complete acc
 
 ## Get Started
 
-[**Try It Free &rarr;**](https://marketplace.atlassian.com/apps/1464584616) · [See All Migrations](https://marketplace.atlassian.com/vendors/798149) · [Learn More](https://www.opshub.com)
+[![See All Migrations](https://img.shields.io/badge/See_All_Migrations-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
 ---
 
-**Built on [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** &mdash; Trusted by Fortune 500 teams
+**Built on [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** &mdash; Trusted by leading enterprises

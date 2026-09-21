@@ -735,7 +735,7 @@ def generate_integration_page(product):
 
 **Seamlessly connect {product['tool']} and Jira with real-time, bidirectional sync.**
 
-[**Get It Now &rarr;**]({product['url']})
+[![Get It Now](https://img.shields.io/badge/Get_It_Now-0052CC?style=for-the-badge&logo=atlassian&logoColor=white)]({product['url']})
 
 ---
 
@@ -770,11 +770,11 @@ def generate_integration_page(product):
 
 ## Get Started
 
-[**Try It Free &rarr;**]({product['url']}) · [See All Connectors](https://marketplace.atlassian.com/vendors/798149) · [Learn More](https://www.opshub.com)
+[![See All Connectors](https://img.shields.io/badge/See_All_Connectors-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
 ---
 
-**Built on [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** &mdash; Trusted by Fortune 500 teams
+**Built on [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** &mdash; Trusted by leading enterprises
 """
     return content
 
@@ -787,7 +787,7 @@ def generate_migration_page(product):
 
 **Migrate to Jira from {product['tool']} with zero downtime and complete data fidelity.**
 
-[**Start Now &rarr;**]({product['url']})
+[![Start Now](https://img.shields.io/badge/Start_Now-0052CC?style=for-the-badge&logo=atlassian&logoColor=white)]({product['url']})
 
 ---
 
@@ -822,11 +822,11 @@ All data is validated before, during, and after migration to ensure complete acc
 
 ## Get Started
 
-[**Try It Free &rarr;**]({product['url']}) · [See All Migrations](https://marketplace.atlassian.com/vendors/798149) · [Learn More](https://www.opshub.com)
+[![See All Migrations](https://img.shields.io/badge/See_All_Migrations-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
 ---
 
-**Built on [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** &mdash; Trusted by Fortune 500 teams
+**Built on [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** &mdash; Trusted by leading enterprises
 """
     return content
 
@@ -839,7 +839,7 @@ def generate_platform_page(product):
 
 **Enterprise-grade integration and migration for Jira — connect 70+ tools with no-code setup.**
 
-[**Get It Now &rarr;**]({product['url']})
+[![Get It Now](https://img.shields.io/badge/Get_It_Now-0052CC?style=for-the-badge&logo=atlassian&logoColor=white)]({product['url']})
 
 ---
 
@@ -854,7 +854,7 @@ def generate_platform_page(product):
 | **Broadest Connectivity** | Connects with 70+ ALM, DevOps, ITSM, CRM, and PLM tools out of the box. |
 | **No-Code Configuration** | Visual, AI-assisted setup means anyone can configure integrations without writing code. |
 | **Enterprise Scale** | Handles millions of records, complex field mappings, and conditional sync rules with built-in conflict resolution. |
-| **Proven Reliability** | Trusted by Fortune 500 companies for mission-critical integration and migration workloads. |
+| **Proven Reliability** | Trusted by leading enterprises for mission-critical integration and migration workloads. |
 
 ---
 
@@ -872,7 +872,7 @@ def generate_platform_page(product):
 
 ## Get Started
 
-[**Try It Free &rarr;**]({product['url']}) · [See All Solutions](https://marketplace.atlassian.com/vendors/798149) · [Learn More](https://www.opshub.com)
+[![See All Solutions](https://img.shields.io/badge/See_All_Solutions-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
 ---
 
