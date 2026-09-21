@@ -1,6 +1,10 @@
 # SolarWinds Service Desk Integration for Jira
 
-> Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1591510710) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
+**Seamlessly connect SolarWinds Service Desk and Jira with real-time, bidirectional sync.**
+
+[**Install from the Atlassian Marketplace &rarr;**](https://marketplace.atlassian.com/apps/1591510710)
+
+---
 
 Bidirectional sync between SolarWinds Service Desk and Jira. Connect IT service management with development workflows to keep service and engineering teams aligned.
 
@@ -21,7 +25,7 @@ Bidirectional sync between SolarWinds Service Desk and Jira. Connect IT service 
 
 Incidents, requests, problems, changes, tasks, comments, attachments, and custom fields
 
-All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1591510710).
+All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
 
 ---
 
@@ -31,15 +35,14 @@ All data flows bidirectionally in real time. Custom field mappings, conditional 
 - Automatic escalation from SolarWinds tickets to Jira development tasks
 - Unified service and development visibility across SolarWinds and Jira
 
-Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
-
 ---
 
 ## Get Started
 
-- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1591510710)** — Try it free or buy now
-- **[View all OpsHub connectors on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
-- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — The platform behind this connector
-- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Need to migrate instead of integrate?
-- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
-- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources
+[**Install from the Atlassian Marketplace &rarr;**](https://marketplace.atlassian.com/apps/1591510710) — Try it free or purchase a license.
+
+[Browse all OpsHub connectors](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+
+---
+
+*Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) · [OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)*

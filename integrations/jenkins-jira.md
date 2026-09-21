@@ -1,6 +1,10 @@
 # Jenkins and Jira Integration
 
-> Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1327211723) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
+**Seamlessly connect Jenkins and Jira with real-time, bidirectional sync.**
+
+[**Install from the Atlassian Marketplace &rarr;**](https://marketplace.atlassian.com/apps/1327211723)
+
+---
 
 Bidirectional integration between Jenkins CI/CD and Jira. Connect build and deployment pipelines with project tracking for complete DevOps visibility.
 
@@ -21,7 +25,7 @@ Bidirectional integration between Jenkins CI/CD and Jira. Connect build and depl
 
 Build results, pipeline stages, deployment status, test results, and Jira issue updates
 
-All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1327211723).
+All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
 
 ---
 
@@ -31,15 +35,14 @@ All data flows bidirectionally in real time. Custom field mappings, conditional 
 - Automatic Jira updates when Jenkins deployments succeed or fail
 - End-to-end CI/CD visibility from Jira story to production deployment
 
-Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
-
 ---
 
 ## Get Started
 
-- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1327211723)** — Try it free or buy now
-- **[View all OpsHub connectors on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
-- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — The platform behind this connector
-- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Need to migrate instead of integrate?
-- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
-- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources
+[**Install from the Atlassian Marketplace &rarr;**](https://marketplace.atlassian.com/apps/1327211723) — Try it free or purchase a license.
+
+[Browse all OpsHub connectors](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+
+---
+
+*Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) · [OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)*

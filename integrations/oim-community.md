@@ -1,6 +1,10 @@
 # OpsHub Integration Manager (OIM) Community Edition
 
-> [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1215532) | [All OpsHub Solutions](https://marketplace.atlassian.com/vendors/798149)
+**Enterprise-grade integration and migration for Jira — connect 70+ tools with no-code setup.**
+
+[**Install from the Atlassian Marketplace &rarr;**](https://marketplace.atlassian.com/apps/1215532)
+
+---
 
 Enterprise-grade integration for Jira with leading ALM tools at no cost. Connect Jira with ServiceNow, Azure DevOps, OpenText ALM, Digital.ai Agility, Jira Align, Rally, and Salesforce using a no-code interface.
 
@@ -29,15 +33,14 @@ Projects, entities, comments, attachments, inline content, and traceability data
 - Connecting Jira with ServiceNow, Azure DevOps, Rally, Salesforce, and other supported tools
 - Evaluation and proof-of-concept for enterprise integration projects
 
-Explore all [OpsHub solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
-
 ---
 
 ## Get Started
 
-- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1215532)** — Try it free or buy now
-- **[View all OpsHub solutions on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
-- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Zero-downtime migrations to Jira
-- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — Connect Jira with 70+ tools
-- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
-- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources
+[**Install from the Atlassian Marketplace &rarr;**](https://marketplace.atlassian.com/apps/1215532) — Try it free or purchase a license.
+
+[Browse all OpsHub solutions](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+
+---
+
+*[OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149) — Enterprise Integration and Migration for Jira*

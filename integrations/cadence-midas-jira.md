@@ -1,6 +1,10 @@
 # Bidirectional Cadence Midas and Jira Integration
 
-> Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/107948785) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
+**Seamlessly connect Cadence Midas and Jira with real-time, bidirectional sync.**
+
+[**Install from the Atlassian Marketplace &rarr;**](https://marketplace.atlassian.com/apps/107948785)
+
+---
 
 Connect functional safety analysis with engineering execution for end-to-end traceability and compliance. Two-way sync of safety mechanisms, test results, issues, and requirements between Cadence Midas and Jira.
 
@@ -21,7 +25,7 @@ Connect functional safety analysis with engineering execution for end-to-end tra
 
 Safety mechanisms, test results, issues, requirements, safety requirements, verification records, comments, attachments, and custom fields
 
-All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/107948785).
+All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
 
 ---
 
@@ -31,15 +35,14 @@ All data flows bidirectionally in real time. Custom field mappings, conditional 
 - Maintaining traceability and visibility into data flow to support ISO 26262 compliance
 - Syncing safety requirements and verification records between Cadence Midas and Jira at scale
 
-Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
-
 ---
 
 ## Get Started
 
-- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/107948785)** — Try it free or buy now
-- **[View all OpsHub connectors on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
-- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — The platform behind this connector
-- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Need to migrate instead of integrate?
-- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
-- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources
+[**Install from the Atlassian Marketplace &rarr;**](https://marketplace.atlassian.com/apps/107948785) — Try it free or purchase a license.
+
+[Browse all OpsHub connectors](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+
+---
+
+*Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) · [OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)*

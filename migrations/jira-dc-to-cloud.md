@@ -1,6 +1,10 @@
 # OMM for Jira DC to Cloud Migration
 
-> Powered by [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1235636) | [All OpsHub Migrations](https://marketplace.atlassian.com/vendors/798149)
+**Migrate to Jira from Jira Data Center with zero downtime and complete data fidelity.**
+
+[**Start Your Migration &rarr;**](https://marketplace.atlassian.com/apps/1235636)
+
+---
 
 Migrate Jira Data Center to Jira Cloud (including add-ons) from one or multiple instances with zero downtime and zero disruption to your teams.
 
@@ -21,7 +25,7 @@ Migrate Jira Data Center to Jira Cloud (including add-ons) from one or multiple 
 
 Projects, issues, workflows, custom fields, users, comments, attachments, links, labels, versions, sprint data, history, and add-on data (Xray, Zephyr, JSM)
 
-All data is validated before, during, and after migration to ensure complete accuracy. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1235636).
+All data is validated before, during, and after migration to ensure complete accuracy.
 
 ---
 
@@ -31,15 +35,14 @@ All data is validated before, during, and after migration to ensure complete acc
 - Consolidating multiple Jira DC instances into a single Cloud instance
 - Phased migration with zero downtime and full data integrity
 
-Explore more [OpsHub migration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
-
 ---
 
 ## Get Started
 
-- **[Start your migration on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1235636)** — Try it free or buy now
-- **[View all OpsHub migrations on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — Zero-downtime migration solutions
-- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Migrate from 70+ tools to Jira
-- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — Need ongoing sync instead of migration?
-- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
-- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources
+[**Start Your Migration &rarr;**](https://marketplace.atlassian.com/apps/1235636) — Try it free or purchase a license.
+
+[Browse all OpsHub migrations](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+
+---
+
+*Powered by [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539) · [OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)*

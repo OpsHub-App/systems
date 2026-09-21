@@ -1,6 +1,10 @@
 # Monday.com Integration for Jira
 
-> Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/336223777) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
+**Seamlessly connect Monday.com and Jira with real-time, bidirectional sync.**
+
+[**Install from the Atlassian Marketplace &rarr;**](https://marketplace.atlassian.com/apps/336223777)
+
+---
 
 Bidirectional integration between Monday.com and Jira. Synchronize items, tasks, and updates across both work management platforms for cross-team collaboration.
 
@@ -21,7 +25,7 @@ Bidirectional integration between Monday.com and Jira. Synchronize items, tasks,
 
 Items, subitems, tickets, contacts, deals, leads, workspaces, boards, groups, sprints, comments, attachments, mentions, and dependencies
 
-All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/336223777).
+All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
 
 ---
 
@@ -31,15 +35,14 @@ All data flows bidirectionally in real time. Custom field mappings, conditional 
 - Syncing project timelines and tasks across Monday.com and Jira
 - Organizations using both platforms for different departments
 
-Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
-
 ---
 
 ## Get Started
 
-- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/336223777)** — Try it free or buy now
-- **[View all OpsHub connectors on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
-- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — The platform behind this connector
-- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Need to migrate instead of integrate?
-- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
-- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources
+[**Install from the Atlassian Marketplace &rarr;**](https://marketplace.atlassian.com/apps/336223777) — Try it free or purchase a license.
+
+[Browse all OpsHub connectors](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+
+---
+
+*Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) · [OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)*

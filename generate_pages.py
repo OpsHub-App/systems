@@ -733,7 +733,11 @@ def generate_integration_page(product):
 
     content = f"""# {product['name']}
 
-> Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace]({product['url']}) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
+**Seamlessly connect {product['tool']} and Jira with real-time, bidirectional sync.**
+
+[**Install from the Atlassian Marketplace &rarr;**]({product['url']})
+
+---
 
 {product['desc']}
 
@@ -754,7 +758,7 @@ def generate_integration_page(product):
 
 {product['syncs']}
 
-{"Data flows from Jira to " + product["tool"] + " with incremental sync." if product.get("one_way") else "All data flows bidirectionally in real time."} Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace]({product['url']}).
+{"Data flows from Jira to " + product["tool"] + " with incremental sync." if product.get("one_way") else "All data flows bidirectionally in real time."} Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
 
 ---
 
@@ -762,18 +766,17 @@ def generate_integration_page(product):
 
 {uc_text}
 
-Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
-
 ---
 
 ## Get Started
 
-- **[Install from the Atlassian Marketplace]({product['url']})** — Try it free or buy now
-- **[View all OpsHub connectors on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
-- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — The platform behind this connector
-- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Need to migrate instead of integrate?
-- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
-- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources
+[**Install from the Atlassian Marketplace &rarr;**]({product['url']}) — Try it free or purchase a license.
+
+[Browse all OpsHub connectors](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+
+---
+
+*Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) · [OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)*
 """
     return content
 
@@ -784,7 +787,11 @@ def generate_migration_page(product):
 
     content = f"""# {product['name']}
 
-> Powered by [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539) | [View on Atlassian Marketplace]({product['url']}) | [All OpsHub Migrations](https://marketplace.atlassian.com/vendors/798149)
+**Migrate to Jira from {product['tool']} with zero downtime and complete data fidelity.**
+
+[**Start Your Migration &rarr;**]({product['url']})
+
+---
 
 {product['desc']}
 
@@ -805,7 +812,7 @@ def generate_migration_page(product):
 
 {product['syncs']}
 
-All data is validated before, during, and after migration to ensure complete accuracy. [See full details on the Atlassian Marketplace]({product['url']}).
+All data is validated before, during, and after migration to ensure complete accuracy.
 
 ---
 
@@ -813,18 +820,17 @@ All data is validated before, during, and after migration to ensure complete acc
 
 {uc_text}
 
-Explore more [OpsHub migration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
-
 ---
 
 ## Get Started
 
-- **[Start your migration on the Atlassian Marketplace]({product['url']})** — Try it free or buy now
-- **[View all OpsHub migrations on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — Zero-downtime migration solutions
-- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Migrate from 70+ tools to Jira
-- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — Need ongoing sync instead of migration?
-- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
-- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources
+[**Start Your Migration &rarr;**]({product['url']}) — Try it free or purchase a license.
+
+[Browse all OpsHub migrations](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+
+---
+
+*Powered by [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539) · [OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)*
 """
     return content
 
@@ -835,7 +841,11 @@ def generate_platform_page(product):
 
     content = f"""# {product['name']}
 
-> [View on Atlassian Marketplace]({product['url']}) | [All OpsHub Solutions](https://marketplace.atlassian.com/vendors/798149)
+**Enterprise-grade integration and migration for Jira — connect 70+ tools with no-code setup.**
+
+[**Install from the Atlassian Marketplace &rarr;**]({product['url']})
+
+---
 
 {product['desc']}
 
@@ -862,18 +872,17 @@ def generate_platform_page(product):
 
 {uc_text}
 
-Explore all [OpsHub solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
-
 ---
 
 ## Get Started
 
-- **[Install from the Atlassian Marketplace]({product['url']})** — Try it free or buy now
-- **[View all OpsHub solutions on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
-- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Zero-downtime migrations to Jira
-- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — Connect Jira with 70+ tools
-- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
-- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources
+[**Install from the Atlassian Marketplace &rarr;**]({product['url']}) — Try it free or purchase a license.
+
+[Browse all OpsHub solutions](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+
+---
+
+*[OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149) — Enterprise Integration and Migration for Jira*
 """
     return content
 

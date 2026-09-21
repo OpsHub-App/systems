@@ -1,6 +1,10 @@
 # BMC Remedy ITSM to Jira Migration
 
-> Powered by [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1350560408) | [All OpsHub Migrations](https://marketplace.atlassian.com/vendors/798149)
+**Migrate to Jira from BMC Remedy ITSM with zero downtime and complete data fidelity.**
+
+[**Start Your Migration &rarr;**](https://marketplace.atlassian.com/apps/1350560408)
+
+---
 
 Migrate BMC Remedy ITSM requests to Jira without downtime. Preserve comments, attachments, request history, and custom fields throughout the transition.
 
@@ -21,7 +25,7 @@ Migrate BMC Remedy ITSM requests to Jira without downtime. Preserve comments, at
 
 Incidents, change requests, problems, tasks, comments, attachments, work logs, and request history
 
-All data is validated before, during, and after migration to ensure complete accuracy. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1350560408).
+All data is validated before, during, and after migration to ensure complete accuracy.
 
 ---
 
@@ -31,15 +35,14 @@ All data is validated before, during, and after migration to ensure complete acc
 - IT departments modernizing their ITSM platform
 - Preserving years of ITSM history while moving to Jira
 
-Explore more [OpsHub migration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
-
 ---
 
 ## Get Started
 
-- **[Start your migration on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1350560408)** — Try it free or buy now
-- **[View all OpsHub migrations on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — Zero-downtime migration solutions
-- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Migrate from 70+ tools to Jira
-- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — Need ongoing sync instead of migration?
-- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
-- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources
+[**Start Your Migration &rarr;**](https://marketplace.atlassian.com/apps/1350560408) — Try it free or purchase a license.
+
+[Browse all OpsHub migrations](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+
+---
+
+*Powered by [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539) · [OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)*

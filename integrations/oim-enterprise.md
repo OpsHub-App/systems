@@ -1,6 +1,10 @@
 # OpsHub Integration Manager (OIM) for Jira
 
-> [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1224525) | [All OpsHub Solutions](https://marketplace.atlassian.com/vendors/798149)
+**Enterprise-grade integration and migration for Jira — connect 70+ tools with no-code setup.**
+
+[**Install from the Atlassian Marketplace &rarr;**](https://marketplace.atlassian.com/apps/1224525)
+
+---
 
 Enterprise integration platform connecting Jira with 70+ ALM, DevOps, ITSM, and CRM tools. Bidirectional, real-time sync with no-code configuration and AI-assisted setup.
 
@@ -29,15 +33,14 @@ Work items, issues, requirements, test cases, defects, comments, attachments, cu
 - Multi-tool environments requiring centralized data synchronization
 - Enterprise-wide integration strategy with a single platform
 
-Explore all [OpsHub solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
-
 ---
 
 ## Get Started
 
-- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1224525)** — Try it free or buy now
-- **[View all OpsHub solutions on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
-- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Zero-downtime migrations to Jira
-- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — Connect Jira with 70+ tools
-- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
-- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources
+[**Install from the Atlassian Marketplace &rarr;**](https://marketplace.atlassian.com/apps/1224525) — Try it free or purchase a license.
+
+[Browse all OpsHub solutions](https://marketplace.atlassian.com/vendors/798149) · [Visit opshub.com](https://www.opshub.com)
+
+---
+
+*[OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149) — Enterprise Integration and Migration for Jira*
