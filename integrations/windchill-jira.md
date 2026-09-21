@@ -1,67 +1,45 @@
-# PTC Windchill RV&S ↔ Jira Integration
+# PTC Windchill Integration for Jira
 
-> Bi-directional, real-time synchronization between PTC Windchill RV&S (formerly Integrity) and Jira using OpsHub Integration Manager (OIM).
+> Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1236668) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-[← Back to All Integrations](./) · [← Home](../)
+No-code, two-way sync between PTC Windchill and Jira. Connect PLM processes with agile development to create a seamless digital thread from product design to software delivery.
 
 ---
 
-## Overview
+## Why Integrate PTC Windchill with Jira?
 
-PTC Windchill RV&S (Requirements, Validation & Source) is an ALM platform used in aerospace, defense, and automotive for managing requirements, change orders, and development workflows. When engineering teams work in Windchill RV&S and software teams work in Jira, syncing requirements and work items manually creates gaps in traceability.
+| Benefit | Details |
+|---------|---------|
+| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
+| **Always Accurate** | Real-time synchronization ensures PTC Windchill and Jira always show the same information. No stale data, no conflicts. |
+| **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
+| **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
-OpsHub Integration Manager connects Windchill RV&S and Jira with **no-code, bi-directional synchronization** — preserving hierarchies, linked records, and full data accuracy across both systems.
-
-## Why Integrate Windchill RV&S with Jira?
-
-| Challenge Without Integration | With OpsHub Integration |
-|---|---|
-| Requirements in Windchill must be manually entered in Jira | Requirements auto-sync to Jira as actionable work items |
-| Change requests require manual coordination | Change orders flow between systems automatically |
-| Deleted items in one system create orphans in the other | Delete sync keeps both systems aligned |
-| Traceability is maintained manually in spreadsheets | End-to-end traceability maintained automatically |
-| Scaling to hundreds of projects becomes unmanageable | Scales from 10 to 1,000+ projects |
+---
 
 ## What Gets Synced
 
-**Core Entities:**
-- Requirements, change requests, work items, documents, and custom entities (Windchill RV&S) ↔ Issues, stories, bugs, tasks (Jira)
-- Change orders, defects, tests, and model element specifications
-- Deletion events synced to prevent orphaned records
+Parts, documents, change requests, change notices, BOMs, Jira issues, comments, and custom attributes
 
-**Rich Data:**
-- Comments with original author and timestamps
-- Attachments and inline content
-- Links and relationships between items
-- Custom fields and field mappings
+All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1236668).
 
-**Relationships:**
-- Parent-child hierarchies
-- Requirement-to-implementation links
-- Cross-entity dependencies
+---
 
-## Use Cases
+## Common Use Cases
 
-**Aerospace Requirements Traceability**
-An aerospace company manages system requirements in Windchill RV&S. Requirements auto-sync to Jira where software teams implement them. Implementation status flows back to Windchill, maintaining the traceability matrix for DO-178C compliance.
+- Manufacturing engineering on Windchill working with software teams on Jira
+- Connecting PLM change processes to Jira development workflows
+- Building a digital thread across product lifecycle and software development
 
-**Change Order Management**
-An engineering change order is raised in Windchill RV&S. It syncs to Jira for development work. As developers complete tasks, the change order in Windchill reflects real-time status.
-
-**Multi-System Cleanup**
-When items are deleted or archived in one system, OpsHub syncs the deletion — preventing orphaned records that create confusion during audits.
+Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 
 ---
 
 ## Get Started
 
-| Action | Link |
-|---|---|
-| **Install from Atlassian Marketplace** | [Windchill RV&S ↔ Jira Integration →](https://marketplace.atlassian.com/apps/1236668/bidirectional-ptc-windchill-rv-s-integration-for-jira) |
-| **Try Free** | [OIM Community Edition →](https://marketplace.atlassian.com/apps/1215532/opshub-integration-manager-oim-community-edition) |
-| **Request a Demo** | [See it in action with your data →](https://www.opshub.com/request-a-demo/) |
-| **Documentation** | [docs.opshub.com](https://docs.opshub.com) |
-
----
-
-[← Back to All Integrations](./) · [← Home](../)
+- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1236668)** — Try it free or buy now
+- **[View all OpsHub connectors on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
+- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — The platform behind this connector
+- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Need to migrate instead of integrate?
+- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
+- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources

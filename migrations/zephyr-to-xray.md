@@ -1,48 +1,45 @@
 # Zephyr to Xray Migration
 
-> Migrate from Zephyr to Xray with zero downtime, preserving test cases, steps, comments, attachments, and full test data using OpsHub Migration Manager.
+> Powered by [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/396795523) | [All OpsHub Migrations](https://marketplace.atlassian.com/vendors/798149)
 
-[← Back to All Migrations](./) · [← Home](../)
+Migrate from Zephyr to Xray without downtime. Preserve test steps, comments, attachments, relationships, test executions, and all test data during the migration.
 
 ---
 
-## Overview
+## Why Choose OpsHub for This Migration?
 
-Teams switch from Zephyr to Xray for better Jira-native test management, advanced reporting, or alignment with organizational standards. The challenge: years of test cases, execution history, and traceability data that must transfer completely.
+| Benefit | Details |
+|---------|---------|
+| **Zero Downtime** | Your teams keep working in the source system throughout the migration. No freeze windows, no lost productivity. |
+| **Complete Data Fidelity** | Every comment, attachment, link, and custom field is preserved exactly as-is. Nothing gets lost or reformatted. |
+| **Incremental Sync** | Migrate in phases. Run delta syncs to capture changes made after the initial migration until you are ready to cut over. |
+| **Rollback Ready** | Built-in validation and rollback capabilities ensure you can verify everything before making the switch permanent. |
 
-OpsHub Migration Manager migrates your complete Zephyr test management data to Xray — test cases with steps, execution results, attachments, and relationships — while your QA team continues working without interruption.
-
-## Why Use OpsHub for This Migration?
-
-| Manual Migration | With OpsHub Migration Manager |
-|---|---|
-| Test steps lost or reformatted | **Test steps and expected results** preserved exactly |
-| Execution history not transferable | **Test run history** migrated with full results |
-| QA team stops testing during migration | **Zero downtime** — testing continues in Zephyr |
-| Traceability links broken | **Requirement-to-test links** preserved |
-| Attachments and screenshots lost | **All attachments** migrate automatically |
+---
 
 ## What Gets Migrated
 
-- Test cases with steps and expected results
-- Test cycles and test executions
-- Test run results (pass/fail/blocked/unexecuted)
-- Comments and defect linkages
-- Attachments and screenshots
-- Custom fields
-- Folder structure and organization
-- Traceability links to Jira issues
+Test cases, test steps, test cycles, test executions, comments, attachments, relationships, and folders
+
+All data is validated before, during, and after migration to ensure complete accuracy. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/396795523).
+
+---
+
+## Common Use Cases
+
+- Organizations switching test management from Zephyr to Xray
+- Consolidating test management on a single Jira-native platform
+- Preserving complete test history when changing test tools
+
+Explore more [OpsHub migration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 
 ---
 
 ## Get Started
 
-| Action | Link |
-|---|---|
-| **Install from Atlassian Marketplace** | [Zephyr → Xray Migration →](https://marketplace.atlassian.com/apps/396795523/zero-downtime-zephyr-to-xray-migration) |
-| **Request a Demo** | [See migration in action →](https://www.opshub.com/request-a-demo/) |
-| **Free Consultation** | [Talk to a migration engineer →](https://www.opshub.com/book-a-free-migration-consultation/) |
-
----
-
-[← Back to All Migrations](./) · [← Home](../)
+- **[Start your migration on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/396795523)** — Try it free or buy now
+- **[View all OpsHub migrations on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — Zero-downtime migration solutions
+- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Migrate from 70+ tools to Jira
+- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — Need ongoing sync instead of migration?
+- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
+- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources

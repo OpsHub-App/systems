@@ -1,0 +1,30 @@
+# GitHub Pages / Jekyll configuration for OpsHub Marketplace
+title: OpsHub Integration and Migration Solutions
+description: >-
+  Product documentation, integration guides, and migration resources
+  for OpsHub Integration Manager (OIM), Migration Manager (OMM),
+  and Migrator for Azure DevOps (OM4ADO).
+baseurl: "/opshub-marketplace"
+url: ""
+
+# Theme - using a clean, minimal theme built into GitHub Pages
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# SEO defaults
+author: OpsHub, Inc.
+logo: /assets/images/opshub-logo.png
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM

@@ -1,88 +1,45 @@
-# Jira Data Center to Jira Cloud Migration
+# OMM for Jira DC to Cloud Migration
 
-> Migrate from Jira Data Center to Jira Cloud with zero downtime, including add-on data, using OpsHub Migration Manager.
+> Powered by [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1235636) | [All OpsHub Migrations](https://marketplace.atlassian.com/vendors/798149)
 
-[← Back to All Migrations](./) · [← Home](../)
+Migrate Jira Data Center to Jira Cloud (including add-ons) from one or multiple instances with zero downtime and zero disruption to your teams.
 
 ---
 
-## Overview
+## Why Choose OpsHub for This Migration?
 
-Moving from Jira Data Center to Jira Cloud is one of the most common — and most complex — migrations in the Atlassian ecosystem. Atlassian's own Cloud Migration Assistant handles basic data, but organizations with complex configurations, large data volumes, and critical add-on data need more control, more safety, and zero downtime.
+| Benefit | Details |
+|---------|---------|
+| **Zero Downtime** | Your teams keep working in the source system throughout the migration. No freeze windows, no lost productivity. |
+| **Complete Data Fidelity** | Every comment, attachment, link, and custom field is preserved exactly as-is. Nothing gets lost or reformatted. |
+| **Incremental Sync** | Migrate in phases. Run delta syncs to capture changes made after the initial migration until you are ready to cut over. |
+| **Rollback Ready** | Built-in validation and rollback capabilities ensure you can verify everything before making the switch permanent. |
 
-OpsHub Migration Manager migrates your complete Jira Data Center environment to Jira Cloud — including add-on data, custom configurations, and full history — while your teams continue working without interruption.
-
-## Why Use OpsHub Instead of Atlassian's Migration Assistant?
-
-| Atlassian Cloud Migration Assistant | OpsHub Migration Manager |
-|---|---|
-| Downtime required during migration | **Zero downtime** — teams keep working throughout |
-| Limited add-on data migration support | **Add-on data included** — Zephyr, Xray, Tempo, and more |
-| All-or-nothing migration approach | **Selective migration** — choose projects, issue types, fields |
-| No delta sync for changes during migration | **Delta sync** captures every change made during migration |
-| Limited rollback options | **Reverse sync** for full rollback capability |
-| Basic progress visibility | **Real-time dashboard** with detailed progress tracking |
+---
 
 ## What Gets Migrated
 
-**Jira Core Data:**
-- All issue types (standard and custom) with full field data
-- Complete revision history with original timestamps
-- Comments, worklogs, and internal notes
-- Attachments, inline images, and embedded files
-- Custom fields with type preservation
+Projects, issues, workflows, custom fields, boards, sprints, dashboards, filters, users, permissions, and add-on data
 
-**Project Configuration:**
-- Workflows, workflow schemes, and transitions
-- Screens, screen schemes, and field configurations
-- Permission schemes and notification schemes
-- Issue type schemes and priorities
+All data is validated before, during, and after migration to ensure complete accuracy. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1235636).
 
-**Add-On Data:**
-- Zephyr test management data
-- Xray test data
-- Tempo timesheets and worklogs
-- Other Marketplace add-on data (varies by add-on)
+---
 
-**Relationships & Structure:**
-- Issue links (all link types)
-- Epic-story hierarchies
-- Sprint history and board configurations
-- Filters and dashboards
+## Common Use Cases
 
-**Users & Permissions:**
-- User identity mapping (DC accounts → Atlassian accounts)
-- Group memberships
-- Project roles and permissions
+- Organizations moving from Jira Data Center to Jira Cloud
+- Consolidating multiple Jira DC instances into a single Cloud instance
+- Phased migration with zero downtime and full data integrity
 
-## How It Works
-
-### Phase 1 — Discovery
-OMM scans your Data Center instance — project count, issue volume, add-on inventory, custom field complexity. Produces a detailed migration plan.
-
-### Phase 2 — Configuration
-Map configurations between DC and Cloud. Handle differences in workflow capabilities, permissions models, and add-on compatibility.
-
-### Phase 3 — Pilot
-Migrate a representative project to Cloud. Validate data accuracy, add-on data integrity, and configuration mapping.
-
-### Phase 4 — Production
-Full migration with teams still working in Data Center. Delta sync captures ongoing changes. Multiple projects migrate in parallel.
-
-### Phase 5 — Cutover
-Reconciliation report. Final delta sync. Teams switch to Cloud with complete data confidence.
+Explore more [OpsHub migration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 
 ---
 
 ## Get Started
 
-| Action | Link |
-|---|---|
-| **Install from Atlassian Marketplace** | [OMM for Jira DC → Cloud →](https://marketplace.atlassian.com/apps/1235636/omm-for-jira-dc-to-cloud-migration-with-zero-downtime) |
-| **Request a Demo** | [See DC → Cloud migration in action →](https://www.opshub.com/request-a-demo/) |
-| **Free Consultation** | [Talk to a migration engineer →](https://www.opshub.com/book-a-free-migration-consultation/) |
-| **Start Free Trial** | [30-day trial →](https://www.opshub.com/request-a-free-trial/) |
-
----
-
-[← Back to All Migrations](./) · [← Home](../)
+- **[Start your migration on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1235636)** — Try it free or buy now
+- **[View all OpsHub migrations on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — Zero-downtime migration solutions
+- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Migrate from 70+ tools to Jira
+- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — Need ongoing sync instead of migration?
+- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
+- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources

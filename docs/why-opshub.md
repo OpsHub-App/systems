@@ -1,63 +1,86 @@
 # Why OpsHub?
 
-> How OpsHub compares to manual approaches, custom scripts, and other integration/migration tools.
-
-[← Back to Docs](./) · [← Home](../)
+> What makes OpsHub the enterprise choice for Jira integration and migration
 
 ---
 
-## The Problem
+## The Challenge
 
-Enterprise organizations use an average of 10–15 different tools across development, testing, service management, and product lifecycle management. These tools don't talk to each other natively, which creates:
+Modern enterprises run dozens of specialized tools — Jira for development, ServiceNow for ITSM, Salesforce for CRM, IBM DOORS for requirements, and many more. When these tools are disconnected, teams waste time on manual data entry, work with outdated information, and lose visibility across the organization.
 
-- **Data silos** — Teams can't see each other's work
-- **Manual handoffs** — Copy-paste between systems wastes hours every week
-- **Stale information** — By the time data is manually transferred, it's already outdated
-- **Compliance gaps** — Audit trails break when data lives in disconnected systems
-- **Migration risk** — Moving to a new tool means downtime, data loss, or both
+---
 
 ## How OpsHub Solves It
 
-### For Integration (OIM)
+### 70+ Connectors Out of the Box
 
-| Approach | Trade-offs | OpsHub Advantage |
-|---|---|---|
-| **Manual updates** | Error-prone, time-consuming, doesn't scale | **Automated** — real-time, bi-directional sync |
-| **Custom scripts/APIs** | Expensive to build, fragile, no monitoring | **Pre-built connectors** — no code, no maintenance |
-| **iPaaS platforms** (Workato, MuleSoft) | General-purpose, not built for ALM/DevOps data models | **Purpose-built** for 70+ ALM, DevOps, ITSM, PLM tools |
-| **Native integrations** (e.g., Jira ↔ ADO built-in) | Limited fields, one-way, no custom field support | **Full field mapping** — custom fields, rich data, history |
+OpsHub connects with more enterprise tools than any other integration platform on the Atlassian Marketplace. From ALM and DevOps to ITSM, CRM, and PLM — if your organization uses it, OpsHub likely has a connector for it.
 
-### For Migration (OMM)
+**[Browse all connectors on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149)**
 
-| Approach | Trade-offs | OpsHub Advantage |
-|---|---|---|
-| **CSV export/import** | Loses history, comments, attachments, relationships | **Complete data** — everything migrates |
-| **Vendor migration tools** (e.g., Atlassian CMA) | Limited scope, downtime required, basic data only | **Zero downtime** — Live++ keeps both systems running |
-| **Custom migration scripts** | Expensive, risky, no delta sync or rollback | **Delta sync + reverse sync** — production-safe |
-| **Consulting firms** | Expensive, slow, one-off | **Repeatable platform** — migrate multiple projects in parallel |
+### No-Code, AI-Assisted Setup
 
-## Key Differentiators
+Traditional integration approaches require scripting, middleware expertise, or expensive consultants. OpsHub changes that with a visual, drag-and-drop interface powered by AI-assisted field mapping. Business analysts and project managers can configure integrations without writing a single line of code.
 
-| Differentiator | What It Means |
-|---|---|
-| **Zero Downtime (Live++)** | Teams never stop working — both systems run in parallel during migration |
-| **Zero Data Loss** | 100% accurate transfers — history, comments, attachments, relationships all preserved |
-| **70+ Connectors** | Pre-built for ALM, DevOps, ITSM, PLM, CRM, and testing tools |
-| **No-Code Configuration** | AI-powered, no-code setup from GUI or AI assistants — no scripting or middleware |
-| **Enterprise Security** | On-premise, cloud, or hybrid deployment — your data stays under your control |
-| **Failure Recovery** | Restart from any failure point without starting over |
-| **Trusted by Fortune 500** | ABB, Airbus, AMD, American Express, Bosch, Lockheed Martin, Panasonic Avionics, Roche, Siemens |
+### Enterprise-Grade Reliability
+
+OpsHub is trusted by Fortune 500 companies for mission-critical integration and migration workloads. Built-in features include:
+
+- **Automated conflict detection and resolution**
+- **Full audit logging** for compliance and governance
+- **Retry logic** that handles API rate limits and transient failures
+- **Encrypted end-to-end** data transfer
+- **Role-based access control** for multi-team environments
+
+### Zero-Downtime Migrations
+
+Moving to Jira from legacy tools should not mean freezing your teams for days or weeks. OpsHub Migration Manager runs migrations in the background while your teams continue working. Incremental delta syncs capture changes made after the initial load, and built-in rollback keeps you safe throughout.
+
+### Complete Data Fidelity
+
+When OpsHub moves or syncs data, everything comes along — comments, attachments, inline images, links, history, custom fields, and relationships. No reformatting, no data loss, no manual cleanup afterward.
 
 ---
 
-## Get Started
+## OpsHub by the Numbers
 
-| Action | Link |
-|---|---|
-| **Atlassian Marketplace** | [Browse all OpsHub apps →](https://marketplace.atlassian.com/vendors/798149/opshub-inc) |
-| **Request a Demo** | [opshub.com/request-a-demo →](https://www.opshub.com/request-a-demo/) |
-| **Start Free Trial** | [opshub.com/request-a-free-trial →](https://www.opshub.com/request-a-free-trial/) |
+| Metric | Value |
+|--------|-------|
+| **Supported tools** | 70+ |
+| **Marketplace listings** | 78 |
+| **Sync directions** | Bidirectional, real-time |
+| **Downtime during migration** | Zero |
+| **Setup approach** | No-code, AI-assisted |
+| **Enterprise customers** | Fortune 500 companies across defense, automotive, healthcare, finance, and technology |
 
 ---
 
-[← Back to Docs](./) · [← Home](../)
+## Who Uses OpsHub?
+
+- **IT and DevOps teams** synchronizing incidents between ServiceNow and Jira
+- **Systems engineering teams** connecting IBM DOORS requirements to Jira development
+- **QA organizations** bridging Tricentis Tosca, TestRail, or Xray with Jira
+- **Sales and support teams** linking Salesforce or Zendesk cases to Jira engineering
+- **PMOs** unifying portfolio data from Clarity or Jira Align with team-level Jira
+- **PLM teams** creating a digital thread between PTC Windchill and Jira
+
+---
+
+## Getting Started
+
+1. **Find your connector** — [Browse OpsHub on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149)
+2. **Try it free** — Most OpsHub listings offer a free trial
+3. **Need help?** — [Contact OpsHub](https://www.opshub.com/contact/) for custom requirements
+
+---
+
+## Learn More
+
+- **[Getting Started Guide](getting-started.md)** — Step-by-step setup
+- **[FAQ](faq.md)** — Common questions answered
+- **[OpsHub Website](https://www.opshub.com)** — Full product details
+- **[Atlassian Marketplace — OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** — All listings
+
+---
+
+*OpsHub, Inc. — Enterprise Integration and Migration for Jira*

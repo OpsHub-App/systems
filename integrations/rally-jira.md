@@ -1,67 +1,45 @@
-# Rally ↔ Jira Integration
+# Rally Integration for Jira
 
-> Bi-directional, real-time synchronization between Rally (Broadcom) and Jira using OpsHub Integration Manager (OIM).
+> Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1234735) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-[← Back to All Integrations](./) · [← Home](../)
+Bidirectional, real-time sync between Rally and Jira. Synchronize user stories, defects, tasks, and test cases across both agile management platforms without manual duplication.
 
 ---
 
-## Overview
+## Why Integrate Rally (Broadcom) with Jira?
 
-Rally is a popular Agile project management tool used by large enterprises for portfolio planning, backlog management, and release tracking. When some teams work in Rally and others in Jira, keeping work items, defects, and user stories in sync manually becomes a full-time job.
+| Benefit | Details |
+|---------|---------|
+| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
+| **Always Accurate** | Real-time synchronization ensures Rally (Broadcom) and Jira always show the same information. No stale data, no conflicts. |
+| **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
+| **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
-OpsHub Integration Manager connects Rally and Jira with **no-code, bi-directional synchronization** — so user stories, defects, and tasks stay aligned across both platforms automatically.
-
-## Why Integrate Rally with Jira?
-
-| Challenge Without Integration | With OpsHub Integration |
-|---|---|
-| Teams manually copy user stories between Rally and Jira | User stories auto-sync bi-directionally |
-| Defects logged in one system are invisible in the other | Defects sync in real time with full context |
-| Portfolio-level visibility is fragmented | Portfolio items, epics, and tasks stay aligned |
-| Release planning requires manual data gathering | Release data flows automatically across systems |
-| Status updates lag behind actual progress | Real-time sync keeps both systems current |
+---
 
 ## What Gets Synced
 
-**Core Entities:**
-- User stories, defects, tasks, and portfolio items (Rally) ↔ Epics, stories, bugs, tasks (Jira)
-- Risks and change sets
-- Releases and iterations
+User stories, defects, tasks, test cases, iterations, releases, comments, and attachments
 
-**Rich Data:**
-- Comments with original author and timestamps
-- Attachments, links, and inline images
-- Mentions and rich text formatting
-- Custom fields and field mappings
+All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1234735).
 
-**Relationships:**
-- Parent-child hierarchies
-- Cross-entity links
-- Portfolio-to-story traceability
+---
 
-## Use Cases
+## Common Use Cases
 
-**Enterprise Agile at Scale**
-A large organization uses Rally for portfolio planning across 50+ teams, but several development teams prefer Jira. OpsHub keeps user stories and defects synced so portfolio managers see accurate data in Rally while developers work in Jira.
+- Organizations with teams split between Rally and Jira for agile planning
+- Consolidating portfolio-level visibility across both platforms
+- Transitioning from Rally to Jira while keeping both systems functional
 
-**Merger & Acquisition Integration**
-After acquiring a company that uses Jira, the parent organization running Rally needs both systems connected. OpsHub syncs work items bi-directionally while teams gradually consolidate.
-
-**Cross-Team Visibility**
-QA teams track defects in Rally while development works in Jira. OpsHub ensures defects flow between both systems with full context — no manual re-entry needed.
+Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 
 ---
 
 ## Get Started
 
-| Action | Link |
-|---|---|
-| **Install from Atlassian Marketplace** | [Rally ↔ Jira Integration →](https://marketplace.atlassian.com/apps/1234735/bidirectional-rally-integration-for-jira) |
-| **Try Free** | [OIM Community Edition →](https://marketplace.atlassian.com/apps/1215532/opshub-integration-manager-oim-community-edition) |
-| **Request a Demo** | [See it in action with your data →](https://www.opshub.com/request-a-demo/) |
-| **Documentation** | [docs.opshub.com](https://docs.opshub.com) |
-
----
-
-[← Back to All Integrations](./) · [← Home](../)
+- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1234735)** — Try it free or buy now
+- **[View all OpsHub connectors on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
+- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — The platform behind this connector
+- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Need to migrate instead of integrate?
+- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
+- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources

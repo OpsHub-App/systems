@@ -1,90 +1,95 @@
 # Frequently Asked Questions
 
-> Common questions about OpsHub Integration Manager (OIM) and OpsHub Migration Manager (OMM).
-
-[← Back to Docs](./) · [← Home](../)
+> Common questions about OpsHub integration and migration solutions
 
 ---
 
-## General
+## General Questions
 
-**What is OpsHub?**
-OpsHub provides enterprise integration and migration solutions for ALM, DevOps, ITSM, and PLM systems. Two core products: OpsHub Integration Manager (OIM) for real-time bi-directional synchronization, and OpsHub Migration Manager (OMM) for zero-downtime data migrations.
+### What is OpsHub?
+OpsHub provides enterprise-grade integration and migration solutions for Jira and 70+ other tools. The company offers two main products: **OpsHub Integration Manager (OIM)** for ongoing bidirectional synchronization and **OpsHub Migration Manager (OMM)** for zero-downtime data migrations.
 
-**How many tools does OpsHub support?**
-OpsHub supports 70+ enterprise tools, including Jira, Azure DevOps, ServiceNow, IBM DOORS, Salesforce, Rally, BMC Remedy, HubSpot, OpenText ALM, Tricentis Tosca, and many more.
+### How does OpsHub work?
+OpsHub operates as an external integration engine that connects to your tools via their APIs. It synchronizes data bidirectionally without requiring plugins inside your systems, so there is no performance impact on Jira or your connected tools.
 
-**Is OpsHub available on Atlassian Marketplace?**
-Yes. OpsHub has 20+ apps on the [Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149/opshub-inc) covering integrations and migrations.
-
----
-
-## Integration (OIM)
-
-**Is the sync bi-directional?**
-Yes. OIM syncs data in both directions in real time. Changes in either system reflect in the other automatically.
-
-**What data gets synced?**
-Core entities (issues, bugs, incidents, requirements), comments with author attribution, attachments, custom fields, statuses, workflows, and relationships. The exact data depends on the specific integration.
-
-**Does it require coding?**
-No. OIM uses a no-code interface with AI-powered configuration — set up integrations from GUI or AI assistants. No scripts, plugins, or middleware required.
-
-**Will it slow down my Jira instance?**
-No. OIM is designed for zero performance impact on connected systems.
-
-**Can I choose which projects and fields to sync?**
-Yes. Selective sync lets you choose exactly which projects, issue types, fields, and direction to synchronize.
-
-**Is there a free version?**
-Yes. The [OIM Community Edition](https://marketplace.atlassian.com/apps/1215532/opshub-integration-manager-oim-community-edition) is available for free on Atlassian Marketplace.
+### What tools does OpsHub support?
+OpsHub connects with 70+ tools including Azure DevOps, ServiceNow, Salesforce, GitHub, GitLab, IBM DOORS, Rally, PTC Windchill, Tricentis Tosca, and many more. See the [full list of supported systems](https://www.opshub.com/integrations/supported-systems/).
 
 ---
 
-## Migration (OMM)
+## Integration Questions
 
-**Do teams have to stop working during migration?**
-No. OMM's Live++ technology keeps both source and target systems running in parallel. Teams continue working in the source system throughout the migration.
+### What is the difference between OIM and OMM?
+- **OIM (Integration Manager)** keeps two or more tools synchronized on an ongoing basis. Data flows bidirectionally in real time.
+- **OMM (Migration Manager)** moves data from one tool to another as a one-time migration. Teams can continue working in the source system during migration.
 
-**What happens to changes made during the migration?**
-OMM's delta sync captures all changes made in the source system during migration. A final delta sync before cutover ensures nothing is missed.
+### Is the sync real-time?
+Yes. OIM synchronizes changes in near real-time (typically within seconds to minutes depending on configuration). You can also configure scheduled sync intervals if preferred.
 
-**Can I roll back if something goes wrong?**
-Yes. Reverse sync can transfer data back to the source system if needed for compliance or rollback.
+### Can I sync custom fields?
+Yes. OpsHub supports mapping custom fields between systems, including complex field types, picklists, multi-select fields, and calculated fields. The AI-assisted mapper helps you set up field mappings without manual configuration.
 
-**What if the migration fails partway through?**
-OMM's failure recovery allows restarting from any failure point without starting over from scratch.
+### Does it support conditional sync?
+Yes. You can create rules that sync data only when certain conditions are met — for example, syncing only high-priority bugs, or syncing issues from specific projects.
 
-**How long does a migration take?**
-It depends on data volume and complexity. OMM's Data Discovery Utility estimates timelines upfront. Multiple projects can migrate in parallel to reduce total time.
-
-**Does OMM migrate test data?**
-Yes. Test Plans, Test Suites, Test Cases with steps, Test Results, and Test Runs all migrate — including Zephyr and Xray data.
+### What happens if there is a conflict?
+OpsHub includes built-in conflict detection and resolution. You can configure conflict rules (e.g., source wins, target wins, or manual resolution) for different field types.
 
 ---
 
-## Security & Deployment
+## Migration Questions
 
-**Where does my data go?**
-Your data stays under your control. OpsHub supports on-premise, cloud, and hybrid deployment models.
+### Is there downtime during migration?
+No. OpsHub migrations run with zero downtime. Your teams continue working in the source system throughout the migration process.
 
-**Is OpsHub SOC 2 compliant?**
-Contact [OpsHub](https://www.opshub.com/contact-us/) for details on security certifications and compliance.
+### Can I migrate incrementally?
+Yes. OMM supports phased migration with delta syncs. You can migrate your data in stages and run incremental syncs to capture changes made after the initial migration until you are ready for the final cutover.
 
-**Who uses OpsHub?**
-Enterprise organizations including ABB, Airbus, AMD, American Express, Bosch, Lockheed Martin, Panasonic Avionics, Roche, and Siemens.
+### What data gets preserved during migration?
+Everything — issues, comments, attachments, links, history, custom fields, workflows, and metadata. OpsHub validates data before, during, and after migration to ensure nothing is lost.
 
----
-
-## Get More Answers
-
-| Resource | Link |
-|---|---|
-| **Request a Demo** | [opshub.com/request-a-demo](https://www.opshub.com/request-a-demo/) |
-| **Talk to an Expert** | [opshub.com/contact-us](https://www.opshub.com/contact-us/) |
-| **Technical Documentation** | [docs.opshub.com](https://docs.opshub.com) |
-| **Atlassian Marketplace** | [All OpsHub Apps](https://marketplace.atlassian.com/vendors/798149/opshub-inc) |
+### Can I roll back a migration?
+Yes. OMM includes built-in validation and rollback capabilities so you can verify everything before making the switch permanent.
 
 ---
 
-[← Back to Docs](./) · [← Home](../)
+## Technical Questions
+
+### Does OpsHub require admin access?
+OpsHub needs standard API-level access to your tools. Full admin access is not typically required — service account credentials with appropriate permissions are sufficient.
+
+### Does it work with Jira Cloud, Data Center, and Server?
+Yes. OpsHub supports Jira Cloud, Jira Data Center, and Jira Server deployments.
+
+### Is my data secure?
+Yes. OpsHub uses encrypted end-to-end connections, supports SSO and SAML, and complies with enterprise security requirements. Data is processed but not stored by OpsHub.
+
+### What about rate limits?
+OpsHub handles API rate limits automatically with built-in retry logic and throttling. Your sync continues without interruption even when rate limits are encountered.
+
+---
+
+## Pricing and Licensing
+
+### Is there a free version?
+Yes. The **[OIM Community Edition](https://marketplace.atlassian.com/apps/1215532)** is a free, no-code data integration tool for Jira that provides basic bidirectional sync capabilities.
+
+### How is OIM priced?
+OIM pricing is based on the number of connectors and users. Visit the [Atlassian Marketplace listing](https://marketplace.atlassian.com/apps/1224525) for current pricing or [contact OpsHub sales](https://www.opshub.com/contact/) for enterprise quotes.
+
+### Can I try before I buy?
+Yes. Most OpsHub products offer a free trial through the Atlassian Marketplace. Click **Try it free** on any OpsHub listing to get started.
+
+---
+
+## Learn More
+
+- **[Getting Started Guide](getting-started.md)** — Step-by-step setup instructions
+- **[Why OpsHub](why-opshub.md)** — Comparison and differentiators
+- **[OpsHub Website](https://www.opshub.com)** — Full documentation and resources
+- **[Atlassian Marketplace — OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** — All OpsHub listings
+- **[Contact Sales](https://www.opshub.com/contact/)** — Custom requirements and enterprise pricing
+
+---
+
+*OpsHub, Inc. — Enterprise Integration and Migration for Jira*

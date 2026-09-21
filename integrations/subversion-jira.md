@@ -1,67 +1,45 @@
-# Subversion (SVN) ↔ Jira Integration
+# Subversion (SVN) Integration for Jira
 
-> Automated synchronization between Subversion version control and Jira using OpsHub Integration Manager (OIM).
+> Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1556228798) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-[← Back to All Integrations](./) · [← Home](../)
+Real-time integration between Subversion and Jira. Connect SVN commits, branches, and tags with Jira issues for development traceability without switching to Git.
 
 ---
 
-## Overview
+## Why Integrate Apache Subversion with Jira?
 
-Subversion (SVN) is a version control system still widely used in regulated industries, embedded systems, and large enterprises. When development teams commit code in SVN and track work in Jira, linking commits to Jira issues manually is tedious and error-prone.
+| Benefit | Details |
+|---------|---------|
+| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
+| **Always Accurate** | Real-time synchronization ensures Apache Subversion and Jira always show the same information. No stale data, no conflicts. |
+| **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
+| **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
-OpsHub Integration Manager connects Subversion and Jira with **plugin-free, API-based integration** — so commits are automatically linked to Jira issues, with pre-commit validation ensuring every code change is tracked.
-
-## Why Integrate Subversion with Jira?
-
-| Challenge Without Integration | With OpsHub Integration |
-|---|---|
-| Commits happen without linking to Jira tickets | Pre-commit hooks validate Jira ticket links |
-| Code changes are untracked in project management | Commit info auto-syncs to linked Jira issues |
-| Author mapping between SVN and Jira is manual | User mapping via Excel upload resolves mismatches |
-| Compliance audits can't trace code to requirements | Full traceability from commit to Jira issue |
-| High-volume commits overwhelm manual tracking | Handles high-volume workflows across multiple projects |
+---
 
 ## What Gets Synced
 
-**Core Entities:**
-- Commit information including changeset IDs, timestamps, and author details
-- Commit context linked to Jira issues
-- Development history and code change records
+Commits, branches, tags, changesets, file changes, and Jira issue links
 
-**Rich Data:**
-- Commit messages and changeset metadata
-- Author mappings to Jira users
-- Timestamps and revision numbers
-- Custom field mappings
+All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1556228798).
 
-**Pre-Commit Features:**
-- Validate that commits reference a valid, open Jira ticket
-- Enforce commit quality and compliance policies
-- Prevent untracked code changes
+---
 
-## Use Cases
+## Common Use Cases
 
-**Regulated Environment Compliance**
-An aerospace company requires every code change to be traceable to a requirement. OpsHub's pre-commit hooks ensure no SVN commit happens without a valid Jira ticket reference, maintaining compliance evidence automatically.
+- Teams using SVN for version control while managing projects in Jira
+- Linking code commits in Subversion to Jira issues automatically
+- Organizations maintaining SVN repositories that need Jira integration
 
-**Large-Scale Engineering Operations**
-An enterprise with thousands of daily commits across multiple SVN repositories needs visibility in Jira. OpsHub syncs commit data to Jira issues at scale without performance impact.
-
-**Audit-Ready Development**
-During compliance audits, teams need to show which code changes addressed which requirements. OpsHub's automatic commit-to-issue linking provides this evidence without manual documentation.
+Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 
 ---
 
 ## Get Started
 
-| Action | Link |
-|---|---|
-| **Install from Atlassian Marketplace** | [Subversion ↔ Jira Integration →](https://marketplace.atlassian.com/apps/1556228798/subversion-alm-integration-for-jira) |
-| **Try Free** | [OIM Community Edition →](https://marketplace.atlassian.com/apps/1215532/opshub-integration-manager-oim-community-edition) |
-| **Request a Demo** | [See it in action with your data →](https://www.opshub.com/request-a-demo/) |
-| **Documentation** | [docs.opshub.com](https://docs.opshub.com) |
-
----
-
-[← Back to All Integrations](./) · [← Home](../)
+- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1556228798)** — Try it free or buy now
+- **[View all OpsHub connectors on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
+- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — The platform behind this connector
+- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Need to migrate instead of integrate?
+- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
+- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources

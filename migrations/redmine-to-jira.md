@@ -1,49 +1,45 @@
 # Redmine to Jira Migration
 
-> Migrate from Redmine to Jira with zero downtime, preserving issues, comments, attachments, and full history using OpsHub Migration Manager.
+> Powered by [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/537531440) | [All OpsHub Migrations](https://marketplace.atlassian.com/vendors/798149)
 
-[← Back to All Migrations](./) · [← Home](../)
+Migrate from Redmine to Jira without disruption. Preserve comments, attachments, inline images, wiki content, and complete project history during the transition.
 
 ---
 
-## Overview
+## Why Choose OpsHub for This Migration?
 
-Teams outgrow Redmine as projects scale. Moving to Jira provides better workflow automation, reporting, and ecosystem integrations — but only if you bring your data along. Manual CSV exports lose history, break relationships, and drop attachments.
+| Benefit | Details |
+|---------|---------|
+| **Zero Downtime** | Your teams keep working in the source system throughout the migration. No freeze windows, no lost productivity. |
+| **Complete Data Fidelity** | Every comment, attachment, link, and custom field is preserved exactly as-is. Nothing gets lost or reformatted. |
+| **Incremental Sync** | Migrate in phases. Run delta syncs to capture changes made after the initial migration until you are ready to cut over. |
+| **Rollback Ready** | Built-in validation and rollback capabilities ensure you can verify everything before making the switch permanent. |
 
-OpsHub Migration Manager migrates your complete Redmine data to Jira — issues, comments, attachments, custom fields, and full history — while your team continues working in Redmine until cutover.
-
-## Why Use OpsHub for This Migration?
-
-| Manual CSV Export | With OpsHub Migration Manager |
-|---|---|
-| History and comments lost in export | **Complete history** preserved with original timestamps |
-| Attachments exported separately or lost | **Attachments and inline images** migrate automatically |
-| Custom fields require manual recreation | **Custom field mapping** with type matching |
-| Relationships between issues break | **Issue links and parent/child** preserved |
-| Team stops work during migration | **Zero downtime** — Redmine stays live |
+---
 
 ## What Gets Migrated
 
-- Issues (all trackers: bugs, features, tasks, support)
-- Complete revision history with original timestamps
-- Comments and journal entries with author attribution
-- Attachments and inline images
-- Custom fields with configurable mappings
-- Issue relationships (related, blocks, duplicates)
-- Categories, versions, and milestones
-- User identity mapping
-- Status and priority mappings
+Issues, trackers, comments, attachments, inline images, wiki pages, custom fields, and history
+
+All data is validated before, during, and after migration to ensure complete accuracy. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/537531440).
+
+---
+
+## Common Use Cases
+
+- Open source teams moving from Redmine to Jira
+- Organizations outgrowing Redmine and standardizing on Jira
+- Preserving complete Redmine project history in Jira
+
+Explore more [OpsHub migration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 
 ---
 
 ## Get Started
 
-| Action | Link |
-|---|---|
-| **Install from Atlassian Marketplace** | [Redmine → Jira Migration →](https://marketplace.atlassian.com/apps/537531440/redmine-to-jira-migration-without-downtime) |
-| **Request a Demo** | [See migration in action →](https://www.opshub.com/request-a-demo/) |
-| **Free Consultation** | [Talk to a migration engineer →](https://www.opshub.com/book-a-free-migration-consultation/) |
-
----
-
-[← Back to All Migrations](./) · [← Home](../)
+- **[Start your migration on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/537531440)** — Try it free or buy now
+- **[View all OpsHub migrations on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — Zero-downtime migration solutions
+- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Migrate from 70+ tools to Jira
+- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — Need ongoing sync instead of migration?
+- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
+- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources

@@ -1,114 +1,132 @@
-# OpsHub — Enterprise Integration & Migration for Jira
+# OpsHub on Atlassian Marketplace
 
-> **Zero downtime. Zero data loss. 70+ enterprise connectors.**
->
-> Bi-directional integrations and zero-downtime migrations for Jira, Azure DevOps, ServiceNow, IBM DOORS, Salesforce, and more.
+**Enterprise Integration and Migration Solutions for Jira**
 
----
-
-## Products
-
-| Product | What It Does | Marketplace |
-|---|---|---|
-| **OpsHub Integration Manager (OIM)** | Real-time, bi-directional sync between Jira and 70+ enterprise tools | [Get OIM on Atlassian Marketplace →](https://marketplace.atlassian.com/apps/1224525/opshub-integration-manager-oim-for-jira-integrations) |
-| **OpsHub Migration Manager (OMM)** | Zero-downtime migration to Jira from any ALM, DevOps, or ITSM tool | [Get OMM on Atlassian Marketplace →](https://marketplace.atlassian.com/apps/1224539/omm-for-jira-migration-from-any-tool-with-no-downtime) |
-| **OIM Community Edition** | Free integration manager for small teams | [Get Free Edition →](https://marketplace.atlassian.com/apps/1215532/opshub-integration-manager-oim-community-edition) |
+OpsHub connects Jira with 70+ ALM, DevOps, ITSM, CRM, and PLM tools through bidirectional, real-time synchronization. Whether you need to integrate your existing tools with Jira or migrate to Jira from legacy platforms, OpsHub makes it simple with no-code configuration and zero-downtime execution.
 
 ---
 
-## Integrations (OIM)
+## Integration Solutions
 
-Bi-directional, real-time synchronization between Jira and your enterprise tools. Every integration preserves comments, attachments, history, and custom fields.
+Connect Jira with any of these tools for real-time, bidirectional sync:
 
-| Integration | Description | Marketplace |
-|---|---|---|
-| [Azure DevOps ↔ Jira](integrations/azure-devops-jira.md) | Sync work items, bugs, tasks bi-directionally | [Install →](https://marketplace.atlassian.com/apps/1234612/bidirectional-azure-devops-integration-for-jira) |
-| [Rally ↔ Jira](integrations/rally-jira.md) | Sync user stories, defects, portfolio items | [Install →](https://marketplace.atlassian.com/apps/1234735/bidirectional-rally-integration-for-jira) |
-| [Digital.ai Agility ↔ Jira](integrations/digital-ai-jira.md) | Sync backlog items, defects, epics, releases | [Install →](https://marketplace.atlassian.com/apps/1237865/digital-ai-agility-versionone-and-jira-bidirectional) |
-| [GitHub ↔ Jira](integrations/github-jira.md) | Sync issues, pull requests, commits | [Install →](https://marketplace.atlassian.com/apps/1237063/bidirectional-github-saas-and-jira-integration) |
-| [Subversion ↔ Jira](integrations/subversion-jira.md) | Commits, changesets, pre-commit validation | [Install →](https://marketplace.atlassian.com/apps/1556228798/subversion-alm-integration-for-jira) |
-| [ServiceNow ↔ Jira](integrations/servicenow-jira.md) | Bridge ITSM and development workflows | [Install →](https://marketplace.atlassian.com/apps/1236368/servicenow-integration-for-jira-bidirectional-sync) |
-| [JSM ↔ Jira Software](integrations/jsm-jira.md) | Connect service management to development | [Install →](https://marketplace.atlassian.com/apps/1624606962/oim-for-bidirectional-jsm-and-jira-integration) |
-| [Azure DevOps ↔ JSM](integrations/azure-devops-jsm.md) | Sync incidents, work items, test plans | [Install →](https://marketplace.atlassian.com/apps/3318012835/azure-devops-integration-for-jira-service-management-jsm) |
-| [IBM DOORS ↔ Jira](integrations/ibm-doors-jira.md) | Requirements traceability across systems | [Install →](https://marketplace.atlassian.com/apps/1234709/bidirectional-ibm-doors-and-jira-integration) |
-| [Jama Connect ↔ Jira](integrations/jama-jira.md) | Sync requirements, components, hierarchy | [Install →](https://marketplace.atlassian.com/apps/1234765/jama-integration-for-jira-bidirectional-sync) |
-| [Siemens Polarion ↔ Jira](integrations/polarion-jira.md) | Sync requirements, stories, test cases | [Install →](https://marketplace.atlassian.com/apps/2439406316/polarion-integration-for-jira-bidirectional-sync) |
-| [PTC Codebeamer ↔ Jira](integrations/codebeamer-jira.md) | Sync trackers, defects, test cases | [Install →](https://marketplace.atlassian.com/apps/1234937/ptc-codebeamer-alm-and-jira-bidirectional-integration) |
-| [PTC Windchill RV&S ↔ Jira](integrations/windchill-jira.md) | Sync requirements, change requests, documents | [Install →](https://marketplace.atlassian.com/apps/1236668/bidirectional-ptc-windchill-rv-s-integration-for-jira) |
-| [Sparx EA ↔ Jira](integrations/sparx-ea-jira.md) | Connect enterprise architecture to Jira | [Install →](https://marketplace.atlassian.com/apps/1234974/sparx-enterprise-architect-ea-jira-integration-two-way) |
-| [Aras PLM ↔ Jira](integrations/aras-jira.md) | Enable digital thread across PLM and ALM | [Install →](https://marketplace.atlassian.com/apps/1235048/bidirectional-aras-and-jira-integration) |
-| [MBSE Tools ↔ Jira](integrations/mbse-jira.md) | Sync model elements, blocks, dependencies | [Install →](https://marketplace.atlassian.com/apps/3248021866/bidirectional-mbse-integration-for-jira) |
-| [OpenText ALM ↔ Jira](integrations/hp-alm-jira.md) | Sync defects, requirements, and test assets | [Install →](https://marketplace.atlassian.com/apps/1236342/bidirectional-opentext-alm-hp-alm-and-jira-integration) |
-| [Tricentis Tosca ↔ Jira](integrations/tosca-jira.md) | Integrate test automation with development | [Install →](https://marketplace.atlassian.com/apps/1237180/tricentis-tosca-integration-for-jira-no-code-two-way-sync) |
-| [Tricentis qTest ↔ Jira](integrations/qtest-jira.md) | Sync test cases, test runs, defects | [Install →](https://marketplace.atlassian.com/apps/1237064/bidirectional-tricentis-qtest-and-jira-integration) |
-| [Zephyr ↔ TestRail](integrations/zephyr-testrail-jira.md) | Sync test cases, cycles, executions | [Install →](https://marketplace.atlassian.com/apps/1238385/bidirectional-zephyr-for-jira-and-testrail-integration) |
-| [vManager ↔ Jira](integrations/vmanager-jira.md) | Sync verification data, defects, coverage | [Install →](https://marketplace.atlassian.com/apps/1237997/vmanager-verisium-manager-now-integration-for-jira) |
-| [Salesforce ↔ Jira](integrations/salesforce-jira.md) | Sync cases, opportunities, and custom objects | [Install →](https://marketplace.atlassian.com/apps/1237866/salesforce-integration-for-jira-bidirectional-sync) |
-| [HubSpot ↔ Jira](integrations/hubspot-jira.md) | Connect CRM with issue tracking | [Install →](https://marketplace.atlassian.com/apps/1238418/hubspot-integration-for-jira-bidirectional-sync) |
-| [Clarity ↔ Jira](integrations/clarity-jira.md) | Sync projects, tasks, and investments | [Install →](https://marketplace.atlassian.com/apps/1573500938/bidirectional-clarity-and-jira-integration) |
-| [Jira ↔ Jira Sync](integrations/jira-to-jira-sync.md) | Two-way sync across Jira instances | [Install →](https://marketplace.atlassian.com/apps/2019250150/two-way-internal-and-external-sync-for-jira) |
-| [Smart Data Lake](integrations/smart-data-lake.md) | Unified AI-ready data from Jira + 70+ tools | [Install →](https://marketplace.atlassian.com/apps/1238384/opshub-smart-data-lake-for-jira) |
-
-[**Browse all integrations →**](integrations/)
+| Tool | Integration | Link |
+|------|-------------|------|
+| [70+ Systems](integrations/oim-enterprise.md) | OpsHub Integration Manager (OIM) for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1224525) |
+| [Aha! Roadmaps](integrations/aha-jira.md) | Aha! Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1237084) |
+| [Apache Subversion](integrations/subversion-jira.md) | Subversion (SVN) Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1556228798) |
+| [Aras Innovator](integrations/aras-jira.md) | Aras Innovator and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1235048) |
+| [Azure DevOps](integrations/azure-devops-jira.md) | Azure DevOps Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1234612) |
+| [Azure DevOps](integrations/azure-devops-jsm.md) | Azure DevOps Integration for Jira Service Management | [Marketplace](https://marketplace.atlassian.com/apps/3318012835) |
+| [BMC Helix ITSM](integrations/bmc-helix-jsm.md) | BMC Helix ITSM Connector for Jira Service Management | [Marketplace](https://marketplace.atlassian.com/apps/1812291670) |
+| [BMC Helix ITSM / BMC Remedy](integrations/bmc-helix-jira.md) | BMC Helix ITSM Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/2812486966) |
+| [Blueprint Requirements Center](integrations/blueprint-jira.md) | Blueprint Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1589521068) |
+| [Bugzilla](integrations/bugzilla-jira.md) | Bugzilla and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/4186937217) |
+| [CA Service Desk Manager](integrations/ca-sdm-jira.md) | CA Service Desk Manager (SDM) Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1059270378) |
+| [Cadence Midas](integrations/cadence-midas-jira.md) | Cadence Midas Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/107948785) |
+| [Cadence vManager / Verisium Manager](integrations/vmanager-jira.md) | vManager (Verisium Manager) Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1237997) |
+| [Data Analytics](integrations/smart-data-lake-jira.md) | OpsHub Smart Data Lake for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1238384) |
+| [Data Archiving](integrations/secure-archiving-jira.md) | Secure Archiving of Jira Data for Compliance and Scalability | [Marketplace](https://marketplace.atlassian.com/apps/650669298) |
+| [Digital.ai Agility / VersionOne](integrations/digital-ai-jira.md) | Digital.ai Agility (VersionOne) and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1237865) |
+| [Digital.ai TeamForge](integrations/teamforge-jira.md) | Digital.ai TeamForge Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1336073391) |
+| [GitHub (Cloud)](integrations/github-saas-jira.md) | GitHub (SaaS) and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1237063) |
+| [GitHub (Enterprise/On-Prem)](integrations/github-jira.md) | GitHub Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1234617) |
+| [GitLab](integrations/gitlab-jira.md) | GitLab and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1236602) |
+| [HubSpot CRM](integrations/hubspot-jira.md) | HubSpot Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1238418) |
+| [IBM ClearQuest](integrations/clearquest-jira.md) | IBM ClearQuest Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/2378820378) |
+| [IBM DOORS NG](integrations/ibm-doors-ng-jira.md) | IBM DOORS Next Generation Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1237857) |
+| [IBM ETM](integrations/ibm-etm-jira.md) | IBM Engineering Test Management (ETM) Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1237868) |
+| [IBM Engineering Workflow Management](integrations/ibm-ewm-jira.md) | IBM EWM (Formerly IBM RTC) Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1237867) |
+| [IBM Rational DOORS](integrations/ibm-doors-jira.md) | IBM DOORS and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1234709) |
+| [Jama Connect](integrations/jama-jira.md) | Jama Connect Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1234765) |
+| [Jenkins](integrations/jenkins-jira.md) | Jenkins and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1327211723) |
+| [Jira (Multi-Instance)](integrations/two-way-sync-jira.md) | Two-Way Internal and External Sync for Jira | [Marketplace](https://marketplace.atlassian.com/apps/2019250150) |
+| [Jira (Multi-Instance)](integrations/multi-instance-jira.md) | Multi-Instance Sync for Jira | [Marketplace](https://marketplace.atlassian.com/apps/2588044797) |
+| [Jira Align](integrations/jira-align-jira.md) | Jira Align Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1237429) |
+| [Jira Service Management](integrations/jsm-jira.md) | OIM for Bidirectional JSM and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1624606962) |
+| [MBSE Tools (Cameo, MagicDraw)](integrations/mbse-jira.md) | MBSE Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/3248021866) |
+| [Microsoft Dynamics 365](integrations/dynamics-365-jira.md) | Microsoft Dynamics 365 Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1237998) |
+| [Modern Requirements4DevOps](integrations/modern-requirements-jira.md) | Modern Requirements Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/2428745038) |
+| [Monday.com](integrations/monday-jira.md) | Monday.com Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/336223777) |
+| [Multiple Systems](integrations/oim-community.md) | OpsHub Integration Manager (OIM) Community Edition | [Marketplace](https://marketplace.atlassian.com/apps/1215532) |
+| [OpenText ALM / HP ALM / Micro Focus ALM](integrations/opentext-alm-jira.md) | OpenText ALM (HP ALM) and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1236342) |
+| [OpenText PPM / Caliber RM](integrations/caliber-jira.md) | OpenText PPM (Caliber RM) Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/3804751386) |
+| [PTC Codebeamer](integrations/codebeamer-jira.md) | PTC Codebeamer ALM and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1234937) |
+| [PTC Windchill](integrations/windchill-jira.md) | PTC Windchill Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1236668) |
+| [PTC Windchill PLM/PDM](integrations/windchill-plm-jira.md) | PTC Windchill PLM/PDM Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1572722965) |
+| [PagerDuty](integrations/pagerduty-jira.md) | PagerDuty and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1237335) |
+| [Perforce Helix ALM](integrations/helix-alm-jira.md) | Perforce Helix ALM Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1238235) |
+| [Rally (Broadcom)](integrations/rally-jira.md) | Rally Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1234735) |
+| [Redmine](integrations/redmine-jira.md) | Redmine Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1238263) |
+| [Salesforce](integrations/salesforce-jira.md) | Salesforce Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1237866) |
+| [Salesforce](integrations/salesforce-jsm.md) | OpsHub Connector for Salesforce and JSM | [Marketplace](https://marketplace.atlassian.com/apps/3993596569) |
+| [Selenium](integrations/selenium-jira.md) | Selenium and Jira Bidirectional Integration | [Marketplace](https://marketplace.atlassian.com/apps/954531136) |
+| [ServiceNow](integrations/servicenow-jira.md) | ServiceNow Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1236368) |
+| [ServiceNow](integrations/servicenow-jsm.md) | ServiceNow and Jira Service Management Integration | [Marketplace](https://marketplace.atlassian.com/apps/249435302) |
+| [Siemens Polarion ALM](integrations/polarion-jira.md) | Siemens Polarion ALM Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/2439406316) |
+| [Snowflake](integrations/snowflake-jira.md) | Snowflake and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1238393) |
+| [SolarWinds Service Desk](integrations/solarwinds-jira.md) | SolarWinds Service Desk Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1591510710) |
+| [Sparx Enterprise Architect](integrations/enterprise-architect-jira.md) | Sparx Enterprise Architect and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1234974) |
+| [Sparx Enterprise Architect](integrations/enterprise-architect-jsm.md) | Enterprise Architect and Jira Service Management Integration | [Marketplace](https://marketplace.atlassian.com/apps/2860047764) |
+| [TestRail](integrations/testRail-jira.md) | TestRail Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1237332) |
+| [Trac](integrations/trac-jira.md) | Trac Bidirectional Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1949729264) |
+| [Tricentis Tosca](integrations/tricentis-tosca-jira.md) | Tricentis Tosca Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1237180) |
+| [Tricentis qTest](integrations/tricentis-qtest-jira.md) | Tricentis qTest and Jira Integration | [Marketplace](https://marketplace.atlassian.com/apps/1237064) |
+| [Xray / TestRail](integrations/xray-testRail.md) | Xray for Jira and TestRail Integration | [Marketplace](https://marketplace.atlassian.com/apps/1238271) |
+| [Xray for Jira / Jama Connect](integrations/xray-jama.md) | Xray for Jira Integration for Jama | [Marketplace](https://marketplace.atlassian.com/apps/1238223) |
+| [Zendesk](integrations/zendesk-jira.md) | Zendesk Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1234611) |
+| [Zendesk](integrations/zendesk-jsm.md) | Zendesk and Jira Service Management Integration | [Marketplace](https://marketplace.atlassian.com/apps/3226008278) |
+| [Zephyr Enterprise / TestRail](integrations/zephyr-enterprise-testRail.md) | Zephyr Enterprise for Jira and TestRail Integration | [Marketplace](https://marketplace.atlassian.com/apps/1100050933) |
+| [Zephyr for Jira / Jama Connect](integrations/zephyr-jama.md) | Zephyr for Jira and Jama Integration | [Marketplace](https://marketplace.atlassian.com/apps/1238264) |
 
 ---
 
-## Migrations (OMM)
+## Migration Solutions
 
-Zero-downtime, zero-data-loss migrations to Jira. Teams keep working in the source system throughout the migration — no freeze windows, no lost data.
+Move to Jira from any platform with zero downtime:
 
-| Migration Path | Description | Marketplace |
-|---|---|---|
-| [Azure DevOps → Jira](migrations/azure-devops-to-jira.md) | Work items, test assets, history, relationships | [Install →](https://marketplace.atlassian.com/apps/1224539/omm-for-jira-migration-from-any-tool-with-no-downtime) |
-| [Jira DC → Jira Cloud](migrations/jira-dc-to-cloud.md) | Full Data Center to Cloud migration with add-ons | [Install →](https://marketplace.atlassian.com/apps/1235636/omm-for-jira-dc-to-cloud-migration-with-zero-downtime) |
-| [Jira Cloud → Jira Cloud](migrations/jira-cloud-to-cloud.md) | Consolidate multiple Cloud instances | [Install →](https://marketplace.atlassian.com/apps/2961517783/zero-downtime-cloud-to-cloud-migration-for-jira) |
-| [BMC Remedy → Jira](migrations/bmc-remedy-to-jira.md) | ITSM migration preserving full ticket history | [Install →](https://marketplace.atlassian.com/apps/1350560408/bmc-remedy-itsm-to-jira-migration-without-downtime) |
-| [Redmine → Jira](migrations/redmine-to-jira.md) | Migrate issues, comments, attachments | [Install →](https://marketplace.atlassian.com/apps/537531440/redmine-to-jira-migration-without-downtime) |
-| [Zephyr → Xray](migrations/zephyr-to-xray.md) | Test management migration with full data | [Install →](https://marketplace.atlassian.com/apps/396795523/zero-downtime-zephyr-to-xray-migration) |
+| Source | Migration | Link |
+|--------|-----------|------|
+| [Any Tool](migrations/any-tool-to-jira.md) | OpsHub Migration Manager (OMM) for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1224539) |
+| [Jira Data Center](migrations/jira-dc-to-cloud.md) | OMM for Jira DC to Cloud Migration | [Marketplace](https://marketplace.atlassian.com/apps/1235636) |
+| [Jira Cloud](migrations/cloud-to-cloud-jira.md) | Cloud to Cloud Migration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/2961517783) |
+| [BMC Remedy ITSM](migrations/bmc-remedy-to-jira.md) | BMC Remedy ITSM to Jira Migration | [Marketplace](https://marketplace.atlassian.com/apps/1350560408) |
+| [Redmine](migrations/redmine-to-jira.md) | Redmine to Jira Migration | [Marketplace](https://marketplace.atlassian.com/apps/537531440) |
+| [Zephyr](migrations/zephyr-to-xray.md) | Zephyr to Xray Migration | [Marketplace](https://marketplace.atlassian.com/apps/396795523) |
+| [Xray (Data Center)](migrations/xray-dc-to-cloud.md) | Xray on Jira DC to Xray on Cloud Migration | [Marketplace](https://marketplace.atlassian.com/apps/1535785919) |
+| [Zephyr Squad (Data Center)](migrations/zephyr-squad-dc-to-cloud.md) | Zephyr Squad DC to Cloud Migration | [Marketplace](https://marketplace.atlassian.com/apps/2540227454) |
+| [Any ITSM Tool](migrations/jsm-migration.md) | Migration for Jira Service Management (JSM) | [Marketplace](https://marketplace.atlassian.com/apps/3179316431) |
+| [Azure DevOps / TFS / VSTS](migrations/azure-devops-to-jira.md) | Azure DevOps (TFS or VSTS) to Jira Migration | [Marketplace](https://marketplace.atlassian.com/apps/1464584616) |
+| [FogBugz](migrations/fogbugz-to-jira.md) | Zero Downtime FogBugz to Jira Migration | [Marketplace](https://marketplace.atlassian.com/apps/257470442) |
+| [Jira](migrations/selective-migration-jira.md) | Selective Migration for Jira Without Full Instance Move | [Marketplace](https://marketplace.atlassian.com/apps/2936265464) |
 
-[**Browse all migrations →**](migrations/)
+---
+
+## Platform Products
+
+| Product | Description | Link |
+|---------|-------------|------|
+| [70+ Systems](migrations/oim-enterprise.md) | OpsHub Integration Manager (OIM) for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1224525) |
+| [Multiple Systems](migrations/oim-community.md) | OpsHub Integration Manager (OIM) Community Edition | [Marketplace](https://marketplace.atlassian.com/apps/1215532) |
 
 ---
 
 ## Why OpsHub?
 
-| Capability | Description |
-|---|---|
-| **Zero Downtime** | Live++ technology keeps both systems running during migration — teams never stop working |
-| **Zero Data Loss** | 100% accurate transfers with complete history, relationships, and context preserved |
-| **70+ Connectors** | Jira, Azure DevOps, ServiceNow, IBM DOORS, Salesforce, Rally, and many more |
-| **Bi-Directional Sync** | Real-time two-way synchronization — not a one-way dump |
-| **No-Code Setup** | AI-powered, no-code configuration from GUI or AI assistants — no scripting required |
-| **Enterprise Security** | Deploy on-premise, in your cloud, or hybrid — your data stays under your control |
-| **Failure Recovery** | Restart from any failure point without starting over |
+- **70+ Connectors** — The broadest range of enterprise tool integrations on the market
+- **Zero Downtime** — Migrations and integrations that never interrupt your teams
+- **No-Code Setup** — AI-assisted configuration with drag-and-drop simplicity
+- **Enterprise Scale** — Trusted by Fortune 500 companies for mission-critical workloads
+- **Complete Data Fidelity** — Every comment, attachment, and custom field preserved
 
 ---
 
-## Documentation
+## Learn More
 
-| Guide | Description |
-|---|---|
-| [Why OpsHub](docs/why-opshub.md) | How OpsHub compares to manual migration and other tools |
-| [Getting Started](docs/getting-started.md) | Step-by-step guide to your first integration or migration |
-| [FAQ](docs/faq.md) | Frequently asked questions |
+- **[OpsHub Website](https://www.opshub.com)** — Product details, documentation, and resources
+- **[Atlassian Marketplace — OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** — All OpsHub listings
+- **[Contact Sales](https://www.opshub.com/contact/)** — Custom requirements and enterprise pricing
 
 ---
 
-## Trusted By
-
-Enterprise organizations including **ABB, Airbus, AMD, American Express, Bosch, Lockheed Martin, Panasonic Avionics, Roche,** and **Siemens** — spanning aerospace, defense, automotive, healthcare, financial services, and technology sectors.
-
----
-
-## Get Started
-
-| Action | Link |
-|---|---|
-| **Browse on Atlassian Marketplace** | [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525/opshub-integration-manager-oim-for-jira-integrations) · [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539/omm-for-jira-migration-from-any-tool-with-no-downtime) |
-| **Try Free** | [OIM Community Edition](https://marketplace.atlassian.com/apps/1215532/opshub-integration-manager-oim-community-edition) · [30-Day OMM Trial](https://www.opshub.com/request-a-free-trial/) |
-| **Request a Demo** | [Book a free 30-minute demo](https://www.opshub.com/request-a-demo/) |
-| **Talk to an Expert** | [Contact Us](https://www.opshub.com/contact-us/) |
-
----
-
-© 2025 OpsHub, Inc. · [opshub.com](https://www.opshub.com/) · [Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149/opshub-inc)
+*OpsHub, Inc. — Enterprise Integration and Migration for Jira*

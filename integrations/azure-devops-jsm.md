@@ -1,67 +1,45 @@
-# Azure DevOps ↔ Jira Service Management (JSM) Integration
+# Azure DevOps Integration for Jira Service Management
 
-> Bi-directional, real-time synchronization between Azure DevOps and Jira Service Management using OpsHub Integration Manager (OIM).
+> Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/3318012835) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-[← Back to All Integrations](./) · [← Home](../)
+Integrate Azure DevOps with Jira Service Management to synchronize service requests, incidents, and work items bidirectionally. Enable seamless collaboration between IT service teams and developers.
 
 ---
 
-## Overview
+## Why Integrate Azure DevOps with Jira?
 
-Jira Service Management (JSM) handles IT service requests, incidents, and changes. Azure DevOps manages development work items, test plans, and pipelines. When service desk teams log incidents in JSM and development teams work in Azure DevOps, connecting both systems ensures incidents get resolved faster.
+| Benefit | Details |
+|---------|---------|
+| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
+| **Always Accurate** | Real-time synchronization ensures Azure DevOps and Jira always show the same information. No stale data, no conflicts. |
+| **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
+| **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
-OpsHub Integration Manager connects Azure DevOps and JSM with **no-code, bi-directional synchronization** — so incidents, problems, and change requests flow automatically between service management and development.
-
-## Why Integrate Azure DevOps with JSM?
-
-| Challenge Without Integration | With OpsHub Integration |
-|---|---|
-| Incidents in JSM are manually escalated to Azure DevOps | Incidents auto-sync to Azure DevOps as work items |
-| Developers can't see service impact without switching tools | Service context flows with every synced item |
-| Resolution updates must be manually relayed back to JSM | Fix status syncs back to JSM automatically |
-| Test plans and pipelines are disconnected from service tickets | Test entities, dashboards, and pipelines linked |
-| SLA clocks tick while teams copy-paste between systems | Real-time sync reduces resolution time |
+---
 
 ## What Gets Synced
 
-**Core Entities:**
-- Incidents, problems, changes, and service requests (JSM) ↔ Work items, bugs, tasks, and test plans (Azure DevOps)
-- Iterations, pipelines, and dashboards
-- All JSM issue types mapped to Azure DevOps work item types
+Service requests, incidents, work items, comments, attachments, and custom fields
 
-**Rich Data:**
-- Comments with @mentions and images
-- Attachments and linked records
-- Relationships and history
-- Custom fields and field mappings
+All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/3318012835).
 
-**Relationships:**
-- Incident-to-work-item links
-- Service request-to-task associations
-- Change-to-pipeline connections
+---
 
-## Use Cases
+## Common Use Cases
 
-**Incident Escalation**
-A critical incident is logged in JSM. It auto-syncs to Azure DevOps as a high-priority bug. The development team fixes it in Azure DevOps, and the resolution flows back to JSM — closing the incident with full context.
+- IT service desks using JSM while engineering teams work in Azure DevOps
+- Automated escalation of service tickets to development work items
+- Unified incident tracking across service management and development
 
-**Change Management**
-A change request is approved in JSM. It syncs to Azure DevOps where developers implement the change. Progress updates flow back to JSM so the change advisory board has real-time status.
-
-**Cross-Team Collaboration**
-IT operations manages services in JSM while development works in Azure DevOps. OpsHub bridges both systems so each team works in their preferred tool while staying aligned.
+Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 
 ---
 
 ## Get Started
 
-| Action | Link |
-|---|---|
-| **Install from Atlassian Marketplace** | [Azure DevOps ↔ JSM Integration →](https://marketplace.atlassian.com/apps/3318012835/azure-devops-integration-for-jira-service-management-jsm) |
-| **Try Free** | [OIM Community Edition →](https://marketplace.atlassian.com/apps/1215532/opshub-integration-manager-oim-community-edition) |
-| **Request a Demo** | [See it in action with your data →](https://www.opshub.com/request-a-demo/) |
-| **Documentation** | [docs.opshub.com](https://docs.opshub.com) |
-
----
-
-[← Back to All Integrations](./) · [← Home](../)
+- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/3318012835)** — Try it free or buy now
+- **[View all OpsHub connectors on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
+- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — The platform behind this connector
+- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Need to migrate instead of integrate?
+- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
+- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources

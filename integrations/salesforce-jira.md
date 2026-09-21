@@ -1,67 +1,45 @@
-# Salesforce ↔ Jira Integration
+# Salesforce Integration for Jira
 
-> Bi-directional, real-time synchronization between Salesforce and Jira using OpsHub Integration Manager (OIM).
+> Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1237866) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-[← Back to All Integrations](./) · [← Home](../)
+No-code, bidirectional, data-rich sync between Salesforce and Jira for Cases, Opportunities, Feeds, Accounts, and Custom Objects. Bridge the gap between sales and engineering teams.
 
 ---
 
-## Overview
-
-Sales and support teams work in Salesforce. Engineering teams work in Jira. When a customer reports a bug through a support case or a deal depends on a feature request, the handoff between CRM and development is where visibility breaks down.
-
-OpsHub Integration Manager connects Salesforce and Jira with **no-code, bi-directional synchronization** — so cases become bugs, feature requests become stories, and status updates flow back to the sales and support teams automatically.
-
 ## Why Integrate Salesforce with Jira?
 
-| Challenge Without Integration | With OpsHub Integration |
-|---|---|
-| Support agents manually create Jira tickets | Cases auto-sync to Jira as bugs or tasks |
-| Sales can't see engineering progress on feature requests | Deal-linked feature requests sync with live status |
-| Resolution updates delayed to customers | Bug fixes reflect instantly in Salesforce cases |
-| No visibility into customer impact of engineering work | Customer context flows with every synced issue |
-| Duplicate data entry across CRM and dev tools | Data entered once, synced everywhere |
+| Benefit | Details |
+|---------|---------|
+| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
+| **Always Accurate** | Real-time synchronization ensures Salesforce and Jira always show the same information. No stale data, no conflicts. |
+| **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
+| **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
+
+---
 
 ## What Gets Synced
 
-**Core Entities:**
-- Cases, opportunities, and custom objects (Salesforce) ↔ Issues, bugs, stories, tasks (Jira)
-- Accounts and contacts linked to Jira issues
-- Priorities, statuses, and workflow transitions
+Cases, opportunities, accounts, contacts, feeds, tasks, notes, and custom objects
 
-**Rich Data:**
-- Case comments and Chatter feeds (with original author and timestamps)
-- Attachments and inline images
-- Custom fields and field mappings
-- Salesforce formula fields mapped to Jira
+All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1237866).
 
-**Relationships:**
-- Case-to-issue links
-- Account/opportunity associations
-- Parent/child task hierarchies
+---
 
-## Use Cases
+## Common Use Cases
 
-**Support Case Escalation**
-A customer reports a critical bug through Salesforce Service Cloud. The case auto-syncs to Jira as a high-priority bug. The dev team fixes it, and the resolution flows back — the support agent updates the customer without leaving Salesforce.
+- Sales teams reporting customer issues in Salesforce while engineering fixes them in Jira
+- Syncing product feedback from CRM to development backlogs
+- Keeping customer-facing teams informed about bug fix progress
 
-**Feature Request Tracking**
-A sales rep logs a feature request tied to a $500K opportunity. It syncs to Jira's product backlog. Product and engineering teams see the revenue impact alongside the technical requirements.
-
-**Customer Health Monitoring**
-Customer success managers see open bugs and feature requests per account in Salesforce, pulled live from Jira — no manual status reports needed.
+Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 
 ---
 
 ## Get Started
 
-| Action | Link |
-|---|---|
-| **Install from Atlassian Marketplace** | [Salesforce ↔ Jira Integration →](https://marketplace.atlassian.com/apps/1237866/salesforce-integration-for-jira-bidirectional-sync) |
-| **Try Free** | [OIM Community Edition →](https://marketplace.atlassian.com/apps/1215532/opshub-integration-manager-oim-community-edition) |
-| **Request a Demo** | [See it in action with your data →](https://www.opshub.com/request-a-demo/) |
-| **Documentation** | [docs.opshub.com](https://docs.opshub.com) |
-
----
-
-[← Back to All Integrations](./) · [← Home](../)
+- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1237866)** — Try it free or buy now
+- **[View all OpsHub connectors on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
+- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — The platform behind this connector
+- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Need to migrate instead of integrate?
+- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
+- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources

@@ -1,67 +1,45 @@
-# Digital.ai Agility (VersionOne) ↔ Jira Integration
+# Digital.ai Agility (VersionOne) and Jira Integration
 
-> Bi-directional, real-time synchronization between Digital.ai Agility (formerly VersionOne) and Jira using OpsHub Integration Manager (OIM).
+> Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1237865) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-[← Back to All Integrations](./) · [← Home](../)
+Bidirectional sync between Digital.ai Agility (formerly VersionOne) and Jira. Keep portfolio-level planning aligned with team-level execution across both agile platforms.
 
 ---
 
-## Overview
+## Why Integrate Digital.ai Agility / VersionOne with Jira?
 
-Digital.ai Agility (formerly VersionOne) is an enterprise Agile planning platform used for portfolio management, backlog tracking, and release planning. When some teams work in Digital.ai Agility and others in Jira, keeping backlog items, defects, and epics synchronized manually slows everyone down.
+| Benefit | Details |
+|---------|---------|
+| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
+| **Always Accurate** | Real-time synchronization ensures Digital.ai Agility / VersionOne and Jira always show the same information. No stale data, no conflicts. |
+| **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
+| **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
-OpsHub Integration Manager connects Digital.ai Agility and Jira with **no-code, bi-directional synchronization** — so backlog items, defects, and releases stay aligned across both platforms automatically.
-
-## Why Integrate Digital.ai Agility with Jira?
-
-| Challenge Without Integration | With OpsHub Integration |
-|---|---|
-| Backlog items are manually duplicated across systems | Backlog items auto-sync bi-directionally |
-| Defects logged in one tool are invisible in the other | Defects sync in real time with full context |
-| Portfolio-level visibility is fragmented | Epics, goals, and releases stay aligned |
-| Status updates require manual effort | Real-time sync keeps both systems current |
-| Project moves and deprecations create orphaned items | Automatic tracking of project moves and changes |
+---
 
 ## What Gets Synced
 
-**Core Entities:**
-- Backlog items, defects, epics, goals, issues, and releases (Digital.ai Agility) ↔ Epics, stories, bugs, tasks (Jira)
-- Iterations and sprints
-- Project information and custom entity types
+Epics, stories, defects, tasks, iterations, sprints, comments, and attachments
 
-**Rich Data:**
-- Comments with original author and timestamps
-- Attachments, links, mentions, and images
-- Entity mentions and user mentions
-- Custom fields and field mappings
+All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1237865).
 
-**Relationships:**
-- Parent-child hierarchies
-- Epic-to-story links
-- Cross-project dependencies
+---
 
-## Use Cases
+## Common Use Cases
 
-**Enterprise Agile Consolidation**
-A large enterprise uses Digital.ai Agility for portfolio planning across 100+ teams, but acquired teams work in Jira. OpsHub keeps both systems synced so portfolio managers get accurate data while teams work in their preferred tool.
+- Portfolio planning in Digital.ai Agility with team execution in Jira
+- Transitioning from VersionOne to Jira while maintaining bidirectional sync
+- Multi-level agile planning across enterprise and team tools
 
-**Gradual Migration**
-An organization is migrating from Digital.ai Agility to Jira. During the transition, OpsHub keeps both systems synchronized so teams can move at their own pace without losing data.
-
-**Cross-Platform Reporting**
-Executives view portfolio dashboards in Digital.ai Agility while development teams sprint in Jira. OpsHub ensures both views show consistent, real-time data.
+Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 
 ---
 
 ## Get Started
 
-| Action | Link |
-|---|---|
-| **Install from Atlassian Marketplace** | [Digital.ai Agility ↔ Jira Integration →](https://marketplace.atlassian.com/apps/1237865/digital-ai-agility-versionone-and-jira-bidirectional) |
-| **Try Free** | [OIM Community Edition →](https://marketplace.atlassian.com/apps/1215532/opshub-integration-manager-oim-community-edition) |
-| **Request a Demo** | [See it in action with your data →](https://www.opshub.com/request-a-demo/) |
-| **Documentation** | [docs.opshub.com](https://docs.opshub.com) |
-
----
-
-[← Back to All Integrations](./) · [← Home](../)
+- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1237865)** — Try it free or buy now
+- **[View all OpsHub connectors on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
+- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — The platform behind this connector
+- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Need to migrate instead of integrate?
+- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
+- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources

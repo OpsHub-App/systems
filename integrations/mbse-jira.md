@@ -1,74 +1,45 @@
-# MBSE Tools ↔ Jira Integration
+# MBSE Integration for Jira
 
-> Bi-directional synchronization between Model-Based Systems Engineering (MBSE) tools and Jira using OpsHub Integration Manager (OIM).
+> Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/3248021866) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-[← Back to All Integrations](./) · [← Home](../)
+Bidirectional integration connecting Model-Based Systems Engineering tools with Jira. Synchronize SysML models, requirements, and design elements with Jira development workflows.
 
 ---
 
-## Overview
+## Why Integrate MBSE Tools (Cameo, MagicDraw) with Jira?
 
-Model-Based Systems Engineering (MBSE) tools like IBM Rhapsody, Capella, and Cameo Systems Modeler are used to design complex systems in aerospace, defense, automotive, and industrial sectors. When systems engineers model in MBSE tools and software teams build in Jira, connecting model elements to development work items is essential for traceability.
+| Benefit | Details |
+|---------|---------|
+| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
+| **Always Accurate** | Real-time synchronization ensures MBSE Tools (Cameo, MagicDraw) and Jira always show the same information. No stale data, no conflicts. |
+| **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
+| **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
-OpsHub Integration Manager connects MBSE tools and Jira using a **custom-developed connector** — syncing model elements, blocks, and relationships to Jira automatically without plugins or manual intervention.
-
-## Why Integrate MBSE Tools with Jira?
-
-| Challenge Without Integration | With OpsHub Integration |
-|---|---|
-| Model elements are manually transcribed to Jira tickets | Model elements auto-sync as Jira work items |
-| Engineering context is lost in the handoff | Full model context and relationships preserved |
-| Traceability from model to code is manual | End-to-end traceability maintained automatically |
-| Changes in the model require manual Jira updates | Changes batch-sync in real time |
-| Version history is fragmented across tools | Clean, audit-ready model history |
+---
 
 ## What Gets Synced
 
-**Core Entities:**
-- MBSE model elements and blocks ↔ Jira issues, stories, tasks
-- Structural connections and dependencies between model components
-- Project information and issue data
+SysML elements, blocks, requirements, parametric models, activities, Jira issues, and traceability links
 
-**Rich Data:**
-- Attachments and link relationships
-- Complete model context and relationships
-- Custom fields and field mappings
+All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/3248021866).
 
-**Relationships:**
-- Model element dependencies
-- Cross-system traceability links
-- Structural relationships between components
+---
 
-## Supported MBSE Tools
+## Common Use Cases
 
-| Tool | Description |
-|---|---|
-| **IBM Rhapsody** | UML/SysML modeling for systems and software |
-| **Capella** | Open-source MBSE tool for system architecture |
-| **Cameo Systems Modeler** | SysML-based modeling for complex systems |
+- Systems engineers modeling in Cameo/MagicDraw while developers track in Jira
+- Linking system architecture models to software implementation tasks
+- Defense and aerospace programs needing MBSE-to-Jira traceability
 
-## Use Cases
-
-**Digital Thread for Defense**
-A defense contractor uses Cameo for system modeling. Model elements sync to Jira where software teams implement them. The complete chain — from model to code to test — is traceable for program audits.
-
-**Automotive Systems Development**
-An automotive OEM designs systems architecture in Capella. Architectural elements auto-sync to Jira for Agile development teams, maintaining the connection between system design and software implementation.
-
-**Aerospace Traceability**
-Systems engineers define architecture in IBM Rhapsody. OpsHub syncs model elements to Jira, preserving dependencies and relationships so that changes in either system stay aligned.
+Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 
 ---
 
 ## Get Started
 
-| Action | Link |
-|---|---|
-| **Install from Atlassian Marketplace** | [MBSE ↔ Jira Integration →](https://marketplace.atlassian.com/apps/3248021866/bidirectional-mbse-integration-for-jira) |
-| **Try Free** | [OIM Community Edition →](https://marketplace.atlassian.com/apps/1215532/opshub-integration-manager-oim-community-edition) |
-| **Request a Demo** | [See it in action with your data →](https://www.opshub.com/request-a-demo/) |
-| **Documentation** | [docs.opshub.com](https://docs.opshub.com) |
-
----
-
-[← Back to All Integrations](./) · [← Home](../)
+- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/3248021866)** — Try it free or buy now
+- **[View all OpsHub connectors on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
+- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — The platform behind this connector
+- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Need to migrate instead of integrate?
+- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
+- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources

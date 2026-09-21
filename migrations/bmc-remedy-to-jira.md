@@ -1,66 +1,45 @@
 # BMC Remedy ITSM to Jira Migration
 
-> Migrate from BMC Remedy to Jira or Jira Service Management with zero downtime, preserving complete ticket history, using OpsHub Migration Manager.
+> Powered by [OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1350560408) | [All OpsHub Migrations](https://marketplace.atlassian.com/vendors/798149)
 
-[← Back to All Migrations](./) · [← Home](../)
+Migrate BMC Remedy ITSM requests to Jira without downtime. Preserve comments, attachments, request history, and custom fields throughout the transition.
 
 ---
 
-## Overview
+## Why Choose OpsHub for This Migration?
 
-Organizations move from BMC Remedy to Jira Service Management to modernize their ITSM stack, reduce costs, and consolidate on the Atlassian ecosystem. The challenge: years of ticket history, complex workflows, custom configurations, and SLA data that must come along.
+| Benefit | Details |
+|---------|---------|
+| **Zero Downtime** | Your teams keep working in the source system throughout the migration. No freeze windows, no lost productivity. |
+| **Complete Data Fidelity** | Every comment, attachment, link, and custom field is preserved exactly as-is. Nothing gets lost or reformatted. |
+| **Incremental Sync** | Migrate in phases. Run delta syncs to capture changes made after the initial migration until you are ready to cut over. |
+| **Rollback Ready** | Built-in validation and rollback capabilities ensure you can verify everything before making the switch permanent. |
 
-OpsHub Migration Manager transfers your complete Remedy environment to Jira — including request history, comments, attachments, and custom fields — while your service desk continues operating without interruption.
-
-## Why Use OpsHub for This Migration?
-
-| Traditional Migration | With OpsHub Migration Manager |
-|---|---|
-| Service desk goes offline during migration | **Zero downtime** — service desk keeps running |
-| Ticket history lost or partially exported | **Complete history** preserved with timestamps and authors |
-| Custom fields and workflows require manual rebuild | **Configurable mapping** for fields, statuses, and workflows |
-| No way to capture tickets created during migration | **Delta sync** captures every change during migration |
-| High risk with no rollback | **Reverse sync** for full rollback capability |
+---
 
 ## What Gets Migrated
 
-**ITSM Data:**
-- Incidents, service requests, change requests, problem records
-- Complete ticket history with original timestamps
-- Comments and work notes with author attribution
-- Attachments and inline images
-- SLA data and priority classifications
+Incidents, change requests, problems, tasks, comments, attachments, work logs, and request history
 
-**Configuration:**
-- Custom fields mapped to Jira equivalents
-- Status and workflow mappings
-- Category and classification structures
-- Assignment group mappings
+All data is validated before, during, and after migration to ensure complete accuracy. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1350560408).
 
-**Relationships:**
-- Incident-to-problem links
-- Change-to-incident associations
-- Parent/child task hierarchies
-- Related ticket references
+---
 
-## Use Cases
+## Common Use Cases
 
-**ITSM Modernization**
-Replace aging BMC Remedy with Jira Service Management. OpsHub migrates all historical data so your new service desk starts with complete context — not a blank slate.
+- Organizations replacing BMC Remedy with Jira Service Management
+- IT departments modernizing their ITSM platform
+- Preserving years of ITSM history while moving to Jira
 
-**Atlassian Standardization**
-Development teams already on Jira. Moving the service desk from Remedy to JSM creates a unified Atlassian environment with native integration between service and development.
+Explore more [OpsHub migration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 
 ---
 
 ## Get Started
 
-| Action | Link |
-|---|---|
-| **Install from Atlassian Marketplace** | [BMC Remedy → Jira Migration →](https://marketplace.atlassian.com/apps/1350560408/bmc-remedy-itsm-to-jira-migration-without-downtime) |
-| **Request a Demo** | [See Remedy migration in action →](https://www.opshub.com/request-a-demo/) |
-| **Free Consultation** | [Talk to a migration engineer →](https://www.opshub.com/book-a-free-migration-consultation/) |
-
----
-
-[← Back to All Migrations](./) · [← Home](../)
+- **[Start your migration on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1350560408)** — Try it free or buy now
+- **[View all OpsHub migrations on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — Zero-downtime migration solutions
+- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Migrate from 70+ tools to Jira
+- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — Need ongoing sync instead of migration?
+- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
+- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources

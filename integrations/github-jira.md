@@ -1,68 +1,45 @@
-# GitHub ↔ Jira Integration
+# GitHub Integration for Jira
 
-> Bi-directional, real-time synchronization between GitHub (SaaS) and Jira using OpsHub Integration Manager (OIM).
+> Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1234617) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-[← Back to All Integrations](./) · [← Home](../)
+Enterprise-grade, bidirectional sync between GitHub and Jira. Keep code repositories and project management aligned with rich data synchronization across both platforms.
 
 ---
 
-## Overview
+## Why Integrate GitHub (Enterprise/On-Prem) with Jira?
 
-GitHub is the world's most widely used platform for code hosting, pull requests, and collaborative development. When development teams use GitHub for code and project managers track work in Jira, connecting commits, pull requests, and issues across both systems eliminates manual status updates.
+| Benefit | Details |
+|---------|---------|
+| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
+| **Always Accurate** | Real-time synchronization ensures GitHub (Enterprise/On-Prem) and Jira always show the same information. No stale data, no conflicts. |
+| **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
+| **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
-OpsHub Integration Manager connects GitHub and Jira with **no-code, bi-directional synchronization** — so issues, pull requests, and commits stay linked across both platforms without firewall modifications or local installations.
-
-## Why Integrate GitHub with Jira?
-
-| Challenge Without Integration | With OpsHub Integration |
-|---|---|
-| Developers manually update Jira after pushing code | Commits and PRs auto-link to Jira issues |
-| Project managers can't see code progress in Jira | GitHub activity syncs to Jira in real time |
-| Issues created in GitHub need manual Jira entry | Issues sync bi-directionally between platforms |
-| Markdown formatting breaks when copying between tools | Markdown-to-wiki markup conversion built in |
-| Status changes require switching between tools | Automated workflow triggers keep both systems current |
+---
 
 ## What Gets Synced
 
-**Core Entities:**
-- Issues, pull requests, and commits (GitHub) ↔ Issues, bugs, stories, tasks (Jira)
-- Epics and code changes
-- Issue status, assignees, and labels
+Issues, pull requests, commits, code reviews, comments, labels, and milestones
 
-**Rich Data:**
-- Comments with original author and timestamps
-- Attachments and embedded images
-- Entity and user mentions
-- Links and relationships
-- Markdown-to-wiki markup conversion
+All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1234617).
 
-**Relationships:**
-- Commit-to-issue links
-- Pull request-to-story associations
-- Cross-repository references
+---
 
-## Use Cases
+## Common Use Cases
 
-**Automated Jira Updates from GitHub**
-A developer pushes a commit to a GitHub branch referencing a Jira issue. OpsHub automatically updates the Jira issue with the commit details, linked PR, and status change — no manual update needed.
+- Enterprise teams on GitHub Enterprise Server working with Jira projects
+- Bridging GitHub-based open source development workflows with Jira tracking
+- Unified visibility across code management and project management
 
-**Cross-Platform Issue Tracking**
-A bug is reported in GitHub by an open-source contributor. It auto-syncs to Jira where the internal team triages and assigns it. Resolution status flows back to GitHub.
-
-**Development Visibility for PMs**
-Project managers track sprint progress in Jira. OpsHub syncs GitHub commit and PR activity to linked Jira issues, giving PMs real-time visibility into development progress without asking developers for updates.
+Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 
 ---
 
 ## Get Started
 
-| Action | Link |
-|---|---|
-| **Install from Atlassian Marketplace** | [GitHub ↔ Jira Integration →](https://marketplace.atlassian.com/apps/1237063/bidirectional-github-saas-and-jira-integration) |
-| **Try Free** | [OIM Community Edition →](https://marketplace.atlassian.com/apps/1215532/opshub-integration-manager-oim-community-edition) |
-| **Request a Demo** | [See it in action with your data →](https://www.opshub.com/request-a-demo/) |
-| **Documentation** | [docs.opshub.com](https://docs.opshub.com) |
-
----
-
-[← Back to All Integrations](./) · [← Home](../)
+- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1234617)** — Try it free or buy now
+- **[View all OpsHub connectors on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
+- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — The platform behind this connector
+- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Need to migrate instead of integrate?
+- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
+- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources

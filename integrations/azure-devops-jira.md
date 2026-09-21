@@ -1,82 +1,45 @@
-# Azure DevOps ↔ Jira Integration
+# Azure DevOps Integration for Jira
 
-> Bi-directional, real-time synchronization between Azure DevOps and Jira using OpsHub Integration Manager (OIM).
+> Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1234612) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-[← Back to All Integrations](./) · [← Home](../)
+Bridge Jira and Azure DevOps with two-way synchronization of work items, custom fields, comments, attachments, links, and mentions. Keep both platforms current without manual effort.
 
 ---
 
-## Overview
-
-When development teams are split between Azure DevOps and Jira, keeping both systems in sync is critical. Without integration, teams waste time on manual updates, duplicate entries, and stale information that leads to missed deadlines and misaligned priorities.
-
-OpsHub Integration Manager bridges Azure DevOps and Jira with **real-time, bi-directional synchronization** — so every work item update, status change, comment, and attachment flows automatically between the two systems.
-
 ## Why Integrate Azure DevOps with Jira?
 
-| Challenge Without Integration | With OpsHub Integration |
-|---|---|
-| Manual copy-paste of work items between systems | Work items auto-sync bi-directionally in real time |
-| Status updates require switching between tools | Status changes flow automatically between ADO and Jira |
-| Comments and context lost across tools | Comments, attachments, and mentions sync with full attribution |
-| Custom fields ignored or manually maintained | Custom field mapping with type matching and transformations |
-| Sprint data fragmented across systems | Sprint and iteration data stays consistent |
+| Benefit | Details |
+|---------|---------|
+| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
+| **Always Accurate** | Real-time synchronization ensures Azure DevOps and Jira always show the same information. No stale data, no conflicts. |
+| **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
+| **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
+
+---
 
 ## What Gets Synced
 
-**Core Entities:**
-- Work items (ADO) ↔ Issues, bugs, stories, tasks, epics (Jira)
-- Priorities, statuses, and workflow transitions
-- Assignees, reporters, and team members
+Work items, bugs, tasks, epics, user stories, custom fields, comments, attachments, inline images, and links
 
-**Rich Data:**
-- Comments with original author and timestamps
-- Attachments and inline images
-- Custom fields with configurable mappings
-- Tags, labels, and components
-- Mentions and @-references
+All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1234612).
 
-**Relationships:**
-- Parent/child links
-- Related item references
-- Cross-project dependencies
+---
 
-## How It Works
+## Common Use Cases
 
-### 1. Connect
-Pre-built connectors link your Azure DevOps and Jira instances. Supports Azure DevOps Services (cloud), Azure DevOps Server, and Jira Cloud or Data Center.
+- Organizations using Jira for project management and Azure DevOps for development
+- Cross-team collaboration where some teams prefer Azure DevOps and others Jira
+- Consolidating reporting across both platforms without duplicate data entry
 
-### 2. Configure
-Map fields, statuses, and workflows between the two systems using OIM's no-code interface. Define sync rules — what gets synced, in which direction, and under what conditions.
-
-### 3. Sync
-Once activated, OIM synchronizes data bi-directionally in real time. Changes in either system reflect in the other automatically. Historical data can also be synced for a complete baseline.
-
-### 4. Monitor
-Built-in dashboards show sync status, throughput, and any errors. Teams have full visibility into data flow.
-
-## Use Cases
-
-**Cross-Team Collaboration**
-Development teams using Azure DevOps and teams on Jira collaborate seamlessly. A bug filed in Jira auto-syncs to the ADO team's backlog. When fixed, the status update flows back.
-
-**Post-Acquisition Standardization**
-After an acquisition, one team uses ADO and the other uses Jira. Rather than force an immediate tool switch, integrate both and let teams work in their preferred tool while sharing data.
-
-**Vendor Collaboration**
-An internal team on Azure DevOps collaborates with an external vendor on Jira. Work items, comments, and status updates sync automatically without sharing system credentials.
+Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 
 ---
 
 ## Get Started
 
-| Action | Link |
-|---|---|
-| **Install from Atlassian Marketplace** | [Azure DevOps ↔ Jira Integration →](https://marketplace.atlassian.com/apps/1234612/bidirectional-azure-devops-integration-for-jira) |
-| **Try Free** | [OIM Community Edition →](https://marketplace.atlassian.com/apps/1215532/opshub-integration-manager-oim-community-edition) |
-| **Request a Demo** | [See it in action with your data →](https://www.opshub.com/request-a-demo/) |
-| **Documentation** | [docs.opshub.com](https://docs.opshub.com) |
-
----
-
-[← Back to All Integrations](./) · [← Home](../)
+- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1234612)** — Try it free or buy now
+- **[View all OpsHub connectors on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
+- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — The platform behind this connector
+- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Need to migrate instead of integrate?
+- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
+- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources

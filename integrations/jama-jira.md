@@ -1,67 +1,45 @@
-# Jama Connect ↔ Jira Integration
+# Jama Connect Integration for Jira
 
-> Bi-directional, real-time synchronization between Jama Connect and Jira using OpsHub Integration Manager (OIM).
+> Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1234765) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-[← Back to All Integrations](./) · [← Home](../)
+Bidirectional sync between Jama Connect and Jira. Synchronize requirements, test cases, and defects to maintain traceability from requirements through to delivery.
 
 ---
 
-## Overview
+## Why Integrate Jama Connect with Jira?
 
-Jama Connect is a requirements management platform used in regulated industries like aerospace, defense, automotive, and medical devices. Engineering teams define requirements and manage traceability in Jama, while development teams track implementation in Jira.
+| Benefit | Details |
+|---------|---------|
+| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
+| **Always Accurate** | Real-time synchronization ensures Jama Connect and Jira always show the same information. No stale data, no conflicts. |
+| **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
+| **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
-OpsHub Integration Manager connects Jama and Jira with **no-code, bi-directional synchronization** — so requirements flow to Jira as actionable work items and implementation status flows back to Jama automatically.
-
-## Why Integrate Jama with Jira?
-
-| Challenge Without Integration | With OpsHub Integration |
-|---|---|
-| Requirements in Jama must be manually copied to Jira | Requirements auto-sync to Jira as stories or tasks |
-| Implementation status is invisible in Jama | Jira progress syncs back to Jama in real time |
-| Traceability between requirements and code is broken | End-to-end traceability across both systems |
-| Compliance audits require manual evidence collection | Audit trail maintained automatically |
-| Hierarchy and parent-child relationships get lost | Full hierarchy structure preserved during sync |
+---
 
 ## What Gets Synced
 
-**Core Entities:**
-- Components, sets, and folders (Jama) ↔ Epics, stories, tasks (Jira)
-- Requirements, tests, and releases
-- Parent-child relationships and item order
+Requirements, test cases, defects, relationships, comments, attachments, and custom fields
 
-**Rich Data:**
-- Comments with original author and timestamps
-- Attachments, links, and rich text data
-- Custom fields and field mappings
-- Location, location path, and folder structure
+All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1234765).
 
-**Relationships:**
-- Parent-child hierarchies
-- Requirement-to-implementation traceability
-- Cross-item links and dependencies
+---
 
-## Use Cases
+## Common Use Cases
 
-**Requirements-Driven Development**
-Systems engineers define requirements in Jama for a medical device. Requirements auto-sync to Jira as stories. Developers implement them in Jira, and completion status syncs back to Jama — maintaining full traceability for FDA compliance.
+- Product teams defining requirements in Jama while developers work in Jira
+- Maintaining requirements-to-code traceability in regulated industries
+- Cross-platform collaboration between systems engineering and software teams
 
-**Regulated Industry Compliance**
-An aerospace company needs to demonstrate traceability from requirements to implementation for DO-178C certification. OpsHub maintains the link between Jama requirements and Jira development tasks automatically.
-
-**Multi-Team Coordination**
-Systems engineering works in Jama while software teams work in Jira. OpsHub keeps both views synchronized so each team works in their preferred tool without losing visibility.
+Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 
 ---
 
 ## Get Started
 
-| Action | Link |
-|---|---|
-| **Install from Atlassian Marketplace** | [Jama ↔ Jira Integration →](https://marketplace.atlassian.com/apps/1234765/jama-integration-for-jira-bidirectional-sync) |
-| **Try Free** | [OIM Community Edition →](https://marketplace.atlassian.com/apps/1215532/opshub-integration-manager-oim-community-edition) |
-| **Request a Demo** | [See it in action with your data →](https://www.opshub.com/request-a-demo/) |
-| **Documentation** | [docs.opshub.com](https://docs.opshub.com) |
-
----
-
-[← Back to All Integrations](./) · [← Home](../)
+- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1234765)** — Try it free or buy now
+- **[View all OpsHub connectors on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
+- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — The platform behind this connector
+- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Need to migrate instead of integrate?
+- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
+- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources

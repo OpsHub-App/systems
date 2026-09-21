@@ -1,57 +1,45 @@
-# HubSpot ↔ Jira Integration
+# HubSpot Integration for Jira
 
-> Bi-directional, real-time synchronization between HubSpot and Jira using OpsHub Integration Manager (OIM).
+> Powered by [OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525) | [View on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1238418) | [All OpsHub Connectors](https://marketplace.atlassian.com/vendors/798149)
 
-[← Back to All Integrations](./) · [← Home](../)
+Two-way, data-rich integration between HubSpot CRM and Jira. Synchronize deals, tickets, contacts, notes, tasks, and more to keep marketing, sales, and engineering aligned.
 
 ---
 
-## Overview
+## Why Integrate HubSpot CRM with Jira?
 
-Marketing and sales teams work in HubSpot. Engineering teams work in Jira. When a support ticket needs a code fix or a product feedback loop needs to reach engineering, the gap between CRM and development slows everything down.
+| Benefit | Details |
+|---------|---------|
+| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
+| **Always Accurate** | Real-time synchronization ensures HubSpot CRM and Jira always show the same information. No stale data, no conflicts. |
+| **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
+| **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
-OpsHub Integration Manager connects HubSpot and Jira with **bi-directional, real-time synchronization** — so tickets become bugs, feedback becomes backlog items, and status updates flow back to customer-facing teams automatically.
-
-## Why Integrate HubSpot with Jira?
-
-| Challenge Without Integration | With OpsHub Integration |
-|---|---|
-| Support tickets manually copied to Jira | HubSpot tickets auto-sync to Jira as issues |
-| Engineering doesn't see customer context | Customer details and deal info flow with every issue |
-| Status updates require manual follow-up | Resolution status reflects instantly in HubSpot |
-| Product feedback lost between systems | Feedback captured in HubSpot syncs to Jira backlog |
+---
 
 ## What Gets Synced
 
-**Core Entities:**
-- Tickets, contacts, deals, companies (HubSpot) ↔ Issues, bugs, stories, tasks (Jira)
-- Priorities, statuses, and pipeline stages
-- Assignees and team members
+Deals, tickets, contacts, companies, notes, tasks, engagements, and custom properties
 
-**Rich Data:**
-- Notes and comments with author attribution
-- Attachments
-- Custom properties mapped to Jira custom fields
-- Contact and company associations
+All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms. [See full details on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1238418).
 
-## Use Cases
+---
 
-**Ticket-to-Bug Escalation**
-A customer reports an issue through HubSpot. The ticket syncs to Jira as a bug. Developers fix it, and the resolution flows back to HubSpot — the support rep closes the ticket with full context.
+## Common Use Cases
 
-**Product Feedback Loop**
-Feature requests logged in HubSpot sync to Jira's product backlog with customer context attached. Product managers prioritize with real customer data.
+- Marketing and sales teams on HubSpot while product teams use Jira
+- Automatically creating Jira issues from HubSpot support tickets
+- Tracking customer requests from CRM through to development completion
+
+Explore more [OpsHub integration solutions on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149).
 
 ---
 
 ## Get Started
 
-| Action | Link |
-|---|---|
-| **Install from Atlassian Marketplace** | [HubSpot ↔ Jira Integration →](https://marketplace.atlassian.com/apps/1238418/hubspot-integration-for-jira-bidirectional-sync) |
-| **Try Free** | [OIM Community Edition →](https://marketplace.atlassian.com/apps/1215532/opshub-integration-manager-oim-community-edition) |
-| **Request a Demo** | [See it in action with your data →](https://www.opshub.com/request-a-demo/) |
-
----
-
-[← Back to All Integrations](./) · [← Home](../)
+- **[Install from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1238418)** — Try it free or buy now
+- **[View all OpsHub connectors on the Marketplace](https://marketplace.atlassian.com/vendors/798149)** — 70+ integration and migration solutions
+- **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)** — The platform behind this connector
+- **[OpsHub Migration Manager (OMM)](https://marketplace.atlassian.com/apps/1224539)** — Need to migrate instead of integrate?
+- **[Free Community Edition](https://marketplace.atlassian.com/apps/1215532)** — Get started at no cost
+- **[OpsHub documentation and support](https://www.opshub.com)** — Guides and resources
