@@ -1,6 +1,6 @@
 # Zendesk Integration for Jira
 
-**Seamlessly connect Zendesk and Jira with real-time, bidirectional sync.**
+**Seamlessly connect Zendesk and Jira with near real-time, bidirectional sync.**
 
 [![View listing](https://img.shields.io/badge/View_listing-0052CC?style=flat&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/1234611)
 
@@ -10,26 +10,22 @@ Intelligent, data-rich two-way sync between Zendesk and Jira for any issue type.
 
 | Benefit | Details |
 |---------|---------|
-| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
-| **Always Accurate** | Real-time synchronization ensures Zendesk and Jira always show the same information. No stale data, no conflicts. |
-| **No-Code Setup** | Configure your integration visually with a no-code interface using native APIs. No scripting or API knowledge needed. |
-| **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, field-level conflict management, and full audit logging. |
+| **Eliminate Manual Work** | Reduces manual work, improves visibility, and maintains traceability across support and engineering teams. |
+| **Always Accurate** | Zendesk tickets are reliably transformed into Jira issues using controlled rules, preserving full context through synced fields, comments, attachments, and links. |
+| **No-Code Setup** | Manage integration through a no-code UI that scales across teams and projects, using reusable mappings to minimize maintenance. |
+| **Enterprise Ready** | Synchronization runs centrally in OpsHub with zero tool impact. Auto failure retry and reconciliation keep data consistent as volume grows. |
 
 ## What Gets Synced
 
-Tickets, issues, comments, attachments, priorities, statuses, custom fields, user info, related entities, entity mentions, user mentions, and issue and project movements
+Tickets, issues, comments, attachments, links, priorities, statuses, custom fields, users, and related entities
 
-All data flows bidirectionally in real time. Custom field mappings, field-level conflict management, and automatic retry ensure your data stays consistent across both platforms.
+OpsHub bidirectionally integrates Zendesk and Jira in near real time. Auto failure retry and reconciliation ensure your data stays consistent across both platforms.
 
 ## How It Works
 
-OpsHub Integration Manager connects Zendesk and Jira through their native APIs, operating as an external engine between both platforms. No plugins are installed inside your systems, so there is zero performance impact on either tool.
+Synchronization runs centrally in OpsHub, keeping Zendesk and Jira clean and untouched. Users cannot accidentally break integrations by editing fields, workflows, or records.
 
-The integration process follows three steps:
-
-1. **Connect** — Provide API credentials for Zendesk and Jira. Standard service account permissions are sufficient.
-2. **Map** — Use the no-code interface to map fields, workflows, and entities between systems. Reusable field mappings make configuration fast.
-3. **Sync** — Enable real-time bidirectional synchronization. OpsHub handles field-level conflict management, automatic retry on failures, and sync activity logging.
+Configure Zendesk and Jira, select the projects and entities to integrate, choose the sync direction and filters, then map the required fields. OpsHub handles the synchronization automatically.
 
 ## Common Use Cases
 
@@ -43,21 +39,21 @@ The integration process follows three steps:
 |------------|-----------|
 | Jira Cloud | ✓ |
 
-OpsHub connects through external APIs and operates as an external engine between both platforms, with zero performance impact on either tool.
+Synchronization runs centrally in OpsHub, keeping Zendesk and Jira clean and untouched.
 
 ## Frequently Asked Questions
 
-**Why do teams integrate Zendesk with Jira?**
+**Can Zendesk and Jira be integrated seamlessly?**
 
-Zendesk and Jira are often used by different teams within the same organization. Without integration, teams waste time on manual data entry, work with outdated information, and lose visibility across workflows. OpsHub keeps both systems synchronized automatically, so each team continues working in their preferred tool while staying aligned on priorities and progress.
+Yes. OpsHub bidirectionally integrates Zendesk and Jira, syncing tickets, issues, comments, attachments, priorities, statuses, and other fields in near real time. This reduces manual work, improves visibility, and maintains traceability across support and engineering teams.
 
-**What happens if a sync fails due to an API or connectivity issue?**
+**How do I set up Zendesk and Jira integration with OpsHub?**
 
-OpsHub has built-in retry logic and error-handling mechanisms. Syncs automatically retry on transient failures such as API rate limits or connectivity drops. If issues persist, alerts are triggered and detailed logs are available for troubleshooting. Your data remains consistent throughout.
+Configure Zendesk and Jira, select the projects and entities to integrate, choose the sync direction and filters, then map the required fields. OpsHub handles the synchronization automatically.
 
-**Is technical coding required to set up the integration?**
+**What data can be synchronized between Zendesk and Jira?**
 
-No. OpsHub provides a no-code configuration interface using native APIs. Teams can set up and manage integrations without custom scripting, middleware, or API development work.
+OpsHub syncs tickets, issues, comments, attachments, priorities, statuses, users, custom fields, and related entities. Teams can customize data flow to improve collaboration and eliminate manual updates.
 
 ## Related Connectors
 

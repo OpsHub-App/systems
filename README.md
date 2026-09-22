@@ -2,11 +2,11 @@
 
 **Enterprise Integration Solutions for Jira**
 
-OpsHub connects Jira with enterprise tools through bidirectional, real-time synchronization. No-code configuration, zero performance impact, and complete data fidelity.
+OpsHub connects Jira with enterprise tools through bidirectional, near real-time synchronization. No-code configuration, no performance impact, and complete data fidelity.
 
 ## Integration Solutions
 
-Connect Jira with any of these tools for real-time, bidirectional sync:
+Connect Jira with any of these tools for near real-time, bidirectional sync:
 
 | Tool | Integration | Link |
 |------|-------------|------|
@@ -17,10 +17,10 @@ Connect Jira with any of these tools for real-time, bidirectional sync:
 ## Why OpsHub?
 
 - **No-Code Setup** — No-code configuration using native APIs
-- **Bidirectional Sync** — Real-time, two-way data flow with conflict detection and resolution
-- **Enterprise Scale** — Trusted by leading enterprises for mission-critical workloads
-- **Complete Data Fidelity** — Every comment, attachment, and custom field preserved
-- **External Architecture** — Runs outside your tools with zero performance impact
+- **Bidirectional Sync** — Near real-time, two-way data flow with field-level conflict management
+- **Enterprise Scale** — Built for large-scale enterprise projects
+- **Complete Data Fidelity** — Comments, attachments, links, and mentions stay aligned
+- **No Performance Impact** — Connects through native APIs with no impact on your tools
 
 ## Learn More
 
