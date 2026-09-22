@@ -6,7 +6,7 @@
 
 Bidirectional sync between Zendesk and Jira Service Management. Connect customer support workflows with IT service management to keep both platforms aligned in real time.
 
-### Why Integrate Zendesk with Jira?
+## Why Integrate Zendesk with Jira?
 
 | Benefit | Details |
 |---------|---------|
@@ -15,19 +15,63 @@ Bidirectional sync between Zendesk and Jira Service Management. Connect customer
 | **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
 | **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
-### What Gets Synced
+## What Gets Synced
 
 Tickets, service requests, comments, attachments, custom fields, tags, and SLA data
 
 All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
 
-### Common Use Cases
+## How It Works
+
+OpsHub Integration Manager connects Zendesk and Jira through their native APIs, operating as an external engine between both platforms. No plugins are installed inside your systems, so there is zero performance impact on either tool.
+
+The integration process follows three steps:
+
+1. **Connect** — Provide API credentials for Zendesk and Jira. Standard service account permissions are sufficient.
+2. **Map** — Use the AI-assisted, drag-and-drop interface to map fields, workflows, and entities between systems.
+3. **Sync** — Enable real-time bidirectional synchronization. OpsHub handles conflict detection, retry logic, and audit logging automatically.
+
+## Common Use Cases
 
 - Support teams on Zendesk while IT teams manage services in JSM
 - Escalating Zendesk customer tickets to JSM service requests automatically
 - Unified support and ITSM visibility across Zendesk and JSM
 
-### Get Started
+## Supported Deployment
+
+| Deployment | Supported |
+|------------|-----------|
+| Jira Cloud | ✓ |
+| Jira Data Center | ✓ |
+| Jira Server | ✓ |
+
+OpsHub connects through external APIs and works with any Jira deployment type. On-premise deployment is available for organizations with strict data residency or security requirements.
+
+## Frequently Asked Questions
+
+**Why do teams integrate Zendesk with Jira?**
+
+Zendesk and Jira are often used by different teams within the same organization. Without integration, teams waste time on manual data entry, work with outdated information, and lose visibility across workflows. OpsHub keeps both systems synchronized automatically, so each team continues working in their preferred tool while staying aligned on priorities and progress.
+
+**What happens if a sync fails due to an API or connectivity issue?**
+
+OpsHub has built-in retry logic and error-handling mechanisms. Syncs automatically retry on transient failures such as API rate limits or connectivity drops. If issues persist, alerts are triggered and detailed logs are available for troubleshooting. Your data remains consistent throughout.
+
+**Is technical coding required to set up the integration?**
+
+No. OpsHub provides a no-code configuration interface with AI-assisted field mapping. Teams can set up and manage integrations without custom scripting, middleware, or API development work.
+
+## Related Connectors
+
+If you use Zendesk with Jira, you may also need:
+
+- [ServiceNow Integration for Jira](servicenow-jira.md)
+- [BMC Helix ITSM Integration for Jira](bmc-helix-jira.md)
+- [Zendesk Integration for Jira](zendesk-jira.md)
+
+[See all OpsHub connectors on the Atlassian Marketplace →](../README.md)
+
+## Get Started
 
 [![See All Connectors](https://img.shields.io/badge/See_All_Connectors-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 

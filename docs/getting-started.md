@@ -2,7 +2,7 @@
 
 > Your step-by-step guide to integrating or migrating with OpsHub on the Atlassian Marketplace
 
-### Choose Your Solution
+## Choose Your Solution
 
 OpsHub offers two main products on the Atlassian Marketplace:
 
@@ -26,7 +26,7 @@ For one-time data migration to Jira
 
 [Get OMM on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1224539)
 
-### Quick Setup Guide
+## Quick Setup Guide
 
 **Step 1: Install from the Marketplace**
 
@@ -50,7 +50,7 @@ For one-time data migration to Jira
 3. Enable full synchronization
 4. Monitor sync status from the OpsHub dashboard
 
-### How It Works
+## How It Works
 
 OpsHub operates as an external integration engine — it sits between your tools and synchronizes data without requiring plugins installed inside each system. This approach offers several advantages:
 
@@ -59,7 +59,7 @@ OpsHub operates as an external integration engine — it sits between your tools
 - **Works with cloud, server, and data center** deployments
 - **Handles complex scenarios** like multi-project mapping, conditional rules, and conflict resolution
 
-### Supported Tools
+## Supported Tools
 
 OpsHub connects with 70+ tools across these categories:
 
@@ -74,7 +74,7 @@ OpsHub connects with 70+ tools across these categories:
 
 [See all connectors on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149)
 
-### Need Help?
+## Need Help?
 
 - **[OpsHub Website](https://www.opshub.com)** — Product details and resources
 - **[Contact Sales](https://www.opshub.com/contact-us/)** — Custom requirements, enterprise pricing, or migration planning

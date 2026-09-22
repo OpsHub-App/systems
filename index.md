@@ -2,7 +2,7 @@
 
 Over two decades of connecting the tools that engineering, IT, and product teams depend on. No-code configuration. Bidirectional sync. Zero disruption migrations.
 
-### Products
+## Products
 
 **[OpsHub Integration Manager (OIM)](https://marketplace.atlassian.com/apps/1224525)**
 
@@ -25,7 +25,7 @@ Popular migrations:
 
 Purpose-built for teams adopting Microsoft Azure DevOps from legacy platforms.
 
-### Why Teams Choose OpsHub
+## Why Teams Choose OpsHub
 
 | Capability | What It Means |
 |-----------|---------------|
@@ -36,7 +36,7 @@ Purpose-built for teams adopting Microsoft Azure DevOps from legacy platforms.
 | Reconciliation engine | Detects and resolves conflicts when the same record is updated on both sides |
 | 70+ connectors | ALM, DevOps, ITSM, CRM, and PLM tools covered |
 
-### Learn More
+## Learn More
 
 - **[All OpsHub Connectors](README.md)** — Full list of 78 integrations and migrations
 - **[Why OpsHub](docs/why-opshub.md)** — Comparison and differentiators

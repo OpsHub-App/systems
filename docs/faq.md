@@ -2,7 +2,7 @@
 
 > Common questions about OpsHub integration and migration solutions
 
-### General Questions
+## General Questions
 
 **What is OpsHub?**
 
@@ -16,7 +16,7 @@ OpsHub operates as an external integration engine that connects to your tools vi
 
 OpsHub connects with 70+ tools including Azure DevOps, ServiceNow, Salesforce, GitHub, GitLab, IBM DOORS, Rally, PTC Windchill, Tricentis Tosca, and many more. See the [full list of supported systems](https://marketplace.atlassian.com/vendors/798149).
 
-### Integration Questions
+## Integration Questions
 
 **What is the difference between OIM and OMM?**
 
@@ -39,7 +39,7 @@ Yes. You can create rules that sync data only when certain conditions are met �
 
 OpsHub includes built-in conflict detection and resolution. You can configure conflict rules (e.g., source wins, target wins, or manual resolution) for different field types.
 
-### Migration Questions
+## Migration Questions
 
 **Is there downtime during migration?**
 
@@ -57,7 +57,7 @@ Everything — issues, comments, attachments, links, history, custom fields, wor
 
 Yes. OMM includes built-in validation and rollback capabilities so you can verify everything before making the switch permanent.
 
-### Technical Questions
+## Technical Questions
 
 **Does OpsHub require admin access?**
 
@@ -75,7 +75,7 @@ Yes. OpsHub uses encrypted end-to-end connections, supports SSO and SAML, and co
 
 OpsHub handles API rate limits automatically with built-in retry logic and throttling. Your sync continues without interruption even when rate limits are encountered.
 
-### Pricing and Licensing
+## Pricing and Licensing
 
 **Is there a free version?**
 
@@ -89,7 +89,7 @@ OIM pricing is based on the number of connectors and users. Visit the [Atlassian
 
 Yes. Most OpsHub products offer a free trial through the Atlassian Marketplace. Click **Try it free** on any OpsHub listing to get started.
 
-### Learn More
+## Learn More
 
 - **[Getting Started Guide](getting-started.md)** — Step-by-step setup instructions
 - **[Why OpsHub](why-opshub.md)** — Comparison and differentiators

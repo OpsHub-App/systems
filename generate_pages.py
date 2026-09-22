@@ -723,6 +723,100 @@ PLATFORM = [
 ]
 
 
+# =============================================================================
+# CATEGORY MAPPING FOR RELATED CONNECTORS (SEO internal linking)
+# =============================================================================
+
+PRODUCT_CATEGORIES = {
+    # ITSM
+    "servicenow-jira": "itsm", "bmc-helix-jira": "itsm", "zendesk-jira": "itsm",
+    "solarwinds-jira": "itsm", "ca-sdm-jira": "itsm", "pagerduty-jira": "itsm",
+    "servicenow-jsm": "itsm", "bmc-helix-jsm": "itsm", "zendesk-jsm": "itsm",
+    # CRM
+    "salesforce-jira": "crm", "hubspot-jira": "crm", "dynamics-365-jira": "crm",
+    "salesforce-jsm": "crm",
+    # ALM & Agile
+    "rally-jira": "alm", "digital-ai-jira": "alm", "aha-jira": "alm",
+    "jira-align-jira": "alm", "monday-jira": "alm", "bugzilla-jira": "alm",
+    "clearquest-jira": "alm", "teamforge-jira": "alm", "trac-jira": "alm",
+    "redmine-jira": "alm", "ibm-ewm-jira": "alm",
+    # Requirements Management
+    "ibm-doors-jira": "requirements", "ibm-doors-ng-jira": "requirements",
+    "jama-jira": "requirements", "blueprint-jira": "requirements",
+    "modern-requirements-jira": "requirements", "polarion-jira": "requirements",
+    "codebeamer-jira": "requirements", "caliber-jira": "requirements",
+    # Test Management
+    "tricentis-tosca-jira": "test", "tricentis-qtest-jira": "test",
+    "testRail-jira": "test", "ibm-etm-jira": "test", "opentext-alm-jira": "test",
+    "helix-alm-jira": "test", "selenium-jira": "test",
+    "zephyr-enterprise-testRail": "test", "xray-testRail": "test",
+    "zephyr-jama": "test", "xray-jama": "test",
+    # PLM & MBSE
+    "windchill-jira": "plm", "windchill-plm-jira": "plm", "aras-jira": "plm",
+    "vmanager-jira": "plm", "cadence-midas-jira": "plm",
+    "enterprise-architect-jira": "plm", "enterprise-architect-jsm": "plm",
+    "mbse-jira": "plm",
+    # DevOps & Version Control
+    "azure-devops-jira": "devops", "azure-devops-jsm": "devops",
+    "github-saas-jira": "devops", "github-jira": "devops",
+    "gitlab-jira": "devops", "jenkins-jira": "devops", "subversion-jira": "devops",
+    # Multi-Instance Sync
+    "two-way-sync-jira": "multi", "multi-instance-jira": "multi", "jsm-jira": "multi",
+    # Data & Analytics
+    "snowflake-jira": "data", "smart-data-lake-jira": "data",
+    "secure-archiving-jira": "data",
+    # Platform
+    "oim-enterprise": "platform", "oim-community": "platform",
+}
+
+# Cross-link migrations to their corresponding integration pages
+MIGRATION_TO_INTEGRATION = {
+    "azure-devops-to-jira": "azure-devops-jira",
+    "bmc-remedy-to-jira": "bmc-helix-jira",
+    "redmine-to-jira": "redmine-jira",
+    "jsm-migration": "jsm-jira",
+}
+INTEGRATION_TO_MIGRATION = {v: k for k, v in MIGRATION_TO_INTEGRATION.items()}
+
+
+def _build_product_lookup():
+    """Build a slug -> product lookup from all product lists."""
+    lookup = {}
+    for p in INTEGRATIONS:
+        lookup[p["slug"]] = {"folder": "integrations", **p}
+    for p in MIGRATIONS:
+        lookup[p["slug"]] = {"folder": "migrations", **p}
+    for p in PLATFORM:
+        lookup[p["slug"]] = {"folder": "integrations", **p}
+    return lookup
+
+
+def get_related_connectors(current_slug, current_folder, n=3):
+    """Return related products for internal linking."""
+    all_products = _build_product_lookup()
+    category = PRODUCT_CATEGORIES.get(current_slug)
+    if not category:
+        return []
+
+    # Same-category peers, excluding self
+    peers = [s for s, c in PRODUCT_CATEGORIES.items()
+             if c == category and s != current_slug and s in all_products]
+
+    related = []
+    for slug in peers[:n]:
+        p = all_products[slug]
+        if current_folder == p["folder"]:
+            path = f"{slug}.md"
+        else:
+            path = f"../{p['folder']}/{slug}.md"
+        related.append({"name": p["name"], "path": path})
+    return related
+
+
+# =============================================================================
+# PAGE GENERATORS
+# =============================================================================
+
 def generate_integration_page(product):
     """Generate a markdown page for an integration product."""
     is_one_way = product.get("one_way", False)
@@ -736,6 +830,16 @@ def generate_integration_page(product):
             ("Enterprise Ready", "Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging."),
         ]
         sync_direction = f"Data flows from Jira to {product['tool']} with incremental sync. Custom field mappings and conditional rules ensure your data stays consistent."
+        how_it_works = f"""OpsHub Integration Manager connects Jira and {product['tool']} through their native APIs, operating as an external engine between both platforms. No plugins are installed inside your systems, so there is zero performance impact on either tool.
+
+The setup process follows three steps:
+
+1. **Connect** — Provide API credentials for Jira and {product['tool']}. Standard service account permissions are sufficient.
+2. **Map** — Use the AI-assisted, drag-and-drop interface to map fields, workflows, and entities between systems.
+3. **Sync** — Enable incremental synchronization. OpsHub handles scheduling, retry logic, and audit logging automatically."""
+        faq_q1 = f"""**Why do teams connect {product['tool']} with Jira?**
+
+Teams that use {product['tool']} alongside Jira often deal with manual data entry, outdated information, and limited visibility across workflows. OpsHub eliminates these issues by syncing data automatically, so both systems stay current without anyone copying data between them."""
     else:
         intro = f"**Seamlessly connect {product['tool']} and Jira with real-time, bidirectional sync.**"
         benefits = [
@@ -745,8 +849,44 @@ def generate_integration_page(product):
             ("Enterprise Ready", "Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging."),
         ]
         sync_direction = "All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms."
+        how_it_works = f"""OpsHub Integration Manager connects {product['tool']} and Jira through their native APIs, operating as an external engine between both platforms. No plugins are installed inside your systems, so there is zero performance impact on either tool.
+
+The integration process follows three steps:
+
+1. **Connect** — Provide API credentials for {product['tool']} and Jira. Standard service account permissions are sufficient.
+2. **Map** — Use the AI-assisted, drag-and-drop interface to map fields, workflows, and entities between systems.
+3. **Sync** — Enable real-time bidirectional synchronization. OpsHub handles conflict detection, retry logic, and audit logging automatically."""
+        faq_q1 = f"""**Why do teams integrate {product['tool']} with Jira?**
+
+{product['tool']} and Jira are often used by different teams within the same organization. Without integration, teams waste time on manual data entry, work with outdated information, and lose visibility across workflows. OpsHub keeps both systems synchronized automatically, so each team continues working in their preferred tool while staying aligned on priorities and progress."""
 
     uc_text = "\n".join([f"- {uc}" for uc in product["use_cases"]])
+
+    # Related connectors (internal linking for SEO)
+    related = get_related_connectors(product["slug"], "integrations")
+    related_text = ""
+    if related:
+        related_lines = "\n".join([f"- [{r['name']}]({r['path']})" for r in related])
+        related_text = f"""
+
+## Related Connectors
+
+If you use {product['tool']} with Jira, you may also need:
+
+{related_lines}
+
+[See all OpsHub connectors on the Atlassian Marketplace →](../README.md)"""
+
+    # Cross-link to migration page if one exists
+    migration_slug = INTEGRATION_TO_MIGRATION.get(product["slug"])
+    migration_text = ""
+    if migration_slug:
+        all_prods = _build_product_lookup()
+        if migration_slug in all_prods:
+            mig = all_prods[migration_slug]
+            migration_text = f"""
+
+> **Migrating to Jira?** See [{mig['name']}](../migrations/{migration_slug}.md) for zero-downtime migration from {product['tool']}."""
 
     content = f"""# {product['name']}
 
@@ -756,7 +896,7 @@ def generate_integration_page(product):
 
 {product['desc']}
 
-### Why Integrate {product['tool']} with Jira?
+## Why Integrate {product['tool']} with Jira?
 
 | Benefit | Details |
 |---------|---------|
@@ -765,17 +905,43 @@ def generate_integration_page(product):
 | **{benefits[2][0]}** | {benefits[2][1]} |
 | **{benefits[3][0]}** | {benefits[3][1]} |
 
-### What Gets Synced
+## What Gets Synced
 
 {product['syncs']}
 
 {sync_direction}
 
-### Common Use Cases
+## How It Works
+
+{how_it_works}
+
+## Common Use Cases
 
 {uc_text}
 
-### Get Started
+## Supported Deployment
+
+| Deployment | Supported |
+|------------|-----------|
+| Jira Cloud | ✓ |
+| Jira Data Center | ✓ |
+| Jira Server | ✓ |
+
+OpsHub connects through external APIs and works with any Jira deployment type. On-premise deployment is available for organizations with strict data residency or security requirements.
+
+## Frequently Asked Questions
+
+{faq_q1}
+
+**What happens if a sync fails due to an API or connectivity issue?**
+
+OpsHub has built-in retry logic and error-handling mechanisms. Syncs automatically retry on transient failures such as API rate limits or connectivity drops. If issues persist, alerts are triggered and detailed logs are available for troubleshooting. Your data remains consistent throughout.
+
+**Is technical coding required to set up the integration?**
+
+No. OpsHub provides a no-code configuration interface with AI-assisted field mapping. Teams can set up and manage integrations without custom scripting, middleware, or API development work.{related_text}{migration_text}
+
+## Get Started
 
 [![See All Connectors](https://img.shields.io/badge/See_All_Connectors-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
@@ -788,6 +954,17 @@ def generate_migration_page(product):
     """Generate a markdown page for a migration product."""
     uc_text = "\n".join([f"- {uc}" for uc in product["use_cases"]])
 
+    # Cross-link to integration page if one exists
+    integration_slug = MIGRATION_TO_INTEGRATION.get(product["slug"])
+    cross_link_text = ""
+    if integration_slug:
+        all_prods = _build_product_lookup()
+        if integration_slug in all_prods:
+            integ = all_prods[integration_slug]
+            cross_link_text = f"""
+
+> **Need ongoing sync after migration?** See [{integ['name']}](../integrations/{integration_slug}.md) for real-time, bidirectional synchronization between {product['tool']} and Jira."""
+
     content = f"""# {product['name']}
 
 **Migrate to Jira from {product['tool']} with zero downtime and complete data fidelity.**
@@ -796,7 +973,7 @@ def generate_migration_page(product):
 
 {product['desc']}
 
-### Why Choose OpsHub for This Migration?
+## Why Choose OpsHub for This Migration?
 
 | Benefit | Details |
 |---------|---------|
@@ -805,17 +982,51 @@ def generate_migration_page(product):
 | **Incremental Sync** | Migrate in phases. Run delta syncs to capture changes made after the initial migration until you are ready to cut over. |
 | **Rollback Ready** | Built-in validation and rollback capabilities ensure you can verify everything before making the switch permanent. |
 
-### What Gets Migrated
+## What Gets Migrated
 
 {product['syncs']}
 
 All data is validated before, during, and after migration to ensure complete accuracy.
 
-### Common Use Cases
+## How It Works
+
+OpsHub Migration Manager connects to {product['tool']} and Jira through their APIs and runs the migration in the background while your teams continue working.
+
+The migration process follows three steps:
+
+1. **Export** — OpsHub reads data from {product['tool']} via its API. No plugins or admin access required in the source system.
+2. **Transform** — Fields, workflows, and entities are mapped to Jira equivalents using the AI-assisted configuration wizard.
+3. **Import** — Data is written to Jira with full validation. Incremental delta syncs capture any changes made after the initial load until you are ready to cut over.
+
+## Common Use Cases
 
 {uc_text}
 
-### Get Started
+## Supported Deployment
+
+| Deployment | Supported |
+|------------|-----------|
+| Jira Cloud | ✓ |
+| Jira Data Center | ✓ |
+| Jira Server | ✓ |
+
+OpsHub connects through external APIs and works with any Jira deployment type. On-premise deployment is available for organizations with strict data residency or security requirements.
+
+## Frequently Asked Questions
+
+**Is there downtime during the migration?**
+
+No. OpsHub runs migrations with zero downtime. Your teams continue working in {product['tool']} throughout the migration process. Incremental delta syncs capture any changes made after the initial load, so nothing is lost during the transition.
+
+**What data gets preserved during migration?**
+
+Everything — issues, comments, attachments, links, history, custom fields, workflows, and metadata. OpsHub validates data before, during, and after migration to ensure nothing is lost or reformatted.
+
+**Can I roll back if something goes wrong?**
+
+Yes. OpsHub includes built-in validation and rollback capabilities. You can verify everything before making the switch permanent, and revert safely if issues arise so that migration can proceed with confidence.{cross_link_text}
+
+## Get Started
 
 [![See All Migrations](https://img.shields.io/badge/See_All_Migrations-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
@@ -836,7 +1047,7 @@ def generate_platform_page(product):
 
 {product['desc']}
 
-### Why OpsHub?
+## Why OpsHub?
 
 | Benefit | Details |
 |---------|---------|
@@ -845,15 +1056,49 @@ def generate_platform_page(product):
 | **Enterprise Scale** | Handles millions of records, complex field mappings, and conditional sync rules with built-in conflict resolution. |
 | **Proven Reliability** | Trusted by leading enterprises for mission-critical integration and migration workloads. |
 
-### What Gets Synced
+## What Gets Synced
 
 {product['syncs']}
 
-### Common Use Cases
+## How It Works
+
+OpsHub operates as an external integration engine that connects to your tools via their APIs. It synchronizes data bidirectionally without requiring plugins inside your systems, so there is no performance impact on Jira or your connected tools.
+
+The setup process follows three steps:
+
+1. **Connect** — Provide API credentials for each tool you want to integrate. Standard service account permissions are sufficient.
+2. **Map** — Use the AI-assisted, drag-and-drop interface to map fields, workflows, and entities between systems.
+3. **Sync** — Enable real-time synchronization. OpsHub handles conflict detection, retry logic, and audit logging automatically.
+
+## Common Use Cases
 
 {uc_text}
 
-### Get Started
+## Supported Deployment
+
+| Deployment | Supported |
+|------------|-----------|
+| Jira Cloud | ✓ |
+| Jira Data Center | ✓ |
+| Jira Server | ✓ |
+
+OpsHub connects through external APIs and works with any Jira deployment type. On-premise deployment is available for organizations with strict data residency or security requirements.
+
+## Frequently Asked Questions
+
+**How many tools can OpsHub integrate at once?**
+
+OpsHub supports 70+ connectors and can run multiple integrations simultaneously. Each connector is configured independently, allowing you to build a connected toolchain across your entire organization.
+
+**Is my data secure during synchronization?**
+
+Yes. OpsHub uses encrypted end-to-end connections, supports SSO and SAML, and complies with enterprise security requirements. Data is processed but not stored by OpsHub.
+
+**Where can OpsHub be deployed?**
+
+OpsHub can be deployed on local servers, customer cloud environments (AWS, Azure), or as a SaaS solution. On-premise deployment is available for regulated industries that cannot use cloud-hosted integration.
+
+## Get Started
 
 [![See All Solutions](https://img.shields.io/badge/See_All_Solutions-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
@@ -885,26 +1130,26 @@ def generate_readme(integrations, migrations, platform):
 
 OpsHub connects Jira with 70+ ALM, DevOps, ITSM, CRM, and PLM tools through bidirectional, real-time synchronization. Whether you need to integrate your existing tools with Jira or migrate to Jira from legacy platforms, OpsHub makes it simple with no-code configuration and zero-downtime execution.
 
-### Integration Solutions
+## Integration Solutions
 
 Connect Jira with any of these tools for real-time, bidirectional sync:
 
 | Tool | Integration | Link |
 |------|-------------|------|
 {int_rows}
-### Migration Solutions
+## Migration Solutions
 
 Move to Jira from any platform with zero downtime:
 
 | Source | Migration | Link |
 |--------|-----------|------|
 {mig_rows}
-### Platform Products
+## Platform Products
 
 | Product | Description | Link |
 |---------|-------------|------|
 {plat_rows}
-### Why OpsHub?
+## Why OpsHub?
 
 - **70+ Connectors** — The broadest range of enterprise tool integrations on the market
 - **Zero Downtime** — Migrations and integrations that never interrupt your teams
@@ -912,7 +1157,7 @@ Move to Jira from any platform with zero downtime:
 - **Enterprise Scale** — Trusted by leading enterprises for mission-critical workloads
 - **Complete Data Fidelity** — Every comment, attachment, and custom field preserved
 
-### Learn More
+## Learn More
 
 - **[OpsHub Website](https://www.opshub.com)** — Product details, documentation, and resources
 - **[Atlassian Marketplace — OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** — All OpsHub listings

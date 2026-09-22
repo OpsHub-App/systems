@@ -2,11 +2,11 @@
 
 > What makes OpsHub the enterprise choice for Jira integration and migration
 
-### The Challenge
+## The Challenge
 
 Modern enterprises run dozens of specialized tools — Jira for development, ServiceNow for ITSM, Salesforce for CRM, IBM DOORS for requirements, and many more. When these tools are disconnected, teams waste time on manual data entry, work with outdated information, and lose visibility across the organization.
 
-### How OpsHub Solves It
+## How OpsHub Solves It
 
 **70+ Connectors Out of the Box**
 
@@ -36,7 +36,7 @@ Moving to Jira from legacy tools should not mean freezing your teams for days or
 
 When OpsHub moves or syncs data, everything comes along — comments, attachments, inline images, links, history, custom fields, and relationships. No reformatting, no data loss, no manual cleanup afterward.
 
-### OpsHub by the Numbers
+## OpsHub by the Numbers
 
 | Metric | Value |
 |--------|-------|
@@ -46,7 +46,7 @@ When OpsHub moves or syncs data, everything comes along — comments, attachment
 | **Downtime during migration** | Zero |
 | **Setup approach** | No-code, AI-assisted |
 
-### Who Uses OpsHub?
+## Who Uses OpsHub?
 
 - **IT and DevOps teams** synchronizing incidents between ServiceNow and Jira
 - **Systems engineering teams** connecting IBM DOORS requirements to Jira development
@@ -55,13 +55,13 @@ When OpsHub moves or syncs data, everything comes along — comments, attachment
 - **PMOs** unifying portfolio data from Clarity or Jira Align with team-level Jira
 - **PLM teams** creating a digital thread between PTC Windchill and Jira
 
-### Getting Started
+## Getting Started
 
 1. **Find your connector** — [Browse OpsHub on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149)
 2. **Try it free** — Most OpsHub listings offer a free trial
 3. **Need help?** — [Contact OpsHub](https://www.opshub.com/contact-us/) for custom requirements
 
-### Learn More
+## Learn More
 
 - **[Getting Started Guide](getting-started.md)** — Step-by-step setup
 - **[FAQ](faq.md)** — Common questions answered

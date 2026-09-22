@@ -6,7 +6,7 @@
 
 Migrate BMC Remedy ITSM requests to Jira without downtime. Preserve comments, attachments, request history, and custom fields throughout the transition.
 
-### Why Choose OpsHub for This Migration?
+## Why Choose OpsHub for This Migration?
 
 | Benefit | Details |
 |---------|---------|
@@ -15,19 +15,55 @@ Migrate BMC Remedy ITSM requests to Jira without downtime. Preserve comments, at
 | **Incremental Sync** | Migrate in phases. Run delta syncs to capture changes made after the initial migration until you are ready to cut over. |
 | **Rollback Ready** | Built-in validation and rollback capabilities ensure you can verify everything before making the switch permanent. |
 
-### What Gets Migrated
+## What Gets Migrated
 
 Incidents, change requests, problems, tasks, comments, attachments, work logs, and request history
 
 All data is validated before, during, and after migration to ensure complete accuracy.
 
-### Common Use Cases
+## How It Works
+
+OpsHub Migration Manager connects to BMC Remedy ITSM and Jira through their APIs and runs the migration in the background while your teams continue working.
+
+The migration process follows three steps:
+
+1. **Export** — OpsHub reads data from BMC Remedy ITSM via its API. No plugins or admin access required in the source system.
+2. **Transform** — Fields, workflows, and entities are mapped to Jira equivalents using the AI-assisted configuration wizard.
+3. **Import** — Data is written to Jira with full validation. Incremental delta syncs capture any changes made after the initial load until you are ready to cut over.
+
+## Common Use Cases
 
 - Organizations replacing BMC Remedy with Jira Service Management
 - IT departments modernizing their ITSM platform
 - Preserving years of ITSM history while moving to Jira
 
-### Get Started
+## Supported Deployment
+
+| Deployment | Supported |
+|------------|-----------|
+| Jira Cloud | ✓ |
+| Jira Data Center | ✓ |
+| Jira Server | ✓ |
+
+OpsHub connects through external APIs and works with any Jira deployment type. On-premise deployment is available for organizations with strict data residency or security requirements.
+
+## Frequently Asked Questions
+
+**Is there downtime during the migration?**
+
+No. OpsHub runs migrations with zero downtime. Your teams continue working in BMC Remedy ITSM throughout the migration process. Incremental delta syncs capture any changes made after the initial load, so nothing is lost during the transition.
+
+**What data gets preserved during migration?**
+
+Everything — issues, comments, attachments, links, history, custom fields, workflows, and metadata. OpsHub validates data before, during, and after migration to ensure nothing is lost or reformatted.
+
+**Can I roll back if something goes wrong?**
+
+Yes. OpsHub includes built-in validation and rollback capabilities. You can verify everything before making the switch permanent, and revert safely if issues arise so that migration can proceed with confidence.
+
+> **Need ongoing sync after migration?** See [BMC Helix ITSM Integration for Jira](../integrations/bmc-helix-jira.md) for real-time, bidirectional synchronization between BMC Remedy ITSM and Jira.
+
+## Get Started
 
 [![See All Migrations](https://img.shields.io/badge/See_All_Migrations-2684FF?style=for-the-badge)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
 
