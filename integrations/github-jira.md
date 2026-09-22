@@ -4,35 +4,34 @@
 
 [![View listing](https://img.shields.io/badge/View_listing-0052CC?style=flat&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/1234617)
 
-Enterprise-grade, bidirectional sync between GitHub and Jira. Sync epics, issues, pull requests, and commits in near real-time. Bridges GitHub markdown and Jira wiki markup for seamless data flow.
+An enterprise-grade integration that keeps GitHub and Jira in continuous two-way sync — covering epics, issues, pull requests, and commits while bridging GitHub markdown and Jira wiki markup automatically.
 
-## Why Integrate GitHub with Jira?
+## Key Highlights
 
-| Benefit | Details |
-|---------|---------|
-| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
-| **Always Accurate** | Near real-time synchronization keeps GitHub and Jira aligned. OIM manages field-level conflicts and retries failed updates to prevent data drift. |
-| **No-Code Setup** | Configure your integration with no-code setup using native APIs. No scripting or webhook maintenance needed. |
-| **Enterprise Ready** | Built for scale with field-level conflict management, automatic retry on failures, and sync activity logging. |
+| Highlight | Details |
+|-----------|---------|
+| **GitHub Jira rich data sync for dev teams** | Epics and issues stay synchronized across GitHub and Jira in near real time. Comments, attachments, links, and mentions travel with every record, and OIM automatically converts between GitHub markdown and Jira wiki markup so formatting is never lost. |
+| **Configure your Integration with no code** | There are no scripts to write and no webhooks to maintain. OIM connects through native APIs and provides a no-code configuration interface, keeping performance unaffected on both GitHub and Jira. |
+| **Reliable GitHub and Jira synchronization** | Field-level conflicts are detected and resolved, failed updates are retried automatically, and every sync event is logged to prevent data drift. An eventual consistency model ensures development activity and project tracking stay aligned at all times. |
 
 ## What Gets Synced
 
 Epics, issues, pull requests, commits, branches, comments, attachments, links, mentions, status updates, and development activity
 
-All data flows bidirectionally in near real-time. Field-level conflict management and automatic retry ensure your data stays consistent across both platforms.
+Every record syncs in both directions in near real time. OIM detects field-level conflicts, retries any failed updates, and logs all sync activity to prevent data drift.
 
 ## How It Works
 
-OpsHub Integration Manager (OIM) uses native APIs to connect GitHub and Jira with no-code configuration and no impact on performance on either tool.
+OpsHub Integration Manager (OIM) connects GitHub and Jira through native APIs — no custom scripts, no performance overhead on either platform.
 
-Product teams create epics, stories, or issues in Jira. OpsHub links these with related GitHub branches and pull requests. Developers create commits and pull requests tied to Jira issues. Comments, status updates, and development activity stay aligned across both systems, giving teams near real-time visibility without switching tools.
+Product teams create epics, stories, or issues in Jira, and OpsHub automatically links them to the corresponding GitHub branches and pull requests. As developers commit code and open PRs, those updates flow back to Jira in near real time. Comments, status changes, and development activity remain aligned across both systems, giving every team member up-to-date visibility in whichever tool they prefer.
 
 ## Common Use Cases
 
 - Controlled change traceability linking commits to Jira issues
-- Release alignment through branch and PR updates in Jira
+- Accurate release alignment through branch and PR updates in Jira
 - Program visibility consolidating GitHub activity into Jira
-- Enterprise synchronization without complex scripting
+- Enterprise-grade synchronization without complex scripting
 
 ## Supported Deployment
 
@@ -40,21 +39,21 @@ Product teams create epics, stories, or issues in Jira. OpsHub links these with 
 |------------|-----------|
 | Jira Cloud | ✓ |
 
-OpsHub connects through native APIs with no impact on performance on either tool.
+OpsHub connects through native APIs, introducing zero performance overhead on either tool.
 
 ## Frequently Asked Questions
 
 **Why do teams integrate GitHub with Jira?**
 
-GitHub and Jira are often used by different teams within the same organization. Without integration, teams waste time on manual updates, work with outdated information, and lose visibility across workflows. OpsHub keeps both systems synchronized automatically, so each team continues working in their preferred tool while staying aligned on priorities and progress.
+Development and project management often live in separate tools. Without a live connection, teams resort to manual copy-paste, work from stale data, and lose sight of what's happening across workflows. OpsHub bridges that gap by keeping both systems in sync automatically — each team stays in their preferred tool while sharing priorities and progress in real time.
 
 **What happens if a sync fails?**
 
-OpsHub retries failed updates and logs sync activity to prevent data drift. Built on an eventual consistency model, it keeps your data aligned across both platforms.
+Any update that doesn't go through on the first attempt is automatically retried, and the event is logged for review. Because OpsHub uses an eventual consistency model, every change is guaranteed to reach the target system even after a temporary disruption.
 
 **Is technical coding required to set up the integration?**
 
-No. OpsHub provides no-code configuration using native APIs. Teams can set up and manage integrations without scripting or webhook maintenance.
+No. The entire setup is handled through a no-code interface that connects via native APIs. You don't need to write scripts or manage webhooks.
 
 ## Related Connectors
 

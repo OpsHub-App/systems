@@ -4,35 +4,34 @@
 
 [![View listing](https://img.shields.io/badge/View_listing-0052CC?style=flat&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/1236368)
 
-Rich and reliable bidirectional data sync between Jira and ServiceNow for tables, tasks, tests, steps, comments, attachments, links, and more.
+OpsHub delivers dependable two-way synchronization between Jira and ServiceNow, covering tables, tasks, tests, steps, comments, attachments, links, and more.
 
-## Why Integrate ServiceNow with Jira?
+## Key Highlights
 
-| Benefit | Details |
-|---------|---------|
-| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
-| **Always Accurate** | OIM manages field-level conflicts, retries failed updates, and logs errors to keep data consistent. Built on an eventual consistency model, every update reaches the target as intended. |
-| **No-Code Setup** | Avoid custom code or webhook-heavy setups. Using native APIs and no-code configuration, OIM integrates across projects without slowing end-systems. |
-| **Enterprise Ready** | Built for scale with field-level conflict management, automatic retry on failures, and error logging. |
+| Highlight | Details |
+|-----------|---------|
+| **Bidirectional ServiceNow and Jira sync** | Tables, tests, sprints, and add-on data stay in sync across both tools. HTML/Wiki formatting is preserved, ServiceNow Assignment Groups map to Jira Projects, and comments, attachments, links, mentions, rich text, and history all travel with every record. |
+| **Configure your Jira ServiceNow integration easily** | Skip custom code and complex webhook setups. OIM connects through native APIs with a no-code configuration interface, letting you integrate 10 or 1,000+ projects without degrading performance on either platform. |
+| **Reliable Jira and ServiceNow sync** | Field-level conflicts are detected and resolved automatically, failed updates are retried, and all errors are logged for full visibility. An eventual consistency model guarantees every entity and update reaches the target system as intended. |
 
 ## What Gets Synced
 
 Tables, tasks, incidents, problems, change records, requests, tests, steps, sprints, assignment groups, comments, attachments, links, mentions, rich text (HTML/Wiki), and history
 
-All data flows bidirectionally. Field-level conflict management, automatic retry, and error logging ensure your data stays consistent across both platforms.
+Every record syncs in both directions. OIM handles field-level conflicts automatically, retries any failed updates, and logs errors so data stays consistent across both platforms.
 
 ## How It Works
 
-OpsHub Integration Manager (OIM) uses native APIs to connect ServiceNow and Jira with no-code configuration and no impact on performance on either tool.
+OpsHub Integration Manager (OIM) connects ServiceNow and Jira through native APIs — no custom code, no performance overhead on either platform.
 
-Support teams log incidents or problems in ServiceNow. OpsHub syncs them to Jira as appropriate issue types — bugs, tasks, or stories. Developers work in Jira, with updates syncing back automatically. Comments, attachments, links, and more stay aligned across tools. Everyone sees the latest context without switching tools.
+When support teams log incidents or problems in ServiceNow, OpsHub automatically creates matching Jira issues in the right format — bugs, tasks, or stories. Developers continue working in Jira, and every update flows back to ServiceNow in near real time. Comments, attachments, and links remain aligned across both tools, so every team member sees the latest context in whichever system they use.
 
 ## Common Use Cases
 
-- Faster resolution syncing ServiceNow incidents and requests to Jira as bugs or tasks
-- Clear delivery ownership linking ServiceNow change records to Jira tasks
-- Improved defect visibility connecting Jira defects to ServiceNow customer impact records
-- Portfolio-level transparency syncing high-level Jira epics with ServiceNow records
+- Faster incident resolution — ServiceNow incidents and requests automatically appear in Jira as bugs or tasks, letting engineering act without delay
+- Delivery ownership clarity — ServiceNow change records stay linked to Jira tasks, keeping approvals and development work in their respective systems
+- End-to-end defect visibility — Jira defects tied to customer impact link back to ServiceNow records so support teams can track resolution
+- Portfolio-level transparency — high-level Jira epics or initiatives sync with ServiceNow records for consolidated reporting and oversight
 
 ## Supported Deployment
 
@@ -40,21 +39,21 @@ Support teams log incidents or problems in ServiceNow. OpsHub syncs them to Jira
 |------------|-----------|
 | Jira Cloud | ✓ |
 
-OpsHub connects using native APIs and no-code setup without slowing end-systems.
+OpsHub connects through native APIs with a no-code setup, introducing zero performance overhead on either tool.
 
 ## Frequently Asked Questions
 
 **Why do teams integrate ServiceNow with Jira?**
 
-ServiceNow and Jira are often used by different teams within the same organization. Without integration, teams waste time on manual updates, work with outdated information, and lose visibility across workflows. OpsHub keeps both systems synchronized automatically, so each team continues working in their preferred tool while staying aligned on priorities and progress.
+Many organizations rely on ServiceNow for IT operations and Jira for development, but without a connection between them, teams spend time on manual updates and work from outdated data. OpsHub keeps both systems in sync automatically, so each team stays in their preferred tool while sharing priorities and progress in real time.
 
 **What happens if a sync fails?**
 
-OpsHub manages field-level conflicts, retries failed updates, and logs errors to keep data consistent. Built on an eventual consistency model, every update reaches the target as intended.
+OpsHub automatically retries any failed update and logs the error for review. The platform uses an eventual consistency model, meaning every change is guaranteed to reach the target system even if a temporary issue causes a delay.
 
 **Is technical coding required to set up the integration?**
 
-No. OpsHub provides no-code configuration using native APIs. Teams can set up and manage integrations without custom code or webhook-heavy setups.
+No. The entire integration is configured through a no-code interface that connects via native APIs. There is no need for custom scripts, middleware, or ongoing webhook maintenance.
 
 ## Related Connectors
 
