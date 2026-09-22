@@ -2,7 +2,7 @@
 
 **Seamlessly connect GitHub and Jira with real-time, bidirectional sync.**
 
-[![View Listing](https://img.shields.io/badge/View_Listing-0052CC?style=for-the-badge&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/1234617)
+[![View listing](https://img.shields.io/badge/View_listing-0052CC?style=flat&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/1234617)
 
 Enterprise-grade, bidirectional sync between GitHub and Jira. Sync epics, issues, pull requests, and commits in near real-time. Bridges GitHub markdown and Jira wiki markup for seamless data flow.
 
@@ -69,4 +69,4 @@ If you use GitHub with Jira, you may also need:
 
 ## Get Started
 
-[![View all listings](https://img.shields.io/badge/View_all_listings-2684FF?style=for-the-badge&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn More](https://img.shields.io/badge/Learn_More-172B4D?style=for-the-badge)](https://www.opshub.com)
+[![View all listings](https://img.shields.io/badge/View_all_listings-2684FF?style=flat&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn more](https://img.shields.io/badge/Learn_more-172B4D?style=flat)](https://www.opshub.com)

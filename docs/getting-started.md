@@ -1,83 +1,49 @@
 # Getting Started with OpsHub
 
-> Your step-by-step guide to integrating or migrating with OpsHub on the Atlassian Marketplace
+> Your step-by-step guide to integrating with OpsHub on the Atlassian Marketplace
 
-## Choose Your Solution
+## Available Integrations
 
-OpsHub offers two main products on the Atlassian Marketplace:
+OpsHub provides integration and migration solutions for Jira. OpsHub Integration Manager (OIM) provides bidirectional, real-time synchronization, and OpsHub Migration Manager (OMM) handles one-time data migrations. The following integration connectors are available on the Atlassian Marketplace:
 
-**OpsHub Integration Manager (OIM)**
-
-For ongoing, bidirectional synchronization between tools
-
-- Connect Jira with 70+ ALM, DevOps, ITSM, CRM, and PLM tools
-- Real-time, two-way data sync that keeps both platforms current
-- No-code setup using native APIs
-
-[Get OIM on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1224525)
-
-**OpsHub Migration Manager (OMM)**
-
-For one-time data migration to Jira
-
-- Move data from any tool to Jira with zero downtime
-- Preserve comments, attachments, links, history, and custom fields
-- Incremental sync lets teams keep working during migration
-
-[Get OMM on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1224539)
+- **[ServiceNow Integration for Jira](../integrations/servicenow-jira.md)** — [View on Marketplace](https://marketplace.atlassian.com/apps/1236368)
+- **[Zendesk Integration for Jira](../integrations/zendesk-jira.md)** — [View on Marketplace](https://marketplace.atlassian.com/apps/1234611)
+- **[GitHub Integration for Jira](../integrations/github-jira.md)** — [View on Marketplace](https://marketplace.atlassian.com/apps/1234617)
 
 ## Quick Setup Guide
 
 **Step 1: Install from the Marketplace**
 
 1. Go to the [OpsHub vendor page on Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149)
-2. Find the connector for your specific tools (e.g., ServiceNow + Jira, Azure DevOps + Jira)
+2. Find the connector for your specific tools (e.g., ServiceNow + Jira, Zendesk + Jira, GitHub + Jira)
 3. Click **Try it free** or **Buy now**
 4. Follow the Atlassian installation prompts
 
-**Step 2: Configure Your Connection**
+**Step 2: Configure your connection**
 
-1. Open OpsHub from your Jira administration panel
-2. Select the source and target systems you want to connect
-3. Use the no-code interface to map fields between systems
-4. Set sync direction (one-way or bidirectional)
-5. Configure any filters, conditions, or custom rules
+1. Provide API credentials for both systems. Standard service account permissions are sufficient.
+2. Use the no-code interface to map fields, workflows, and entities between systems.
+3. Reusable field mappings make configuration fast.
 
-**Step 3: Start Syncing**
+**Step 3: Start syncing**
 
-1. Run a test sync with a small set of data
-2. Review the results to ensure mappings are correct
-3. Enable full synchronization
-4. Monitor sync status from the OpsHub dashboard
+1. Enable real-time bidirectional synchronization
+2. OpsHub handles field-level conflict management, automatic retry on failures, and sync activity logging
+3. Monitor sync status from the OpsHub dashboard
 
 ## How It Works
 
-OpsHub operates as an external integration engine — it sits between your tools and synchronizes data without requiring plugins installed inside each system. This approach offers several advantages:
+OpsHub operates as an external integration engine — it connects to your tools through their native APIs and synchronizes data without requiring plugins installed inside either system. This means:
 
-- **No performance impact** on your Jira or source system
-- **No admin access required** in the source tool (standard API credentials work)
-- **Works with cloud, server, and data center** deployments
-- **Handles complex scenarios** like multi-project mapping, conditional rules, and conflict resolution
-
-## Supported Tools
-
-OpsHub connects with 70+ tools across these categories:
-
-- **Project & Portfolio Management** — Jira, Azure DevOps, Rally, Monday.com, Aha!, Jira Align, Broadcom Clarity
-- **ITSM** — ServiceNow, BMC Helix ITSM, Zendesk, SolarWinds, CA SDM, Jira Service Management
-- **Requirements Management** — IBM DOORS, IBM DOORS NG, Jama Connect, Codebeamer, Polarion, Blueprint, Modern Requirements
-- **Test Management** — Tricentis Tosca, Tricentis qTest, TestRail, Xray, Zephyr, IBM ETM, OpenText ALM
-- **CRM** — Salesforce, HubSpot, Microsoft Dynamics 365
-- **DevOps & Version Control** — GitHub, GitLab, Jenkins, Git, Gerrit, Subversion, Helix Core, TFVC
-- **PLM** — PTC Windchill, Aras Innovator, Cadence Midas
-- **MBSE** — Sparx Enterprise Architect, Cameo/MagicDraw
-
-[See all connectors on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149)
+- **Zero performance impact** on Jira or your connected tool
+- **No admin access required** — standard API credentials are sufficient
+- **Field-level conflict management** handles data conflicts automatically
+- **Automatic retry** on transient failures like API rate limits or connectivity drops
 
 ## Need Help?
 
 - **[OpsHub Website](https://www.opshub.com)** — Product details and resources
-- **[Contact Sales](https://www.opshub.com/contact-us/)** — Custom requirements, enterprise pricing, or migration planning
+- **[Contact Sales](https://www.opshub.com/contact-us/)** — Custom requirements and enterprise pricing
 - **[Atlassian Marketplace — OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** — Browse all OpsHub listings
 
 *OpsHub, Inc. — Enterprise Integration and Migration for Jira*
