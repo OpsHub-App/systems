@@ -29,7 +29,7 @@ Yes. OIM synchronizes changes in near real-time (typically within seconds to min
 
 **Can I sync custom fields?**
 
-Yes. OpsHub supports mapping custom fields between systems, including complex field types, picklists, multi-select fields, and calculated fields. The AI-assisted mapper helps you set up field mappings without manual configuration.
+Yes. OpsHub supports mapping custom fields between systems, including complex field types, picklists, multi-select fields, and calculated fields. The no-code interface helps you set up field mappings without manual configuration.
 
 **Does it support conditional sync?**
 

@@ -14,9 +14,9 @@ OpsHub connects with more enterprise tools than any other integration platform o
 
 [Browse all connectors on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149)
 
-**No-Code, AI-Assisted Setup**
+**No-Code Setup**
 
-Traditional integration approaches require scripting, middleware expertise, or expensive consultants. OpsHub changes that with a visual, drag-and-drop interface powered by AI-assisted field mapping. Business analysts and project managers can configure integrations without writing a single line of code.
+Traditional integration approaches require scripting, middleware expertise, or expensive consultants. OpsHub changes that with a no-code configuration interface using native APIs. Business analysts and project managers can configure integrations without writing a single line of code.
 
 **Enterprise-Grade Reliability**
 
@@ -44,7 +44,7 @@ When OpsHub moves or syncs data, everything comes along — comments, attachment
 | **Marketplace listings** | 78 |
 | **Sync directions** | Bidirectional, real-time |
 | **Downtime during migration** | Zero |
-| **Setup approach** | No-code, AI-assisted |
+| **Setup approach** | No-code, using native APIs |
 
 ## Who Uses OpsHub?
 

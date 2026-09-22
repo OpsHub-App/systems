@@ -12,7 +12,7 @@ For ongoing, bidirectional synchronization between tools
 
 - Connect Jira with 70+ ALM, DevOps, ITSM, CRM, and PLM tools
 - Real-time, two-way data sync that keeps both platforms current
-- No-code, AI-assisted setup with drag-and-drop configuration
+- No-code setup using native APIs
 
 [Get OIM on the Atlassian Marketplace](https://marketplace.atlassian.com/apps/1224525)
 
@@ -39,7 +39,7 @@ For one-time data migration to Jira
 
 1. Open OpsHub from your Jira administration panel
 2. Select the source and target systems you want to connect
-3. Use the AI-assisted mapping wizard to map fields between systems
+3. Use the no-code interface to map fields between systems
 4. Set sync direction (one-way or bidirectional)
 5. Configure any filters, conditions, or custom rules
 
