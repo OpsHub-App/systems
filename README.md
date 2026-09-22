@@ -4,9 +4,7 @@
 
 OpsHub connects Jira with 70+ ALM, DevOps, ITSM, CRM, and PLM tools through bidirectional, real-time synchronization. Whether you need to integrate your existing tools with Jira or migrate to Jira from legacy platforms, OpsHub makes it simple with no-code configuration and zero-downtime execution.
 
----
-
-## Integration Solutions
+### Integration Solutions
 
 Connect Jira with any of these tools for real-time, bidirectional sync:
 
@@ -79,9 +77,7 @@ Connect Jira with any of these tools for real-time, bidirectional sync:
 | [Zephyr Enterprise / TestRail](integrations/zephyr-enterprise-testRail.md) | Zephyr Enterprise for Jira and TestRail Integration | [Marketplace](https://marketplace.atlassian.com/apps/1100050933) |
 | [Zephyr for Jira / Jama Connect](integrations/zephyr-jama.md) | Zephyr for Jira and Jama Integration | [Marketplace](https://marketplace.atlassian.com/apps/1238264) |
 
----
-
-## Migration Solutions
+### Migration Solutions
 
 Move to Jira from any platform with zero downtime:
 
@@ -100,33 +96,25 @@ Move to Jira from any platform with zero downtime:
 | [FogBugz](migrations/fogbugz-to-jira.md) | Zero Downtime FogBugz to Jira Migration | [Marketplace](https://marketplace.atlassian.com/apps/257470442) |
 | [Jira](migrations/selective-migration-jira.md) | Selective Migration for Jira Without Full Instance Move | [Marketplace](https://marketplace.atlassian.com/apps/2936265464) |
 
----
-
-## Platform Products
+### Platform Products
 
 | Product | Description | Link |
 |---------|-------------|------|
-| [70+ Systems](migrations/oim-enterprise.md) | OpsHub Integration Manager (OIM) for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1224525) |
-| [Multiple Systems](migrations/oim-community.md) | OpsHub Integration Manager (OIM) Community Edition | [Marketplace](https://marketplace.atlassian.com/apps/1215532) |
+| [70+ Systems](integrations/oim-enterprise.md) | OpsHub Integration Manager (OIM) for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1224525) |
+| [Multiple Systems](integrations/oim-community.md) | OpsHub Integration Manager (OIM) Community Edition | [Marketplace](https://marketplace.atlassian.com/apps/1215532) |
 
----
-
-## Why OpsHub?
+### Why OpsHub?
 
 - **70+ Connectors** — The broadest range of enterprise tool integrations on the market
 - **Zero Downtime** — Migrations and integrations that never interrupt your teams
 - **No-Code Setup** — AI-assisted configuration with drag-and-drop simplicity
-- **Enterprise Scale** — Trusted by Fortune 500 companies for mission-critical workloads
+- **Enterprise Scale** — Trusted by leading enterprises for mission-critical workloads
 - **Complete Data Fidelity** — Every comment, attachment, and custom field preserved
 
----
-
-## Learn More
+### Learn More
 
 - **[OpsHub Website](https://www.opshub.com)** — Product details, documentation, and resources
 - **[Atlassian Marketplace — OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** — All OpsHub listings
-- **[Contact Sales](https://www.opshub.com/contact/)** — Custom requirements and enterprise pricing
-
----
+- **[Contact Sales](https://www.opshub.com/contact-us/)** — Custom requirements and enterprise pricing
 
 *OpsHub, Inc. — Enterprise Integration and Migration for Jira*

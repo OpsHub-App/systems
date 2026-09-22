@@ -1,6 +1,6 @@
 # OpsHub Smart Data Lake for Jira
 
-**Seamlessly connect Data Analytics and Jira with real-time, bidirectional sync.**
+**Connect Data Analytics and Jira with automated, incremental sync.**
 
 [![Get It Now](https://img.shields.io/badge/Get_It_Now-0052CC?style=for-the-badge&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/1238384)
 
@@ -10,8 +10,8 @@ Make Jira data AI-ready with a unified, context-rich data lake and real-time int
 
 | Benefit | Details |
 |---------|---------|
-| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
-| **Always Accurate** | Real-time synchronization ensures Data Analytics and Jira always show the same information. No stale data, no conflicts. |
+| **Eliminate Manual Work** | Data flows automatically from Jira to Data Analytics. No manual exports, no copy-paste, no missed updates. |
+| **Always Current** | Incremental sync keeps Data Analytics up to date with the latest Jira data. Only changes are transferred, keeping things fast and efficient. |
 | **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
 | **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
@@ -19,7 +19,7 @@ Make Jira data AI-ready with a unified, context-rich data lake and real-time int
 
 Issues, workflows, updates, test cases, requirements, incidents, custom fields, status transitions, and plugin data across connected tools
 
-All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
+Data flows from Jira to Data Analytics with incremental sync. Custom field mappings and conditional rules ensure your data stays consistent.
 
 ### Common Use Cases
 

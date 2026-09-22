@@ -386,6 +386,7 @@ INTEGRATIONS = [
         "desc": "Real-time integration between Subversion and Jira. Connect SVN commits, branches, and tags with Jira issues for development traceability without switching to Git.",
         "syncs": "Commits, branches, tags, changesets, file changes, and Jira issue links",
         "use_cases": ["Teams using SVN for version control while managing projects in Jira", "Linking code commits in Subversion to Jira issues automatically", "Organizations maintaining SVN repositories that need Jira integration"],
+        "one_way": True,
     },
     {
         "slug": "jenkins-jira",
@@ -440,6 +441,7 @@ INTEGRATIONS = [
         "desc": "Make Jira data AI-ready with a unified, context-rich data lake and real-time integration across DevOps, test, and requirements tools. Power copilots, analytics, and engineering insights.",
         "syncs": "Issues, workflows, updates, test cases, requirements, incidents, custom fields, status transitions, and plugin data across connected tools",
         "use_cases": ["Building an AI-ready data lake by connecting Jira with Azure DevOps, ServiceNow, and 70+ tools", "Powering copilots and AI systems with context-aware, linked data from requirements to incidents", "Engineering analytics across the full DevOps lifecycle with unified Jira data"],
+        "one_way": True,
     },
     {
         "slug": "redmine-jira",
@@ -584,6 +586,7 @@ INTEGRATIONS = [
         "desc": "Archive Jira data securely for compliance, scalability, and performance optimization. Preserve complete project history while keeping your active Jira instance lean and fast.",
         "syncs": "Issues, projects, comments, attachments, custom fields, changelogs, workflows, and full audit history",
         "use_cases": ["Organizations needing compliant long-term archival of Jira project data", "Improving Jira performance by archiving completed projects", "Regulated industries requiring audit-ready historical records from Jira"],
+        "one_way": True,
     },
 ]
 
@@ -722,18 +725,32 @@ PLATFORM = [
 
 def generate_integration_page(product):
     """Generate a markdown page for an integration product."""
-    benefits = [
-        ("Eliminate Manual Work", "Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters."),
-        ("Always Accurate", f"Real-time synchronization ensures {product['tool']} and Jira always show the same information. No stale data, no conflicts."),
-        ("No-Code Setup", "Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed."),
-        ("Enterprise Ready", "Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging."),
-    ]
+    is_one_way = product.get("one_way", False)
+
+    if is_one_way:
+        intro = f"**Connect {product['tool']} and Jira with automated, incremental sync.**"
+        benefits = [
+            ("Eliminate Manual Work", f"Data flows automatically from Jira to {product['tool']}. No manual exports, no copy-paste, no missed updates."),
+            ("Always Current", f"Incremental sync keeps {product['tool']} up to date with the latest Jira data. Only changes are transferred, keeping things fast and efficient."),
+            ("No-Code Setup", "Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed."),
+            ("Enterprise Ready", "Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging."),
+        ]
+        sync_direction = f"Data flows from Jira to {product['tool']} with incremental sync. Custom field mappings and conditional rules ensure your data stays consistent."
+    else:
+        intro = f"**Seamlessly connect {product['tool']} and Jira with real-time, bidirectional sync.**"
+        benefits = [
+            ("Eliminate Manual Work", "Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters."),
+            ("Always Accurate", f"Real-time synchronization ensures {product['tool']} and Jira always show the same information. No stale data, no conflicts."),
+            ("No-Code Setup", "Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed."),
+            ("Enterprise Ready", "Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging."),
+        ]
+        sync_direction = "All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms."
 
     uc_text = "\n".join([f"- {uc}" for uc in product["use_cases"]])
 
     content = f"""# {product['name']}
 
-**Seamlessly connect {product['tool']} and Jira with real-time, bidirectional sync.**
+{intro}
 
 [![Get It Now](https://img.shields.io/badge/Get_It_Now-0052CC?style=for-the-badge&logo=atlassian&logoColor=white)]({product['url']})
 
@@ -752,7 +769,7 @@ def generate_integration_page(product):
 
 {product['syncs']}
 
-{"Data flows from Jira to " + product["tool"] + " with incremental sync." if product.get("one_way") else "All data flows bidirectionally in real time."} Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
+{sync_direction}
 
 ### Common Use Cases
 
@@ -857,10 +874,10 @@ def generate_readme(integrations, migrations, platform):
     for p in migrations:
         mig_rows += f"| [{p['tool']}](migrations/{p['slug']}.md) | {p['name']} | [Marketplace]({p['url']}) |\n"
 
-    # Build platform table rows
+    # Build platform table rows (platform pages are in integrations/ folder)
     plat_rows = ""
     for p in platform:
-        plat_rows += f"| [{p['tool']}](migrations/{p['slug']}.md) | {p['name']} | [Marketplace]({p['url']}) |\n"
+        plat_rows += f"| [{p['tool']}](integrations/{p['slug']}.md) | {p['name']} | [Marketplace]({p['url']}) |\n"
 
     content = f"""# OpsHub on Atlassian Marketplace
 
@@ -868,50 +885,38 @@ def generate_readme(integrations, migrations, platform):
 
 OpsHub connects Jira with 70+ ALM, DevOps, ITSM, CRM, and PLM tools through bidirectional, real-time synchronization. Whether you need to integrate your existing tools with Jira or migrate to Jira from legacy platforms, OpsHub makes it simple with no-code configuration and zero-downtime execution.
 
----
-
-## Integration Solutions
+### Integration Solutions
 
 Connect Jira with any of these tools for real-time, bidirectional sync:
 
 | Tool | Integration | Link |
 |------|-------------|------|
 {int_rows}
----
-
-## Migration Solutions
+### Migration Solutions
 
 Move to Jira from any platform with zero downtime:
 
 | Source | Migration | Link |
 |--------|-----------|------|
 {mig_rows}
----
-
-## Platform Products
+### Platform Products
 
 | Product | Description | Link |
 |---------|-------------|------|
 {plat_rows}
----
-
-## Why OpsHub?
+### Why OpsHub?
 
 - **70+ Connectors** — The broadest range of enterprise tool integrations on the market
 - **Zero Downtime** — Migrations and integrations that never interrupt your teams
 - **No-Code Setup** — AI-assisted configuration with drag-and-drop simplicity
-- **Enterprise Scale** — Trusted by Fortune 500 companies for mission-critical workloads
+- **Enterprise Scale** — Trusted by leading enterprises for mission-critical workloads
 - **Complete Data Fidelity** — Every comment, attachment, and custom field preserved
 
----
-
-## Learn More
+### Learn More
 
 - **[OpsHub Website](https://www.opshub.com)** — Product details, documentation, and resources
 - **[Atlassian Marketplace — OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** — All OpsHub listings
-- **[Contact Sales](https://www.opshub.com/contact/)** — Custom requirements and enterprise pricing
-
----
+- **[Contact Sales](https://www.opshub.com/contact-us/)** — Custom requirements and enterprise pricing
 
 *OpsHub, Inc. — Enterprise Integration and Migration for Jira*
 """

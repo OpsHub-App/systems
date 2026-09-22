@@ -1,6 +1,6 @@
 # Subversion (SVN) Integration for Jira
 
-**Seamlessly connect Apache Subversion and Jira with real-time, bidirectional sync.**
+**Connect Apache Subversion and Jira with automated, incremental sync.**
 
 [![Get It Now](https://img.shields.io/badge/Get_It_Now-0052CC?style=for-the-badge&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/1556228798)
 
@@ -10,8 +10,8 @@ Real-time integration between Subversion and Jira. Connect SVN commits, branches
 
 | Benefit | Details |
 |---------|---------|
-| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
-| **Always Accurate** | Real-time synchronization ensures Apache Subversion and Jira always show the same information. No stale data, no conflicts. |
+| **Eliminate Manual Work** | Data flows automatically from Jira to Apache Subversion. No manual exports, no copy-paste, no missed updates. |
+| **Always Current** | Incremental sync keeps Apache Subversion up to date with the latest Jira data. Only changes are transferred, keeping things fast and efficient. |
 | **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
 | **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
@@ -19,7 +19,7 @@ Real-time integration between Subversion and Jira. Connect SVN commits, branches
 
 Commits, branches, tags, changesets, file changes, and Jira issue links
 
-All data flows bidirectionally in real time. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
+Data flows from Jira to Apache Subversion with incremental sync. Custom field mappings and conditional rules ensure your data stays consistent.
 
 ### Common Use Cases
 

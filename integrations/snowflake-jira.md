@@ -1,6 +1,6 @@
 # Snowflake and Jira Integration
 
-**Seamlessly connect Snowflake and Jira with real-time, bidirectional sync.**
+**Connect Snowflake and Jira with automated, incremental sync.**
 
 [![Get It Now](https://img.shields.io/badge/Get_It_Now-0052CC?style=for-the-badge&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/1238393)
 
@@ -10,8 +10,8 @@ Create a Jira-to-Snowflake data lake with full history and normalized data, AI-r
 
 | Benefit | Details |
 |---------|---------|
-| **Eliminate Manual Work** | Stop copying data between systems. Changes sync automatically in both directions, freeing your team to focus on what matters. |
-| **Always Accurate** | Real-time synchronization ensures Snowflake and Jira always show the same information. No stale data, no conflicts. |
+| **Eliminate Manual Work** | Data flows automatically from Jira to Snowflake. No manual exports, no copy-paste, no missed updates. |
+| **Always Current** | Incremental sync keeps Snowflake up to date with the latest Jira data. Only changes are transferred, keeping things fast and efficient. |
 | **No-Code Setup** | Configure your integration visually with an AI-assisted, drag-and-drop interface. No scripting or API knowledge needed. |
 | **Enterprise Ready** | Built for scale with support for complex field mappings, custom workflows, conditional sync rules, and full audit logging. |
 
@@ -19,7 +19,7 @@ Create a Jira-to-Snowflake data lake with full history and normalized data, AI-r
 
 Issues, issue links, full history, sprint transitions, status transitions, comments, custom fields, workflows, and plugin data (Zephyr, Xray, R4J, and more)
 
-Data flows from Jira to Snowflake with incremental sync. Custom field mappings, conditional rules, and conflict resolution ensure your data stays consistent across both platforms.
+Data flows from Jira to Snowflake with incremental sync. Custom field mappings and conditional rules ensure your data stays consistent.
 
 ### Common Use Cases
 
