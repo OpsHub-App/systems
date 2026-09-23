@@ -4,11 +4,11 @@
 
 ## Available Integrations
 
-OpsHub provides integration and migration solutions for Jira. OpsHub Integration Manager (OIM) provides bidirectional, real-time synchronization, and OpsHub Migration Manager (OMM) handles one-time data migrations. The following integration connectors are available on the Atlassian Marketplace:
+OpsHub provides integration solutions for Jira. OpsHub Integration Manager (OIM) provides bidirectional, real-time synchronization. The following integration connectors are available on the Atlassian Marketplace:
 
-- **[ServiceNow Integration for Jira](../integrations/servicenow-jira.md)** — [View on Marketplace](https://marketplace.atlassian.com/apps/1236368)
-- **[Zendesk Integration for Jira](../integrations/zendesk-jira.md)** — [View on Marketplace](https://marketplace.atlassian.com/apps/1234611)
-- **[GitHub Integration for Jira](../integrations/github-jira.md)** — [View on Marketplace](https://marketplace.atlassian.com/apps/1234617)
+- **[ServiceNow Integration for Jira](../integrations/servicenow-jira.md)** - [View on Marketplace](https://marketplace.atlassian.com/apps/1236368)
+- **[Zendesk Integration for Jira](../integrations/zendesk-jira.md)** - [View on Marketplace](https://marketplace.atlassian.com/apps/1234611)
+- **[GitHub Integration for Jira](../integrations/github-jira.md)** - [View on Marketplace](https://marketplace.atlassian.com/apps/1234617)
 
 ## Quick Setup Guide
 
@@ -33,17 +33,17 @@ OpsHub provides integration and migration solutions for Jira. OpsHub Integration
 
 ## How It Works
 
-OpsHub operates as an external integration engine — it connects to your tools through their native APIs and synchronizes data without requiring plugins installed inside either system. This means:
+OpsHub operates as an external integration engine - it connects to your tools through their native APIs and synchronizes data without requiring plugins installed inside either system. This means:
 
 - **Zero performance impact** on Jira or your connected tool
-- **No admin access required** — standard API credentials are sufficient
+- **No admin access required** - standard API credentials are sufficient
 - **Field-level conflict management** handles data conflicts automatically
 - **Automatic retry** on transient failures like API rate limits or connectivity drops
 
 ## Need Help?
 
-- **[OpsHub Website](https://www.opshub.com)** — Product details and resources
-- **[Contact Sales](https://www.opshub.com/contact-us/)** — Custom requirements and enterprise pricing
-- **[Atlassian Marketplace — OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** — Browse all OpsHub listings
+- **[OpsHub Website](https://www.opshub.com)** - Product details and resources
+- **[Contact Sales](https://www.opshub.com/contact-us/)** - Custom requirements and enterprise pricing
+- **[Atlassian Marketplace - OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** - Browse all OpsHub listings
 
-*OpsHub, Inc. — Enterprise Integration and Migration for Jira*
+*OpsHub, Inc. - Enterprise Integration and Migration for Jira*

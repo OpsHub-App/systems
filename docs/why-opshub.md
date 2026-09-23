@@ -4,13 +4,13 @@
 
 ## The Challenge
 
-Enterprise teams use different tools for different functions — Jira for development, ServiceNow for ITSM, Zendesk for support, GitHub for source code. When these tools are disconnected, teams waste time on manual data entry, work with outdated information, and lose visibility across workflows. And when teams need to move to Jira from another platform, migrating data accurately without losing history is equally critical.
+Enterprise teams use different tools for different functions - Jira for development, ServiceNow for ITSM, Zendesk for support, GitHub for source code. When these tools are disconnected, teams waste time on manual data entry, work with outdated information, and lose visibility across workflows.
 
 ## How OpsHub Solves It
 
 **External Integration Engine**
 
-OpsHub Integration Manager (OIM) connects your tools through their native APIs, operating as an external engine between both platforms. No plugins are installed inside your systems, so there is zero performance impact on Jira or your connected tools. For teams migrating to Jira, OpsHub Migration Manager (OMM) handles one-time data migrations with complete data fidelity.
+OpsHub Integration Manager (OIM) connects your tools through their native APIs, operating as an external engine between both platforms. No plugins are installed inside your systems, so there is zero performance impact on Jira or your connected tools.
 
 **No-Code Setup**
 
@@ -27,7 +27,7 @@ Built-in features include:
 
 **Complete Data Fidelity**
 
-When OpsHub syncs data, everything comes along — comments, attachments, links, custom fields, statuses, and relationships. No reformatting, no data loss, no manual cleanup.
+When OpsHub syncs data, everything comes along - comments, attachments, links, custom fields, statuses, and relationships. No reformatting, no data loss, no manual cleanup.
 
 ## Available Integrations
 
@@ -41,15 +41,15 @@ All three integrations are available on the [Atlassian Marketplace](https://mark
 
 ## Getting Started
 
-1. **Find your connector** — [Browse OpsHub on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149)
-2. **Try it free** — OpsHub listings offer a free trial
-3. **Need help?** — [Contact OpsHub](https://www.opshub.com/contact-us/) for custom requirements
+1. **Find your connector** - [Browse OpsHub on the Atlassian Marketplace](https://marketplace.atlassian.com/vendors/798149)
+2. **Try it free** - OpsHub listings offer a free trial
+3. **Need help?** - [Contact OpsHub](https://www.opshub.com/contact-us/) for custom requirements
 
 ## Learn More
 
-- **[Getting Started Guide](getting-started.md)** — Step-by-step setup
-- **[FAQ](faq.md)** — Common questions answered
-- **[OpsHub Website](https://www.opshub.com)** — Full product details
-- **[Atlassian Marketplace — OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** — All listings
+- **[Getting Started Guide](getting-started.md)** - Step-by-step setup
+- **[FAQ](faq.md)** - Common questions answered
+- **[OpsHub Website](https://www.opshub.com)** - Full product details
+- **[Atlassian Marketplace - OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** - All listings
 
-*OpsHub, Inc. — Enterprise Integration and Migration for Jira*
+*OpsHub, Inc. - Enterprise Integration and Migration for Jira*

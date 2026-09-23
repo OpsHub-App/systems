@@ -22,16 +22,16 @@ Every record syncs in both directions. OIM handles field-level conflicts automat
 
 ## How It Works
 
-OpsHub Integration Manager (OIM) connects ServiceNow and Jira through native APIs — no custom code, no performance overhead on either platform.
+OpsHub Integration Manager (OIM) connects ServiceNow and Jira through native APIs - no custom code, no performance overhead on either platform.
 
-When support teams log incidents or problems in ServiceNow, OpsHub automatically creates matching Jira issues in the right format — bugs, tasks, or stories. Developers continue working in Jira, and every update flows back to ServiceNow in near real time. Comments, attachments, and links remain aligned across both tools, so every team member sees the latest context in whichever system they use.
+When support teams log incidents or problems in ServiceNow, OpsHub automatically creates matching Jira issues in the right format - bugs, tasks, or stories. Developers continue working in Jira, and every update flows back to ServiceNow in near real time. Comments, attachments, and links remain aligned across both tools, so every team member sees the latest context in whichever system they use.
 
 ## Common Use Cases
 
-- Faster incident resolution — ServiceNow incidents and requests automatically appear in Jira as bugs or tasks, letting engineering act without delay
-- Delivery ownership clarity — ServiceNow change records stay linked to Jira tasks, keeping approvals and development work in their respective systems
-- End-to-end defect visibility — Jira defects tied to customer impact link back to ServiceNow records so support teams can track resolution
-- Portfolio-level transparency — high-level Jira epics or initiatives sync with ServiceNow records for consolidated reporting and oversight
+- Faster incident resolution - ServiceNow incidents and requests automatically appear in Jira as bugs or tasks, letting engineering act without delay
+- Delivery ownership clarity - ServiceNow change records stay linked to Jira tasks, keeping approvals and development work in their respective systems
+- End-to-end defect visibility - Jira defects tied to customer impact link back to ServiceNow records so support teams can track resolution
+- Portfolio-level transparency - high-level Jira epics or initiatives sync with ServiceNow records for consolidated reporting and oversight
 
 ## Supported Deployment
 

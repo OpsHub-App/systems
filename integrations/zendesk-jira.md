@@ -4,15 +4,15 @@
 
 [![View listing](https://img.shields.io/badge/View_listing-0052CC?style=flat&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/1234611)
 
-A data-rich, two-way integration that turns Zendesk tickets into fully contextualized Jira issues — complete with ownership, priority, and a clear path for engineering escalation.
+A data-rich, two-way integration that turns Zendesk tickets into fully contextualized Jira issues - complete with ownership, priority, and a clear path for engineering escalation.
 
 ## Key Highlights
 
 | Highlight | Details |
 |-----------|---------|
-| **High data fidelity integration** | Every Zendesk ticket converts to a Jira issue through controlled mapping rules that carry over all synced fields, comments, attachments, and links — giving engineering teams full context, clear ownership, and a predictable escalation path. |
+| **High data fidelity integration** | Every Zendesk ticket converts to a Jira issue through controlled mapping rules that carry over all synced fields, comments, attachments, and links - giving engineering teams full context, clear ownership, and a predictable escalation path. |
 | **Centralized integration logic, zero tool impact** | All synchronization logic runs inside OpsHub, so neither Zendesk nor Jira is modified in any way. There is no risk of users accidentally breaking the integration by editing fields, workflows, or records in either tool. |
-| **Low-maintenance integration built to scale** | A no-code UI lets teams manage the Zendesk–Jira integration with reusable field mappings, automatic failure retry, and built-in reconciliation — keeping maintenance low even as project count and data volume grow. |
+| **Low-maintenance integration built to scale** | A no-code UI lets teams manage the Zendesk–Jira integration with reusable field mappings, automatic failure retry, and built-in reconciliation - keeping maintenance low even as project count and data volume grow. |
 
 ## What Gets Synced
 

@@ -6,7 +6,7 @@
 
 **What is OpsHub?**
 
-OpsHub provides enterprise-grade integration and migration solutions for Jira. OpsHub Integration Manager (OIM) enables ongoing bidirectional synchronization between Jira and tools like ServiceNow, Zendesk, and GitHub. OpsHub also offers Migration Manager (OMM) for one-time data migrations to Jira.
+OpsHub provides enterprise-grade integration solutions for Jira. OpsHub Integration Manager (OIM) enables ongoing bidirectional synchronization between Jira and tools like ServiceNow, Zendesk, and GitHub.
 
 **How does OpsHub work?**
 
@@ -30,15 +30,15 @@ OpsHub includes field-level conflict management. You can configure conflict rule
 
 OpsHub syncs a wide range of data depending on the connector:
 
-- **ServiceNow + Jira** — Tables, tasks, incidents, problems, change records, requests, tests, steps, sprints, assignment groups, comments, attachments, links, mentions, rich text, and history
-- **Zendesk + Jira** — Tickets, issues, comments, attachments, priorities, statuses, custom fields, user info, related entities, entity mentions, user mentions, and issue and project movements
-- **GitHub + Jira** — Epics, issues, pull requests, commits, branches, comments, status updates, and development activity
+- **ServiceNow + Jira** - Tables, tasks, incidents, problems, change records, requests, tests, steps, sprints, assignment groups, comments, attachments, links, mentions, rich text, and history
+- **Zendesk + Jira** - Tickets, issues, comments, attachments, priorities, statuses, custom fields, user info, related entities, entity mentions, user mentions, and issue and project movements
+- **GitHub + Jira** - Epics, issues, pull requests, commits, branches, comments, status updates, and development activity
 
 ## Technical Questions
 
 **Does OpsHub require admin access?**
 
-OpsHub needs standard API-level access to your tools. Full admin access is not typically required — service account credentials with appropriate permissions are sufficient.
+OpsHub needs standard API-level access to your tools. Full admin access is not typically required - service account credentials with appropriate permissions are sufficient.
 
 **What Jira deployment does it support?**
 
@@ -68,10 +68,10 @@ Yes. OpsHub products offer a free trial through the Atlassian Marketplace. Click
 
 ## Learn More
 
-- **[Getting Started Guide](getting-started.md)** — Step-by-step setup instructions
-- **[Why OpsHub](why-opshub.md)** — Differentiators
-- **[OpsHub Website](https://www.opshub.com)** — Full documentation and resources
-- **[Atlassian Marketplace — OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** — All OpsHub listings
-- **[Contact Sales](https://www.opshub.com/contact-us/)** — Custom requirements and enterprise pricing
+- **[Getting Started Guide](getting-started.md)** - Step-by-step setup instructions
+- **[Why OpsHub](why-opshub.md)** - Differentiators
+- **[OpsHub Website](https://www.opshub.com)** - Full documentation and resources
+- **[Atlassian Marketplace - OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** - All OpsHub listings
+- **[Contact Sales](https://www.opshub.com/contact-us/)** - Custom requirements and enterprise pricing
 
-*OpsHub, Inc. — Enterprise Integration and Migration for Jira*
+*OpsHub, Inc. - Enterprise Integration and Migration for Jira*

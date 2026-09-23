@@ -4,7 +4,7 @@
 
 [![View listing](https://img.shields.io/badge/View_listing-0052CC?style=flat&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/1234617)
 
-An enterprise-grade integration that keeps GitHub and Jira in continuous two-way sync — covering epics, issues, pull requests, and commits while bridging GitHub markdown and Jira wiki markup automatically.
+An enterprise-grade integration that keeps GitHub and Jira in continuous two-way sync - covering epics, issues, pull requests, and commits while bridging GitHub markdown and Jira wiki markup automatically.
 
 ## Key Highlights
 
@@ -22,7 +22,7 @@ Every record syncs in both directions in near real time. OIM detects field-level
 
 ## How It Works
 
-OpsHub Integration Manager (OIM) connects GitHub and Jira through native APIs — no custom scripts, no performance overhead on either platform.
+OpsHub Integration Manager (OIM) connects GitHub and Jira through native APIs - no custom scripts, no performance overhead on either platform.
 
 Product teams create epics, stories, or issues in Jira, and OpsHub automatically links them to the corresponding GitHub branches and pull requests. As developers commit code and open PRs, those updates flow back to Jira in near real time. Comments, status changes, and development activity remain aligned across both systems, giving every team member up-to-date visibility in whichever tool they prefer.
 
@@ -45,7 +45,7 @@ OpsHub connects through native APIs, introducing zero performance overhead on ei
 
 **Why do teams integrate GitHub with Jira?**
 
-Development and project management often live in separate tools. Without a live connection, teams resort to manual copy-paste, work from stale data, and lose sight of what's happening across workflows. OpsHub bridges that gap by keeping both systems in sync automatically — each team stays in their preferred tool while sharing priorities and progress in real time.
+Development and project management often live in separate tools. Without a live connection, teams resort to manual copy-paste, work from stale data, and lose sight of what's happening across workflows. OpsHub bridges that gap by keeping both systems in sync automatically - each team stays in their preferred tool while sharing priorities and progress in real time.
 
 **What happens if a sync fails?**
 
