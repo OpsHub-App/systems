@@ -10,9 +10,7 @@ Connect Jira with any of these tools for near real-time, bidirectional sync:
 
 | Tool | Integration | Link |
 |------|-------------|------|
-| [GitHub](integrations/github-jira.md) | GitHub Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1234617) |
 | [ServiceNow](integrations/servicenow-jira.md) | ServiceNow Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1236368/servicenow-integration-for-jira-bidirectional-sync?utm_source=SNOW+and+jira+Atlassian+listing+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=SNOW+and+jira+Atlassian+listing+on+github+shadow+marketplace) |
-| [Zendesk](integrations/zendesk-jira.md) | Zendesk Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1234611) |
 
 ## Why OpsHub?
 
