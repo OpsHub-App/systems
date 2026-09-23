@@ -1,8 +1,8 @@
 # Zendesk Integration for Jira
 
-**Seamlessly connect Zendesk and Jira with near real-time, bidirectional sync.**
+**Connect Zendesk and Jira with near real-time, bidirectional sync.**
 
-[![View listing](https://img.shields.io/badge/View_listing-0052CC?style=flat&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/1234611)
+[![View listing](https://img.shields.io/badge/View_listing-0052CC?style=flat&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/apps/1234611) &nbsp; [![Learn more](https://img.shields.io/badge/Learn_more-172B4D?style=flat)](https://www.opshub.com/products/opshub-integration-manager/)
 
 A data-rich, two-way integration that turns Zendesk tickets into fully contextualized Jira issues - complete with ownership, priority, and a clear path for engineering escalation.
 
@@ -12,13 +12,7 @@ A data-rich, two-way integration that turns Zendesk tickets into fully contextua
 |-----------|---------|
 | **High data fidelity integration** | Every Zendesk ticket converts to a Jira issue through controlled mapping rules that carry over all synced fields, comments, attachments, and links - giving engineering teams full context, clear ownership, and a predictable escalation path. |
 | **Centralized integration logic, zero tool impact** | All synchronization logic runs inside OpsHub, so neither Zendesk nor Jira is modified in any way. There is no risk of users accidentally breaking the integration by editing fields, workflows, or records in either tool. |
-| **Low-maintenance integration built to scale** | A no-code UI lets teams manage the Zendesk–Jira integration with reusable field mappings, automatic failure retry, and built-in reconciliation - keeping maintenance low even as project count and data volume grow. |
-
-## What Gets Synced
-
-Tickets, issues, comments, attachments, links, priorities, statuses, custom fields, users, and related entities
-
-OpsHub keeps Zendesk and Jira in continuous two-way sync. Automatic failure retry and reconciliation work behind the scenes to ensure data consistency across both platforms.
+| **Low-maintenance integration built to scale** | A no-code UI lets teams manage the Zendesk-Jira integration with reusable field mappings, automatic failure retry, and built-in reconciliation - keeping maintenance low even as project count and data volume grow. |
 
 ## How It Works
 
@@ -52,15 +46,8 @@ Connect your Zendesk and Jira instances, select the projects and entities to int
 
 **What data can be synchronized between Zendesk and Jira?**
 
-The integration covers tickets, issues, comments, attachments, priorities, statuses, users, custom fields, and related entities. You can tailor the data flow to match your team’s collaboration needs and remove the need for manual updates.
-
-## Related Connectors
-
-If you use Zendesk with Jira, you may also need:
-
-- [ServiceNow Integration for Jira](servicenow-jira.md)
-- [GitHub Integration for Jira](github-jira.md)
+The integration covers tickets, issues, comments, attachments, priorities, statuses, users, custom fields, and related entities. You can tailor the data flow to match your team's collaboration needs and remove the need for manual updates.
 
 ## Get Started
 
-[![Open listings](https://img.shields.io/badge/Open_listings-0052CC?style=flat&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/vendors/798149) &nbsp; [![Learn more](https://img.shields.io/badge/Learn_more-172B4D?style=flat)](https://www.opshub.com)
+[![Open listings](https://img.shields.io/badge/Open_listings-0052CC?style=flat&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/vendors/798149)

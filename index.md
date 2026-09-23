@@ -38,11 +38,8 @@ Purpose-built for teams adopting Microsoft Azure DevOps from legacy platforms.
 
 ## Learn More
 
-- **[All OpsHub Connectors](README.md)** — Full list of 78 integrations and migrations
-- **[Why OpsHub](docs/why-opshub.md)** — Comparison and differentiators
-- **[Getting Started](docs/getting-started.md)** — Step-by-step setup guide
-- **[FAQ](docs/faq.md)** — Common questions answered
-- **[OpsHub Website](https://www.opshub.com)** — Product details and documentation
-- **[Contact Sales](https://www.opshub.com/contact-us/)** — Custom requirements and enterprise pricing
+- **[All OpsHub Connectors](README.md)** - Full list of 78 integrations and migrations
+- **[OpsHub Website](https://www.opshub.com)** - Product details and documentation
+- **[Contact Sales](https://www.opshub.com/contact-us/)** - Custom requirements and enterprise pricing
 
-*OpsHub, Inc. — Enterprise Integration and Migration for Jira*
+*OpsHub, Inc. - Enterprise Integration and Migration for Jira*

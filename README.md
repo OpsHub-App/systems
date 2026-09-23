@@ -11,7 +11,7 @@ Connect Jira with any of these tools for near real-time, bidirectional sync:
 | Tool | Integration | Link |
 |------|-------------|------|
 | [GitHub](integrations/github-jira.md) | GitHub Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1234617) |
-| [ServiceNow](integrations/servicenow-jira.md) | ServiceNow Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1236368) |
+| [ServiceNow](integrations/servicenow-jira.md) | ServiceNow Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1236368/servicenow-integration-for-jira-bidirectional-sync?utm_source=SNOW+and+jira+Atlassian+listing+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=SNOW+and+jira+Atlassian+listing+on+github+shadow+marketplace) |
 | [Zendesk](integrations/zendesk-jira.md) | Zendesk Integration for Jira | [Marketplace](https://marketplace.atlassian.com/apps/1234611) |
 
 ## Why OpsHub?
@@ -24,8 +24,8 @@ Connect Jira with any of these tools for near real-time, bidirectional sync:
 
 ## Learn More
 
-- **[OpsHub Website](https://www.opshub.com)** - Product details, documentation, and resources
-- **[Atlassian Marketplace - OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149)** - All OpsHub listings
-- **[Contact Sales](https://www.opshub.com/contact-us/)** - Custom requirements and enterprise pricing
+- **[OpsHub Website](https://www.opshub.com/?utm_source=OpsHub+homepage+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=OpsHub+homepage+on+github+shadow+marketplace)** - Product details, documentation, and resources
+- **[Atlassian Marketplace - OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149/?utm_source=OpsHub+Vendor+page+%28Atlassian%29+on+Github+shadow+marketplace&utm_medium=referral&utm_campaign=OpsHub+Vendor+page+%28Atlassian%29+on+Github+shadow+marketplace)** - All OpsHub listings
+- **[Contact Sales](https://www.opshub.com/contact-us/?utm_source=contact+us+page+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=contact+us+page+on+github+shadow+marketplace)** - Custom requirements and enterprise pricing
 
 *OpsHub, Inc. - Enterprise Integration for Jira*
