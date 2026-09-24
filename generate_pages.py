@@ -21,7 +21,7 @@ INTEGRATIONS = [
         "subtitle": "Connect ServiceNow and Jira with rich, bidirectional data sync.",
         "desc": "Achieve reliable two-way synchronization between Jira and ServiceNow, for tables, tasks, tests, steps, comments, attachments, links, and more.",
         "highlights": [
-            ["Bidirectional ServiceNow and Jira sync", "Tables, tests, sprints, and add-on data stay in sync across both tools. HTML/Wiki formatting is preserved, ServiceNow Assignment Groups map to Jira Projects, and comments, attachments, links, @mentions, rich text, and history all travel with every record."],
+            ["Bidirectional ServiceNow and Jira sync", "Tables, tests, sprints, and add-on data stay in sync across both tools. HTML/Wiki formatting is preserved, ServiceNow Assignment Groups map to Jira Projects, and comments, attachments, links, mentions, rich text, and history all travel with every record."],
             ["Configure your Jira ServiceNow integration easily", "Skip custom code and complex webhook setups. OIM connects through native APIs with a no-code configuration interface, letting you integrate 10 or 1,000+ projects without degrading performance on either platform."],
             ["Reliable Jira and ServiceNow sync", "Field-level conflicts are detected and resolved automatically, failed updates are retried, and all errors are logged for full visibility. An eventual consistency model guarantees every entity and update reaches the target system as intended."],
         ],
@@ -145,7 +145,6 @@ Connect Jira with any of these tools for near real-time, bidirectional sync:
 - **[Atlassian Marketplace - OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149/?utm_source=OpsHub+Vendor+page+%28Atlassian%29+on+Github+shadow+marketplace&utm_medium=referral&utm_campaign=OpsHub+Vendor+page+%28Atlassian%29+on+Github+shadow+marketplace)** - All OpsHub listings
 - **[Contact Sales](https://www.opshub.com/contact-us/?utm_source=contact+us+page+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=contact+us+page+on+github+shadow+marketplace)** - Custom requirements and enterprise pricing
 
-*OpsHub, Inc. - Enterprise Integration for Jira*
 """
     return content
 

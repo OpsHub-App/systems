@@ -26,4 +26,3 @@ Connect Jira with any of these tools for near real-time, bidirectional sync:
 - **[Atlassian Marketplace - OpsHub, Inc.](https://marketplace.atlassian.com/vendors/798149/?utm_source=OpsHub+Vendor+page+%28Atlassian%29+on+Github+shadow+marketplace&utm_medium=referral&utm_campaign=OpsHub+Vendor+page+%28Atlassian%29+on+Github+shadow+marketplace)** - All OpsHub listings
 - **[Contact Sales](https://www.opshub.com/contact-us/?utm_source=contact+us+page+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=contact+us+page+on+github+shadow+marketplace)** - Custom requirements and enterprise pricing
 
-*OpsHub, Inc. - Enterprise Integration for Jira*
