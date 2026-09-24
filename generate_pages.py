@@ -133,7 +133,7 @@ Connect Jira with any of these tools for near real-time, bidirectional sync:
 {int_rows}
 ## Why OpsHub?
 
-- **No-Code Setup** - No-code configuration using native APIs
+- **No-Code Setup** - Configure integrations using native APIs
 - **Bidirectional Sync** - Near real-time, two-way data flow with field-level conflict management
 - **Enterprise Scale** - Built for large-scale enterprise projects
 - **Complete Data Fidelity** - Comments, attachments, links, and mentions stay aligned
