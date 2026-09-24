@@ -1,4 +1,4 @@
-# ServiceNow Integration for Jira
+# ServiceNow Jira Integration
 
 **Connect ServiceNow and Jira with rich, bidirectional data sync.**
 
@@ -11,7 +11,7 @@ Achieve reliable two-way synchronization between Jira and ServiceNow, for tables
 | Highlight | Details |
 |-----------|---------|
 | **Bidirectional ServiceNow and Jira sync** | Tables, tests, sprints, and add-on data stay in sync across both tools. HTML/Wiki formatting is preserved, ServiceNow Assignment Groups map to Jira Projects, and comments, attachments, links, mentions, rich text, and history all travel with every record. |
-| **Configure your Jira ServiceNow integration easily** | Skip custom code and complex webhook setups. OIM connects through native APIs with a no-code configuration interface, letting you integrate 10 or 1,000+ projects without degrading performance on either platform. |
+| **Configure your Jira ServiceNow integration easily** | Skip custom code and complex webhook setups. OIM connects through native APIs with a no-code configuration interface, letting you integrate 10 or 10,000+ projects without degrading performance on either platform. |
 | **Reliable Jira and ServiceNow sync** | Field-level conflicts are detected and resolved automatically, failed updates are retried, and all errors are logged for full visibility. An eventual consistency model guarantees every entity and update reaches the target system as intended. |
 
 ## How It Works
