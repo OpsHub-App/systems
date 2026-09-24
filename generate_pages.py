@@ -128,9 +128,7 @@ OpsHub connects Jira with 70+ ALM, DevOps, ITSM systems through no-code, easy GU
 
 - **Zero user overhead** - No plugins are installed in any tool. OpsHub syncs data automatically through each tool's API
 - **Bidirectional Sync** - Near real-time, two-way data flow with field-level conflict management
-- **Enterprise Scale** - Scalability at enterprise level. Sync high volumes of tickets across cross-functional teams without performance impact
-- **Reliable and fault tolerant** - Detects and resolves sync conflicts automatically, maintaining consistency. Built-in retry and recovery mechanisms resume updates after system interruptions, while detailed logging enables issue detection and troubleshooting
-- **No Performance Impact** - Connects through native APIs with no impact on your tools
+- **Enterprise scale, reliable and fault tolerant** - Sync high volumes of tickets across cross-functional teams without performance impact. Detects and resolves conflicts automatically with built-in retry, recovery, and detailed logging for full visibility
 
 ## Integration Solutions
 

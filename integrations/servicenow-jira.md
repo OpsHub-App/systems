@@ -33,6 +33,8 @@ When support teams log incidents or problems in ServiceNow, OpsHub automatically
 |------------|-----------|
 | Jira Cloud | ✓ |
 
+
+
 ## Frequently Asked Questions
 
 **What should organizations evaluate before selecting a ServiceNow-Jira integration solution?**
