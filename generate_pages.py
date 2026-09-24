@@ -25,14 +25,14 @@ INTEGRATIONS = [
             ["Configure your Jira ServiceNow integration easily", "Skip custom code and complex webhook setups. OIM connects through native APIs with a no-code configuration interface, letting you integrate 10 or 1,000+ projects without degrading performance on either platform."],
             ["Reliable Jira and ServiceNow sync", "Field-level conflicts are detected and resolved automatically, failed updates are retried, and all errors are logged for full visibility. An eventual consistency model guarantees every entity and update reaches the target system as intended."],
         ],
-        "how_it_works": "OpsHub Integration Manager (OIM) connects ServiceNow and Jira through native APIs - no custom code, no performance overhead on either platform.\n\nWhen support teams log incidents or problems in ServiceNow, OpsHub automatically syncs them to Jira as bugs, tasks, or stories. Developers continue working in Jira, and every update flows back to ServiceNow in near real time. Comments, attachments, and links remain aligned across both tools, so every team member sees the latest context in whichever system they use.",
+        "how_it_works": "OpsHub Integration Manager (OIM) connects ServiceNow and Jira through native APIs.\n\nWhen support teams log incidents or problems in ServiceNow, OpsHub automatically syncs them to Jira as bugs, tasks, or stories. Developers continue working in Jira, and every update flows back to ServiceNow in near real time.",
         "use_cases": [
             "ServiceNow incidents and requests automatically appear in Jira as bugs or tasks, letting engineering act without delay",
             "ServiceNow change records stay linked to Jira tasks, keeping approvals and development work in their respective systems",
             "Jira defects tied to customer impact link back to ServiceNow records so support teams can track resolution",
             "High-level Jira epics or initiatives sync with ServiceNow records for consolidated reporting and oversight",
         ],
-        "deploy_text": "OpsHub connects through native APIs with a no-code setup, introducing zero performance overhead on either tool.",
+        "deploy_text": "",
         "faqs": [
             {
                 "q": "What should organizations evaluate before selecting a ServiceNow-Jira integration solution?",
@@ -40,11 +40,11 @@ INTEGRATIONS = [
             },
             {
                 "q": "What is the best ServiceNow-Jira integration tool?",
-                "a": "The best ServiceNow-Jira integration solution depends on your workflows, scale, and governance requirements. Look for bidirectional synchronization, flexible mappings, monitoring, auditability, and scalability. OIM provides these capabilities through a configurable integration layer.",
+                "a": "The best ServiceNow-Jira integration tool depends on your workflows, scale, and governance requirements. OIM provides these capabilities through a configurable integration layer that scales with your organization.",
             },
             {
-                "q": "What happens when the same record is updated in both ServiceNow and Jira?",
-                "a": "A mature integration should provide conflict-management capabilities to handle simultaneous updates. OIM supports configurable synchronization and conflict-handling rules to help maintain data consistency.",
+                "q": "How can I set up a seamless integration between ServiceNow and Jira?",
+                "a": "With OpsHub Integration Manager (OIM), you configure your ServiceNow-Jira integration entirely through a GUI. Set your field mappings, sync rules, and data flow direction, and OIM keeps both systems aligned from the first sync.",
             },
         ],
     },
