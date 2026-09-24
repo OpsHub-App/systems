@@ -114,31 +114,27 @@ def generate_integration_page(product):
 
 def generate_readme(integrations):
     """Generate the main README.md landing page."""
-    int_rows = ""
+    int_list = ""
     for p in sorted(integrations, key=lambda x: x["tool"]):
-        int_rows += f"| [{p['tool']}](integrations/{p['slug']}.md) | {p['name']} | [Marketplace]({p['url']}) |\n"
+        int_list += f"- [{p['name']}](integrations/{p['slug']}.md)\n"
 
     content = f"""# OpsHub on Atlassian Marketplace
 
 **Enterprise Integration Solutions for Jira**
 
-OpsHub connects Jira with enterprise tools through bidirectional, near real-time synchronization. No-code configuration, no performance impact, and complete data fidelity.
+OpsHub connects Jira with 70+ ALM, DevOps, ITSM systems through no-code, easy GUI configurations. Sync live data two-way, complete with mentions, comments, attachments, inline files, data movements, and entity deletions.
+
+## Why OpsHub?
+
+- **Zero user overhead** - No plugins are installed in any tool. OpsHub syncs data automatically through each tool's API
+- **Bidirectional Sync** - Near real-time, two-way data flow with field-level conflict management
+- **Enterprise Scale** - Scalability at enterprise level. Sync high volumes of tickets across cross-functional teams without performance impact
+- **Reliable and fault tolerant** - Detects and resolves sync conflicts automatically, maintaining consistency. Built-in retry and recovery mechanisms resume updates after system interruptions, while detailed logging enables issue detection and troubleshooting
+- **No Performance Impact** - Connects through native APIs with no impact on your tools
 
 ## Integration Solutions
 
-Connect Jira with any of these tools for near real-time, bidirectional sync:
-
-| Tool | Integration | Link |
-|------|-------------|------|
-{int_rows}
-## Why OpsHub?
-
-- **No-Code Setup** - Configure integrations using native APIs
-- **Bidirectional Sync** - Near real-time, two-way data flow with field-level conflict management
-- **Enterprise Scale** - Built for large-scale enterprise projects
-- **Complete Data Fidelity** - Comments, attachments, links, and mentions stay aligned
-- **No Performance Impact** - Connects through native APIs with no impact on your tools
-
+{int_list}
 ## Learn More
 
 - **[OpsHub Website](https://www.opshub.com/?utm_source=OpsHub+homepage+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=OpsHub+homepage+on+github+shadow+marketplace)** - Product details, documentation, and resources
