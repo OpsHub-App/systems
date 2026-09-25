@@ -43,7 +43,7 @@ With OpsHub Integration Manager (OIM), you configure your ServiceNow-Jira integr
 
 ## Get Started
 
-Visit the OpsHub app on Atlassian Marketplace
+Explore OpsHub on Atlassian Marketplace 
 
 [![View all apps on Atlassian](https://img.shields.io/badge/View_all_apps_on_Atlassian-0052CC?style=for-the-badge&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/vendors/798149/?utm_source=OpsHub+Vendor+page+%28Atlassian%29+on+Github+shadow+marketplace&utm_medium=referral&utm_campaign=OpsHub+Vendor+page+%28Atlassian%29+on+Github+shadow+marketplace)
 
