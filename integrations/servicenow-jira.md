@@ -4,13 +4,13 @@
 
 [View app on Atlassian](https://marketplace.atlassian.com/apps/1236368/servicenow-integration-for-jira-bidirectional-sync?utm_source=SNOW+and+jira+Atlassian+listing+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=SNOW+and+jira+Atlassian+listing+on+github+shadow+marketplace) | [Learn more](https://www.opshub.com/products/opshub-integration-manager/?utm_source=oim+product+page+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=oim+product+page+on+github+shadow+marketplace)
 
-Achieve reliable two-way synchronization between Jira and ServiceNow for incidents, problems, change requests, tickets, tables, comments, attachments, and more.
+Achieve reliable two-way synchronization between Jira and ServiceNow for service request, tickets, incidents, problems, change requests, attachments, and more.
 
 ## Key Highlights
 
 | Highlight | Details |
 |-----------|---------|
-| **Bidirectional ServiceNow and Jira sync** | Incidents, problems, change requests, tickets, service requests, tasks, and tables stay in sync across both tools. HTML/Wiki formatting is preserved, ServiceNow Assignment Groups map to Jira Projects, and comments, attachments, links, mentions, rich text, and history all travel with every record. |
+| **Bidirectional ServiceNow and Jira sync** | Incidents, problems, change requests, tickets, tasks, and tables stay in sync across both tools. HTML/Wiki formatting is preserved, ServiceNow Assignment Groups map to Jira Projects, and comments, attachments, links, mentions, rich text, and history all travel with every record. |
 | **Configure your Jira ServiceNow integration easily** | Skip custom code and complex webhook setups. OIM connects through native APIs with a no-code configuration interface, letting you integrate 10 or 10,000+ projects without degrading performance on either platform. |
 | **Reliable Jira and ServiceNow sync** | Field-level conflicts are detected and resolved automatically, failed updates are retried, and all errors are logged for full visibility. An eventual consistency model guarantees every entity and update reaches the target system as intended. |
 
