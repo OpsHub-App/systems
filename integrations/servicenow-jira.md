@@ -27,7 +27,7 @@ When support teams log incidents or problems in ServiceNow, OpsHub automatically
 - High-level Jira epics or initiatives sync with ServiceNow records for consolidated reporting and oversight
 
 
-## Frequently Asked Questions(FAQs)
+## Frequently Asked Questions (FAQs)
 
 **What should organizations evaluate before selecting a ServiceNow-Jira integration solution?**
 
