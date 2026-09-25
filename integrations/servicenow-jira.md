@@ -6,7 +6,7 @@
 
 Achieve reliable two-way synchronization between Jira and ServiceNow for service request, tickets, incidents, problems, change requests, attachments, and more.
 
-## Key Highlights
+## Key Highlights for Jira ServiceNow sync
 
 | Highlight | Details |
 |-----------|---------|
@@ -20,15 +20,14 @@ OpsHub Integration Manager (OIM) connects ServiceNow and Jira through native API
 
 When support teams log incidents or problems in ServiceNow, OpsHub automatically syncs them to Jira as bugs, tasks, or stories. Developers continue working in Jira, and every update flows back to ServiceNow in near real time.
 
-## Common Use Cases
+## How Enterprises Integrate ServiceNow and Jira
 
-- ServiceNow incidents and requests automatically appear in Jira as bugs or tasks, letting engineering act without delay
 - ServiceNow change records stay linked to Jira tasks, keeping approvals and development work in their respective systems
 - Jira defects tied to customer impact link back to ServiceNow records so support teams can track resolution
 - High-level Jira epics or initiatives sync with ServiceNow records for consolidated reporting and oversight
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions(FAQs)
 
 **What should organizations evaluate before selecting a ServiceNow-Jira integration solution?**
 
@@ -44,6 +43,6 @@ With OpsHub Integration Manager (OIM), you configure your ServiceNow-Jira integr
 
 ## Get Started
 
-Visit the OpsHub app on Atlassian Marketplace for a free demo.
+Visit the OpsHub app on Atlassian Marketplace
 
 [![View all apps on Atlassian](https://img.shields.io/badge/View_all_apps_on_Atlassian-0052CC?style=for-the-badge&logo=atlassian&logoColor=white)](https://marketplace.atlassian.com/vendors/798149/?utm_source=OpsHub+Vendor+page+%28Atlassian%29+on+Github+shadow+marketplace&utm_medium=referral&utm_campaign=OpsHub+Vendor+page+%28Atlassian%29+on+Github+shadow+marketplace)
