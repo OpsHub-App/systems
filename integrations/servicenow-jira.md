@@ -4,7 +4,7 @@
 
 [View app on Atlassian](https://marketplace.atlassian.com/apps/1236368/servicenow-integration-for-jira-bidirectional-sync?utm_source=SNOW+and+jira+Atlassian+listing+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=SNOW+and+jira+Atlassian+listing+on+github+shadow+marketplace) | [Learn more](https://www.opshub.com/products/opshub-integration-manager/?utm_source=oim+product+page+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=oim+product+page+on+github+shadow+marketplace)
 
-Achieve reliable two-way synchronization between Jira and ServiceNow for incidents, problems, change requests, tickets, service requests, tasks, tables, comments, attachments, links, and more.
+Achieve reliable two-way synchronization between Jira and ServiceNow for incidents, problems, change requests, tickets, tables, comments, attachments, and more.
 
 ## Key Highlights
 
