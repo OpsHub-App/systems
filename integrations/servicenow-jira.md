@@ -1,4 +1,4 @@
-# ServiceNow Jira Integration
+# ServiceNow Jira integration
 
 **Connect ServiceNow and Jira with rich, bidirectional data sync.**
 
@@ -6,7 +6,7 @@
 
 Achieve reliable two-way synchronization between Jira and ServiceNow for service request, tickets, incidents, problems, change requests, attachments, and more.
 
-## Key Highlights for Jira ServiceNow sync
+## Key highlights for Jira ServiceNow sync
 
 | Highlight | Details |
 |-----------|---------|
@@ -14,20 +14,20 @@ Achieve reliable two-way synchronization between Jira and ServiceNow for service
 | **Configure your Jira ServiceNow integration easily** | Skip custom code and complex webhook setups. OIM connects through native APIs with a no-code configuration interface, letting you integrate 10 or 10,000+ projects without degrading performance on either platform. |
 | **Reliable Jira and ServiceNow sync** | Field-level conflicts are detected and resolved automatically, failed updates are retried, and all errors are logged for full visibility. An eventual consistency model guarantees every entity and update reaches the target system as intended. |
 
-## How ServiceNow Jira Integration Works
+## How ServiceNow Jira integration works
 
 OpsHub Integration Manager (OIM) connects ServiceNow and Jira through native APIs.
 
 When support teams log incidents or problems in ServiceNow, OpsHub automatically syncs them to Jira as bugs, tasks, or stories. Developers continue working in Jira, and every update flows back to ServiceNow in near real time.
 
-## How Enterprises Integrate ServiceNow and Jira
+## How enterprises integrate ServiceNow and Jira
 
 - ServiceNow change records stay linked to Jira tasks, keeping approvals and development work in their respective systems
 - Jira defects tied to customer impact link back to ServiceNow records so support teams can track resolution
 - High-level Jira epics or initiatives sync with ServiceNow records for consolidated reporting and oversight
 
 
-## Frequently Asked Questions (FAQs)
+## Frequently asked questions (FAQs)
 
 **What should organizations evaluate before selecting a ServiceNow-Jira integration solution?**
 
@@ -41,7 +41,7 @@ The best ServiceNow-Jira integration tool depends on your workflows, scale, and 
 
 With OpsHub Integration Manager (OIM), you configure your ServiceNow-Jira integration entirely through a GUI. Set your field mappings, sync rules, and data flow direction, and OIM keeps both systems aligned from the first sync.
 
-## Get Started
+## Get started
 
 Explore OpsHub on Atlassian Marketplace 
 
