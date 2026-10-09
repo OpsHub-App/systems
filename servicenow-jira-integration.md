@@ -26,7 +26,7 @@ When support teams log incidents or problems in ServiceNow, OpsHub automatically
 - Jira defects tied to customer impact link back to ServiceNow records so support teams can track resolution
 - High-level Jira epics or initiatives sync with ServiceNow records for consolidated reporting and oversight
 
-## Frequently Asked Questions (FAQs)
+## Frequently asked questions (FAQs)
 
 **What should organizations evaluate before selecting a ServiceNow-Jira integration solution?**
 
