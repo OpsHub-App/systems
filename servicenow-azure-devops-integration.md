@@ -46,4 +46,4 @@ Yes. OIM provides a configurable, no-code interface for integrating ServiceNow a
 
 [Request a demo](https://www.opshub.com/request-a-demo/?utm_source=request+a+demo+page+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=request+a+demo+page+on+github+shadow+marketplace)
 
-[View all apps on Visual Studio Marketplace](https://marketplace.visualstudio.com/search?term=opshub&target=AzureDevOps&category=All+categories&sortBy=Relevance&utm_source=opshub+listings+under+ado+category+on+vsts+marketplace+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=opshub+listings+under+ado+category+on+vsts+marketplace+on+github+shadow+marketplace)
+[![VIEW ALL APPS ON VISUAL STUDIO MARKETPLACE](https://img.shields.io/badge/VIEW%20ALL%20APPS%20ON-VISUAL%20STUDIO%20MARKETPLACE-0078d7?style=for-the-badge&logo=azuredevops&logoColor=white)](https://marketplace.visualstudio.com/search?term=opshub&target=AzureDevOps&category=All+categories&sortBy=Relevance&utm_source=opshub+listings+under+ado+category+on+vsts+marketplace+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=opshub+listings+under+ado+category+on+vsts+marketplace+on+github+shadow+marketplace)
