@@ -13,7 +13,7 @@ OpsHub connects Jira, Azure DevOps, ServiceNow, and 70+ ALM, DevOps, ITSM system
 ## Integration solutions
 
 - [ServiceNow Jira Integration](https://marketplace.atlassian.com/apps/1236368/servicenow-integration-for-jira-bidirectional-sync?utm_source=SNOW+Jira+Atlassian+Marketplace+listing+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=SNOW+Jira+Atlassian+Marketplace+listing+on+github+shadow+marketplace)
-- [ServiceNow Azure DevOps Integration](https://marketplace.visualstudio.com/items?itemName=vs-publisher-1455028.OIM-ServiceNow-ADO-Integration&utm_source=SNOW+ADO+VS+Marketplace+listing+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=SNOW+ADO+VS+Marketplace+listing+on+github+shadow+marketplace)
+- [ServiceNow Azure DevOps Integration](https://marketplace.visualstudio.com/items?itemName=vs-publisher-1455028.oim-ServiceNow-adointegration&utm_source=snow+ado+vsts+marketplace+listing+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=snow+ado+vsts+marketplace+listing+on+github+shadow+marketplace)
 
 ## Learn more
 
