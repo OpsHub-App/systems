@@ -2,7 +2,7 @@
 
 Connect ServiceNow and Azure DevOps with rich, bidirectional data sync.
 
-[View app on Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=vs-publisher-1455028.OIM-ServiceNow-ADO-Integration&utm_source=SNOW+ADO+VS+Marketplace+listing+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=SNOW+ADO+VS+Marketplace+listing+on+github+shadow+marketplace) | [Learn more](https://www.opshub.com/azure-devops-integration/azure-devops-servicenow-integration/?utm_source=SNOW+ADO+use+case+page+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=SNOW+ADO+use+case+page+on+github+shadow+marketplace)
+[View app on Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=vs-publisher-1455028.oim-ServiceNow-adointegration&utm_source=snow+ado+vsts+marketplace+listing+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=snow+ado+vsts+marketplace+listing+on+github+shadow+marketplace) | [Learn more](https://www.opshub.com/azure-devops-integration/azure-devops-servicenow-integration/?utm_source=SNOW+ADO+use+case+page+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=SNOW+ADO+use+case+page+on+github+shadow+marketplace)
 
 Two-way synchronization between Azure DevOps and ServiceNow with comments, attachments, links, mentions, and more. Get current, live, accurate context automatically in your native tool.
 
