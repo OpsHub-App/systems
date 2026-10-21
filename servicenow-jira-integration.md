@@ -17,6 +17,7 @@ Achieve reliable two-way synchronization between Jira and ServiceNow for service
 ## How ServiceNow Jira integration works
 
 OpsHub Integration Manager (OIM) connects ServiceNow and Jira through native APIs.
+[Watch demo](https://youtu.be/PgtFx6-C4Ts?utm_source=servicenow-jira-demo-video-on-github-shadow-marketplace&utm_medium=referral&utm_campaign=servicenow-jira-demo-video-on-github-shadow-marketplace)
 
 When support teams log incidents or problems in ServiceNow, OpsHub automatically syncs them to Jira as bugs, tasks, or stories. Developers continue working in Jira, and every update flows back to ServiceNow in near real time.
 
