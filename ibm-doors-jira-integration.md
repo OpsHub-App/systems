@@ -22,7 +22,7 @@ When engineers create or update records in IBM DOORS, OpsHub automatically syncs
 
 OpsHub's built-in conflict detection and recovery ensures consistency during outages. Fault-tolerant recovery prevents data loss during sync errors.
 
-## What is a common use case for IBM DOORS (DNG) Jira integration
+## What is a common use case for IBM DOORS Jira integration
 
 Engineers manage formal requirements in IBM DOORS, while agile development and test teams work in Jira. Integration keeps a DOORS record and its corresponding Jira issue synchronized, so a change in IBM DOORS reaches the development team immediately, and a status update or defect from Jira reaches the engineering side without anyone switching tools. This supports traceability required by standards such as DO-178C, ISO 26262, and IEC 62304 across aerospace, automotive, medical device, and defense programs.
 
@@ -32,7 +32,7 @@ Engineers manage formal requirements in IBM DOORS, while agile development and t
 
 OpsHub Integration Manager (OIM) integrates IBM DOORS and Jira through each tool's APIs, syncing requirements, modules, OLE objects, comments, attachments, hierarchies, and traceability links automatically. OIM supports IBM Rational DOORS 9.1 through 9.7.2, DOORS Next, Jira Cloud, and Jira Data Center, with configuration done through a no-code graphical interface with drag-and-drop field mappings, value translations, and filters.
 
-**Can AI build IBM DOORS (DNG) and Jira integration?**
+**Can AI build IBM DOORS and Jira integration?**
 
 AI tools can generate basic API scripts to connect IBM DOORS and Jira, but production integrations require conflict resolution, OLE object handling, hierarchy preservation, traceability link sync, and error recovery that generated code does not handle reliably. OpsHub Integration Manager provides these capabilities through a maintained, configurable integration layer, eliminating the ongoing cost of debugging and rebuilding scripts as APIs change.
 
