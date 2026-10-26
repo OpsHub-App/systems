@@ -2,7 +2,7 @@
 
 Integrate rich data bidirectionally between Jira and Azure DevOps (ADO) while keeping project management and development teams in their native tool. Updates stay accurate in each system automatically as one source of truth eliminating duplicate updates, inconsistent status information, and limited visibility across the software delivery lifecycle.
 
-[View app on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1234612/bidirectional-azure-devops-integration-for-jira?hosting=cloud&tab=overview&utm_source=ado-jira-Atlassian-marketplace-lisitng-on-github-shadow-marketplace&utm_medium=referral&utm_campaign=ado-jira-Atlassian-marketplace-lisitng-on-github-shadow-marketplace) | [Learn more](https://www.opshub.com/azure-devops-integration/azure-devops-jira-integration/?utm_source=ado-jira-use-case-page-on-github-shadow-marketplace&utm_medium=referral&utm_campaign=ado-jira-use-case-page-on-github-shadow-marketplace)
+[View app on Atlassian Marketplace](https://marketplace.atlassian.com/apps/1234612/bidirectional-azure-devops-integration-for-jira?hosting=cloud&tab=overview&utm_source=ado-jira-Atlassian-marketplace-listing-on-github-shadow-marketplace&utm_medium=referral&utm_campaign=ado-jira-Atlassian-marketplace-lisitng-on-github-shadow-marketplace) | [Learn more](https://www.opshub.com/azure-devops-integration/azure-devops-jira-integration/?utm_source=ado-jira-use-case-page-on-github-shadow-marketplace&utm_medium=referral&utm_campaign=ado-jira-use-case-page-on-github-shadow-marketplace)
 
 Sync Jira issues, epics, worklogs, and Azure DevOps work items, bugs, test plans, and pipelines. Get current, live, accurate context automatically, without coding
 
