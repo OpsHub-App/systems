@@ -12,7 +12,7 @@ OpsHub connects Jira, Azure DevOps, ServiceNow, and 70+ ALM, DevOps, ITSM system
 
 ## Integration solutions
 
-- [ServiceNow Jira Integration](https://marketplace.atlassian.com/apps/1236368/servicenow-integration-for-jira-bidirectional-sync?utm_source=SNOW+Jira+Atlassian+Marketplace+listing+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=SNOW+Jira+Atlassian+Marketplace+listing+on+github+shadow+marketplace)
+- [ServiceNow Jira Integration](https://marketplace.atlassian.com/apps/1236368/servicenow-integration-for-jira-bidirectional-sync?utm_source=SNOW+and+jira+Atlassian+listing+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=SNOW+and+jira+Atlassian+listing+on+github+shadow+marketplace)
 - [ServiceNow Azure DevOps Integration](https://marketplace.visualstudio.com/items?itemName=vs-publisher-1455028.oim-ServiceNow-adointegration&utm_source=snow+ado+vsts+marketplace+listing+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=snow+ado+vsts+marketplace+listing+on+github+shadow+marketplace)
 - [Jira Azure DevOps Integration](https://marketplace.atlassian.com/apps/1234612/bidirectional-azure-devops-integration-for-jira?hosting=cloud&tab=overview&utm_source=ado-jira-Atlassian-marketplace-listing+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=ado-jira-Atlassian+Marketplace+listing+on+github+shadow+marketplace)
 - [IBM DOORS Jira Integration](https://marketplace.atlassian.com/apps/1234709/bidirectional-ibm-doors-and-jira-integration-no-code-setup?hosting=cloud&tab=overview&utm_source=ibm+doors+jira+integration+Atlassian+marketplace+listing+on+github+shadow+marketplace&utm_medium=referral&utm_campaign=ibm+doors+jira+integration+Atlassian+marketplace+listing+on+github+shadow+marketplace)
